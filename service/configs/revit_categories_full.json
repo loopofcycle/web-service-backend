@@ -1,0 +1,4790 @@
+{
+    "OST_BraceAnalyticalTags": {
+        "label": "Марки аналитической модели раскоса",
+        "id": -2009650
+    },
+    "OST_CompassSectionFilled": {
+        "label": "Компас",
+        "id": -2009622
+    },
+    "OST_MultistoryStairs": {
+        "label": "Многоэтажные лестницы",
+        "id": -2000980
+    },
+    "OST_PipeFitting": {
+        "label": "Соединительные детали трубопроводов",
+        "id": -2008049
+    },
+    "OST_ELECTRICAL_AreaBasedLoads_ColorFill_Obsolete": {
+        "label": "N/A",
+        "id": -2008225
+    },
+    "OST_RoofsHiddenLines": {
+        "label": "<Невидимые линии>",
+        "id": -2009502
+    },
+    "OST_Entourage": {
+        "label": "Антураж",
+        "id": -2001370
+    },
+    "OST_MEPLoadAreaSeparationLines": {
+        "label": "<Граница нагрузки на основе зоны>",
+        "id": -2001033
+    },
+    "OST_ElectricalZoneEquipment_Obsolete": {
+        "label": "N/A",
+        "id": -2001018
+    },
+    "OST_RoofTags": {
+        "label": "Марки крыш",
+        "id": -2000266
+    },
+    "OST_RebarCover": {
+        "label": "Ссылки на защитный слой арматуры",
+        "id": -2009015
+    },
+    "OST_DuctLinings": {
+        "label": "Материалы внутренней изоляции воздуховодов",
+        "id": -2008124
+    },
+    "OST_AnalyticalPipeConnectionLineSymbol": {
+        "label": "Обозначение соединительной линии",
+        "id": -2000984
+    },
+    "OST_PipeCurvesCenterLine": {
+        "label": "Осевая линия",
+        "id": -2008045
+    },
+    "OST_BridgeTowers": {
+        "label": "Башни опор",
+        "id": -2006132
+    },
+    "OST_FabricationContainmentCenterLine": {
+        "label": "Осевая линия",
+        "id": -2008214
+    },
+    "OST_CommunicationDeviceTags": {
+        "label": "Марки устройств связи",
+        "id": -2008082
+    },
+    "OST_DoorsOpeningProjection": {
+        "label": "Проем",
+        "id": -2000027
+    },
+    "OST_DetailComponents": {
+        "label": "Элементы узлов",
+        "id": -2002000
+    },
+    "OST_Casework": {
+        "label": "Шкафы",
+        "id": -2001000
+    },
+    "OST_RebarSketchLines": {
+        "label": "Линии эскиза арматуры",
+        "id": -2009001
+    },
+    "OST_SitePropertyTags": {
+        "label": "Марки участков",
+        "id": -2001267
+    },
+    "OST_FlexDuctCurves": {
+        "label": "Гибкие воздуховоды",
+        "id": -2008020
+    },
+    "OST_WallAnalytical": {
+        "label": "Аналитические модели стен",
+        "id": -2009640
+    },
+    "OST_MassZone": {
+        "label": "Формообразующий элемент - зона",
+        "id": -2003411
+    },
+    "OST_ConduitRiseDrop": {
+        "label": "Уклон",
+        "id": -2008137
+    },
+    "OST_ToposolidSubstrate": {
+        "label": "Основа [2]",
+        "id": -2001089
+    },
+    "OST_IsolatedFoundationAnalyticalTags": {
+        "label": "Марки аналитической модели отдельного фундамента",
+        "id": -2009654
+    },
+    "OST_HiddenStructuralConnectionLines_Deprecated": {
+        "label": "N/A",
+        "id": -2000979
+    },
+    "OST_WallRefPlanes": {
+        "label": "Опорные плоскости",
+        "id": -2000896
+    },
+    "OST_PipeFittingCenterLine": {
+        "label": "Осевая линия",
+        "id": -2008072
+    },
+    "OST_PipeCurvesInsulation": {
+        "label": "Изоляция",
+        "id": -2008070
+    },
+    "OST_BridgePiers": {
+        "label": "Опоры",
+        "id": -2006131
+    },
+    "OST_LinksAnalytical": {
+        "label": "Связи аналитической модели",
+        "id": -2009657
+    },
+    "OST_WallLayers": {
+        "label": "Слои стен",
+        "id": -2001105
+    },
+    "OST_ElectricalInternalCircuits": {
+        "label": "Электрические резервные/пространственные цепи",
+        "id": -2008152
+    },
+    "OST_WireHomeRunArrows": {
+        "label": "Стрелки ввода",
+        "id": -2008089
+    },
+    "OST_SteelElementStale": {
+        "label": "N/A",
+        "id": -2009048
+    },
+    "OST_CurtainWallMullionTags": {
+        "label": "Марки импостов витражей",
+        "id": -2005032
+    },
+    "OST_HostFinHF": {
+        "label": "N/A",
+        "id": -2000315
+    },
+    "OST_ConduitCenterLine": {
+        "label": "Осевая линия",
+        "id": -2008139
+    },
+    "OST_DuctFittingInsulation": {
+        "label": "Изоляция",
+        "id": -2008067
+    },
+    "OST_DuctFittingTags": {
+        "label": "Марки соединительных деталей воздуховодов",
+        "id": -2008061
+    },
+    "OST_IOSAttachedDetailGroups": {
+        "label": "Присоединенные группы элементов узлов",
+        "id": -2000097
+    },
+    "OST_GuideGrid": {
+        "label": "Сетка направляющих",
+        "id": -2000107
+    },
+    "OST_FlexDuctTags": {
+        "label": "Марки гибкого воздуховода",
+        "id": -2008004
+    },
+    "OST_StairsNosingLines": {
+        "label": "Линии свеса",
+        "id": -2000932
+    },
+    "OST_RoomTags": {
+        "label": "Марки помещений",
+        "id": -2000480
+    },
+    "OST_DetailComponentsHiddenLines": {
+        "label": "<Невидимые линии>",
+        "id": -2009514
+    },
+    "OST_FlexDuctCurvesCenterLine": {
+        "label": "Осевая линия",
+        "id": -2008021
+    },
+    "OST_RoadTags": {
+        "label": "Марки дорог",
+        "id": -2001221
+    },
+    "OST_BridgeFramingCrossBracingTags": {
+        "label": "Марки перекрестных раскосов моста",
+        "id": -2006278
+    },
+    "OST_GenericModelHiddenLines": {
+        "label": "<Невидимые линии>",
+        "id": -2009512
+    },
+    "OST_IOSRegeneratedElements": {
+        "label": "Регенерация элементов.",
+        "id": -2000046
+    },
+    "OST_FlexPipeTags": {
+        "label": "Марки гибких труб",
+        "id": -2008048
+    },
+    "OST_ConnectorElemYAxis": {
+        "label": "Ось Y",
+        "id": -2007002
+    },
+    "OST_ColumnOpening": {
+        "label": "Вырез проема несущей конструкции",
+        "id": -2000994
+    },
+    "OST_PathOfTravelLines": {
+        "label": "<Линии траектории движения>",
+        "id": -2000833
+    },
+    "OST_SwitchboardScheduleTemplates": {
+        "label": "Шаблоны принципиальной схемы щита/панели - Силовой щит",
+        "id": -2008146
+    },
+    "OST_IOSFreeSnapLine": {
+        "label": "N/A",
+        "id": -2000053
+    },
+    "OST_ReferenceLines": {
+        "label": "Опорные линии",
+        "id": -2000083
+    },
+    "OST_IOS_GeoLocations": {
+        "label": "Общая площадка",
+        "id": -2000110
+    },
+    "OST_TopographyLink": {
+        "label": "Связи топографии",
+        "id": -2001339
+    },
+    "OST_CaseworkHiddenLines": {
+        "label": "<Невидимые линии>",
+        "id": -2009515
+    },
+    "OST_StairsRailingBaluster": {
+        "label": "Балясины",
+        "id": -2000127
+    },
+    "OST_PointClouds": {
+        "label": "Облака точек",
+        "id": -2010001
+    },
+    "OST_ParamElemElectricalLoadClassification": {
+        "label": "Элемент параметра классификации нагрузок в электросетях",
+        "id": -2008148
+    },
+    "OST_StructuralFramingOpening": {
+        "label": "Вырез проема несущей конструкции",
+        "id": -2000995
+    },
+    "OST_DuctFitting": {
+        "label": "Соединительные детали воздуховодов",
+        "id": -2008010
+    },
+    "OST_MedicalEquipmentTags": {
+        "label": "Марки для медицинского оборудования",
+        "id": -2001048
+    },
+    "OST_PathReinSpanSymbol": {
+        "label": "Обозначения для армирования по траектории несущих конструкций",
+        "id": -2009010
+    },
+    "OST_RailingSystem": {
+        "label": "N/A",
+        "id": -2000905
+    },
+    "OST_CenterLines": {
+        "label": "<Осевая линия>",
+        "id": -2000288
+    },
+    "OST_ElectricalDemandFactorDefinitions": {
+        "label": "Определения коэффициентов спроса электрических нагрузок",
+        "id": -2008142
+    },
+    "OST_FabricationPipeworkInsulation": {
+        "label": "Изоляция",
+        "id": -2008221
+    },
+    "OST_WindowsFrameMullionCut": {
+        "label": "N/A",
+        "id": -2000017
+    },
+    "OST_AnalyticalNodes_Lines": {
+        "label": "Линии",
+        "id": -2009648
+    },
+    "OST_RoomReference": {
+        "label": "Объект",
+        "id": -2000167
+    },
+    "OST_RailingSystemPanel": {
+        "label": "Панели",
+        "id": -2000909
+    },
+    "OST_CeilingsInsulation": {
+        "label": "Термическая/воздушная прослойка [3]",
+        "id": -2000612
+    },
+    "OST_BridgeFramingTrussTags": {
+        "label": "Марки ферм моста",
+        "id": -2006281
+    },
+    "OST_FloorsMembrane": {
+        "label": "Изоляционная мембрана",
+        "id": -2000600
+    },
+    "OST_RailingSystemPanelBracketHiddenLines_Deprecated": {
+        "label": "N/A",
+        "id": -2009543
+    },
+    "OST_StairsSupports": {
+        "label": "Опоры",
+        "id": -2000952
+    },
+    "OST_IOSRoomPerimeterLines": {
+        "label": "Внутренние стили объектов",
+        "id": -2000075
+    },
+    "OST_LoadCases": {
+        "label": "Варианты нагрузок на конструкцию",
+        "id": -2005210
+    },
+    "OST_RebarSetToggle": {
+        "label": "Включить/отключить набор арматурных стержней",
+        "id": -2009025
+    },
+    "OST_LayoutNodes": {
+        "label": "Узлы компоновки",
+        "id": -2008197
+    },
+    "OST_WallsCutOutlines": {
+        "label": "N/A",
+        "id": -2000012
+    },
+    "OST_MatchModel": {
+        "label": "N/A",
+        "id": -2000003
+    },
+    "OST_MEPLoadAreaInteriorFill": {
+        "label": "Заливка внутренней области",
+        "id": -2001028
+    },
+    "OST_IOSRoomUpperLowerLines": {
+        "label": "Линии верхнего/нижнего смещения",
+        "id": -2000115
+    },
+    "OST_XRayImplicitPathCurve": {
+        "label": "Режим просвечивания - Неявная криволинейная траектория",
+        "id": -2000719
+    },
+    "OST_LineLoads": {
+        "label": "Линейные нагрузки",
+        "id": -2005202
+    },
+    "OST_IOSDetailGroups": {
+        "label": "Группы элементов узлов",
+        "id": -2000096
+    },
+    "OST_VerticalCirculationTags": {
+        "label": "Марки для вертикальной циркуляции",
+        "id": -2001054
+    },
+    "OST_Views": {
+        "label": "Виды",
+        "id": -2000279
+    },
+    "OST_AnalyticalMemberTags": {
+        "label": "Марки аналитических элементов",
+        "id": -2009663
+    },
+    "OST_VibrationManagementTags": {
+        "label": "Марки управления вибрацией",
+        "id": -2006282
+    },
+    "OST_RoomPolylines": {
+        "label": "Полилинии помещения",
+        "id": -2000829
+    },
+    "OST_gbXML_SlabOnGrade": {
+        "label": "Наклонные перекрытия",
+        "id": -2008170
+    },
+    "OST_FloorLocalCoordSys": {
+        "label": "Локальная система координат",
+        "id": -2000975
+    },
+    "OST_MassShade": {
+        "label": "Формообразующий экран",
+        "id": -2003418
+    },
+    "OST_ControlAxisZ": {
+        "label": "Внутренние стили объектов",
+        "id": -2000773
+    },
+    "OST_ArcWallRectOpening": {
+        "label": "Прямоугольно-арочный проем в стене",
+        "id": -2000999
+    },
+    "OST_CalloutHeads": {
+        "label": "Заголовки фрагментов",
+        "id": -2000538
+    },
+    "OST_SlabEdgeTags": {
+        "label": "Марки ребер плит",
+        "id": -2001070
+    },
+    "OST_WindowsGlassProjection": {
+        "label": "Остекление",
+        "id": -2000016
+    },
+    "OST_ColumnStartSegment": {
+        "label": "Нижний сегмент",
+        "id": -2009637
+    },
+    "OST_WallTags": {
+        "label": "Марки стен",
+        "id": -2005011
+    },
+    "OST_StairsRiserLinesAboveCut": {
+        "label": "<Сверху> - Линии подступенков",
+        "id": -2000937
+    },
+    "OST_MEPSystemZone": {
+        "label": "Зоны системы",
+        "id": -2001001
+    },
+    "OST_ModelGroupTags": {
+        "label": "Марки группы моделей",
+        "id": -2001073
+    },
+    "OST_BranchPanelScheduleTemplates": {
+        "label": "Шаблоны принципиальной схемы щита/панели - Распределительный щит",
+        "id": -2008145
+    },
+    "OST_DSR_CenterlinePatternCatId": {
+        "label": "N/A",
+        "id": -2000965
+    },
+    "OST_Curtain_Systems": {
+        "label": "Система соединенных витражных систем",
+        "id": -2000090
+    },
+    "OST_IOSGroups": {
+        "label": "Группы",
+        "id": -2000072
+    },
+    "OST_DoorTags": {
+        "label": "Марки дверей",
+        "id": -2000460
+    },
+    "OST_CurvesThinLines": {
+        "label": "<Тонкие линии>",
+        "id": -2000042
+    },
+    "OST_CompassInner": {
+        "label": "Компас",
+        "id": -2009613
+    },
+    "OST_Signage": {
+        "label": "Знаки",
+        "id": -2001058
+    },
+    "OST_InternalLineLoads": {
+        "label": "Внутренние линейные нагрузки",
+        "id": -2005206
+    },
+    "OST_PierWalls": {
+        "label": "Стены опор",
+        "id": -2006229
+    },
+    "OST_MaterialTags": {
+        "label": "Марки материалов",
+        "id": -2005027
+    },
+    "OST_ProfileFamilies": {
+        "label": "Профили",
+        "id": -2003000
+    },
+    "OST_PipeHydronicSeparationSymbols": {
+        "label": "Обозначения гидравлического разделения",
+        "id": -2000988
+    },
+    "OST_DividedPath": {
+        "label": "Разделенная траектория",
+        "id": -2000926
+    },
+    "OST_FurnitureSystems": {
+        "label": "Комплекты мебели",
+        "id": -2001100
+    },
+    "OST_XRayConstrainedProfileEdge": {
+        "label": "Режим просвечивания - Зависимая кромка профиля",
+        "id": -2000720
+    },
+    "OST_StructConnectionBoltTags": {
+        "label": "Марки болтов",
+        "id": -2009056
+    },
+    "OST_ConduitTags": {
+        "label": "Марки коробов",
+        "id": -2008133
+    },
+    "OST_Sheets": {
+        "label": "Листы",
+        "id": -2003100
+    },
+    "OST_DuctColorFillLegends": {
+        "label": "Легенды к цветовому обозначению воздуховода",
+        "id": -2007004
+    },
+    "OST_CompassSection": {
+        "label": "Компас",
+        "id": -2009616
+    },
+    "OST_BridgeFramingCrossBracing": {
+        "label": "Перекрестный раскос",
+        "id": -2006245
+    },
+    "OST_FloorAnalytical": {
+        "label": "Аналитические модели перекрытий",
+        "id": -2009639
+    },
+    "OST_CurtainWallPanelsHiddenLines": {
+        "label": "<Невидимые линии>",
+        "id": -2009510
+    },
+    "OST_DoorsFrameMullionProjection": {
+        "label": "Каркас/Импост",
+        "id": -2000029
+    },
+    "OST_TrussDiagWebCurve": {
+        "label": "Раскос",
+        "id": -2009601
+    },
+    "OST_PlanRegion": {
+        "label": "Фрагмент плана",
+        "id": -2000191
+    },
+    "OST_ElectricalFixturesHiddenLines": {
+        "label": "<Невидимые линии>",
+        "id": -2009517
+    },
+    "OST_StructConnectionReference": {
+        "label": "Ссылка",
+        "id": -2009036
+    },
+    "OST_RebarShape": {
+        "label": "Форма арматурного стержня",
+        "id": -2009013
+    },
+    "OST_BridgeFramingDiaphragmTags": {
+        "label": "Марки диафрагм моста",
+        "id": -2006279
+    },
+    "OST_DSR_DimStyleHeavyEndCategoryId": {
+        "label": "N/A",
+        "id": -2000964
+    },
+    "OST_TelephoneDevices": {
+        "label": "Телефонные устройства",
+        "id": -2008075
+    },
+    "OST_BraceAnalytical": {
+        "label": "Аналитические модели раскосов",
+        "id": -2009633
+    },
+    "OST_FootingSpanDirectionSymbol": {
+        "label": "Обозначение направления пролета фундамента",
+        "id": -2005111
+    },
+    "OST_StackedWalls": {
+        "label": "Составные стены",
+        "id": -2003500
+    },
+    "OST_Stairs": {
+        "label": "Лестницы",
+        "id": -2000120
+    },
+    "OST_Roofs": {
+        "label": "Крыши",
+        "id": -2000035
+    },
+    "OST_OBSOLETE_FabricationPartsTmpGraphicDropDrag": {
+        "label": "Графическое отображение уменьшения количества элементов базы данных производителя при перетаскивании",
+        "id": -2008202
+    },
+    "OST_FloorsFinish2": {
+        "label": "Отделка 2 [5]",
+        "id": -2000605
+    },
+    "OST_FloorsFinish1": {
+        "label": "Отделка 1 [4]",
+        "id": -2000604
+    },
+    "OST_MechanicalEquipmentTags": {
+        "label": "Марки оборудования",
+        "id": -2005009
+    },
+    "OST_CouplerTags": {
+        "label": "Марки соединителей несущей арматуры",
+        "id": -2009061
+    },
+    "OST_ElectricalVoltage": {
+        "label": "Напряжения",
+        "id": -2008040
+    },
+    "OST_FabricAreaSketchEnvelopeLines": {
+        "label": "<Внешняя граница арматурной сетки>",
+        "id": -2009018
+    },
+    "OST_Floors": {
+        "label": "Перекрытия",
+        "id": -2000032
+    },
+    "OST_StructuralAnnotations": {
+        "label": "Аннотации к несущим элементам",
+        "id": -2006090
+    },
+    "OST_WallsFinish2": {
+        "label": "Отделка 2 [5]",
+        "id": -2000585
+    },
+    "OST_MEPLoadAreaTags_OBSOLETE": {
+        "label": "N/A",
+        "id": -2001025
+    },
+    "OST_HVAC_Zones_ColorFill": {
+        "label": "Цветовое обозначение",
+        "id": -2008116
+    },
+    "OST_gbXML_Shade": {
+        "label": "Экраны",
+        "id": -2008187
+    },
+    "OST_GbXML_SType_Underground": {
+        "label": "Подземное помещение",
+        "id": -2008094
+    },
+    "OST_AreaReport_Boundary": {
+        "label": "Расчет площадей помещений/зон",
+        "id": -2000326
+    },
+    "OST_DisplacementPath": {
+        "label": "Траектория смещения",
+        "id": -2000223
+    },
+    "OST_IOSSlabShapeEditorPointBoundary": {
+        "label": "Редактор формы перекрытия - Сосредоточенная нагрузка",
+        "id": -2000087
+    },
+    "OST_DividedSurface_PreDividedSurface": {
+        "label": "Заранее разделенная поверхность",
+        "id": -2003328
+    },
+    "OST_FabricationDuctworkDrop": {
+        "label": "Опуск",
+        "id": -2008206
+    },
+    "OST_AnalyticalPipeConnections": {
+        "label": "Соединения труб аналитической модели",
+        "id": -2000983
+    },
+    "OST_CableTrayFittingTags": {
+        "label": "Марки соединительных деталей кабельных лотков",
+        "id": -2008127
+    },
+    "OST_FabricAreaTags": {
+        "label": "Марки зон раскладки арматурных сеток",
+        "id": -2009023
+    },
+    "OST_FabricationDuctworkInsulation": {
+        "label": "Изоляция",
+        "id": -2008198
+    },
+    "OST_gbXML_UndergroundSlab": {
+        "label": "Перекрытия подвала",
+        "id": -2008176
+    },
+    "OST_HandrailTags": {
+        "label": "Марки перил",
+        "id": -2001066
+    },
+    "OST_ReferencePoints": {
+        "label": "Опорные точки",
+        "id": -2000710
+    },
+    "OST_ScheduleGraphics": {
+        "label": "Графика спецификации",
+        "id": -2000570
+    },
+    "OST_LegendComponents": {
+        "label": "Компоненты легенды",
+        "id": -2000575
+    },
+    "OST_ProjectBasePoint": {
+        "label": "Базовая точка проекта",
+        "id": -2001271
+    },
+    "OST_FloorLayers": {
+        "label": "Слои перекрытий",
+        "id": -2001106
+    },
+    "OST_StairsDownArrows": {
+        "label": "Стрелки вниз",
+        "id": -2000131
+    },
+    "OST_CurtainWallMullions": {
+        "label": "Импосты витража",
+        "id": -2000171
+    },
+    "OST_PierPileTags": {
+        "label": "Марки свай опор",
+        "id": -2006226
+    },
+    "OST_WallFoundationAnalyticalTags": {
+        "label": "Марки аналитической модели ленточного фундамента",
+        "id": -2009655
+    },
+    "OST_StairRun2012HiddenLines_Deprecated": {
+        "label": "N/A",
+        "id": -2009534
+    },
+    "OST_AreaInteriorFillVisibility": {
+        "label": "Заливка внутренней области",
+        "id": -2000163
+    },
+    "OST_DuctAccessoryTags": {
+        "label": "Марки арматуры воздуховодов",
+        "id": -2008017
+    },
+    "OST_AssemblyOrigin_Lines": {
+        "label": "Линии",
+        "id": -2009661
+    },
+    "OST_AbutmentWalls": {
+        "label": "Стены устоев",
+        "id": -2006204
+    },
+    "OST_MultiLeaderTag": {
+        "label": "Марка мультивыноски",
+        "id": -2005033
+    },
+    "OST_gbXML_NonSlidingDoor": {
+        "label": "Нераздвижные двери",
+        "id": -2008183
+    },
+    "OST_RailingTopRailAboveCut": {
+        "label": "<Сверху> - Верхние поручни",
+        "id": -2000950
+    },
+    "OST_VibrationIsolators": {
+        "label": "Виброизоляторы",
+        "id": -2006265
+    },
+    "OST_Dimensions": {
+        "label": "Размеры",
+        "id": -2000260
+    },
+    "OST_SketchLines": {
+        "label": "<Эскиз>",
+        "id": -2000045
+    },
+    "OST_Levels": {
+        "label": "Уровни",
+        "id": -2000240
+    },
+    "OST_BridgeDeckHiddenLines": {
+        "label": "<Невидимые линии>",
+        "id": -2006155
+    },
+    "OST_StairsOutlines": {
+        "label": "Контуры",
+        "id": -2000934
+    },
+    "OST_AreaLoadTags": {
+        "label": "Марки распределенных нагрузок",
+        "id": -2005252
+    },
+    "OST_DoorsFrameMullionCut": {
+        "label": "N/A",
+        "id": -2000028
+    },
+    "OST_ElectricalCircuit": {
+        "label": "Электрические цепи",
+        "id": -2008037
+    },
+    "OST_MassRoof": {
+        "label": "Формообразующая крыша",
+        "id": -2003414
+    },
+    "OST_WallsStructure": {
+        "label": "Структура [1]",
+        "id": -2000581
+    },
+    "OST_SitePoint": {
+        "label": "Внутренняя точка",
+        "id": -2001262
+    },
+    "OST_RailingSystemRailHiddenLines_Deprecated": {
+        "label": "N/A",
+        "id": -2009547
+    },
+    "OST_EPS_New": {
+        "label": "Создать",
+        "id": -2000104
+    },
+    "OST_BeamAnalytical": {
+        "label": "Аналитические модели балки",
+        "id": -2009630
+    },
+    "OST_MEPLoadAreaReferenceVisibility": {
+        "label": "Связь",
+        "id": -2001031
+    },
+    "OST_SplitterProfile": {
+        "label": "N/A",
+        "id": -2008164
+    },
+    "OST_StructConnectionWeldTags": {
+        "label": "Марки сварных швов",
+        "id": -2009059
+    },
+    "OST_TitleBlockThinLines": {
+        "label": "<Тонкие линии>",
+        "id": -2000281
+    },
+    "OST_AreaSchemes": {
+        "label": "Схемы зонирования",
+        "id": -2003201
+    },
+    "OST_StructConnections": {
+        "label": "Соединения несущих конструкций",
+        "id": -2009030
+    },
+    "OST_RoofSoffitTags": {
+        "label": "Марки подшивных досок",
+        "id": -2001069
+    },
+    "OST_RoofsSubstrate": {
+        "label": "Основа [2]",
+        "id": -2000593
+    },
+    "OST_Toposolid": {
+        "label": "Топотело",
+        "id": -2001079
+    },
+    "OST_AbutmentWallTags": {
+        "label": "Марки стен устоев",
+        "id": -2006210
+    },
+    "OST_AlignmentStationLabels": {
+        "label": "Метки пикетов трассы",
+        "id": -2001017
+    },
+    "OST_ToposolidDefault": {
+        "label": "Общие ребра",
+        "id": -2001085
+    },
+    "OST_LevelHeads": {
+        "label": "Головные части уровней",
+        "id": -2006020
+    },
+    "OST_FabricationDuctworkCenterLine": {
+        "label": "Осевая линия",
+        "id": -2008196
+    },
+    "OST_SiteRegion": {
+        "label": "N/A",
+        "id": -2001270
+    },
+    "OST_WindowsGlassCut": {
+        "label": "N/A",
+        "id": -2000015
+    },
+    "OST_StructConnectionTags": {
+        "label": "Марки соединений несущих конструкций",
+        "id": -2009040
+    },
+    "OST_PadTags": {
+        "label": "Марки оснований",
+        "id": -2001067
+    },
+    "OST_AdaptivePoints_Planes": {
+        "label": "Плоскости",
+        "id": -2000902
+    },
+    "OST_gbXML_SlidingDoor": {
+        "label": "Раздвижные двери",
+        "id": -2008182
+    },
+    "OST_CommunicationDevices": {
+        "label": "Устройства связи",
+        "id": -2008081
+    },
+    "OST_PierWallTags": {
+        "label": "Марки стен опор",
+        "id": -2006230
+    },
+    "OST_LoadCasesWind": {
+        "label": "Ветровые нагрузки",
+        "id": -2005213
+    },
+    "OST_DSR_DimStyleTickCategoryId": {
+        "label": "N/A",
+        "id": -2000962
+    },
+    "OST_gbXML_OperableSkylight": {
+        "label": "Открываемые световые люки",
+        "id": -2008181
+    },
+    "OST_FlexDuctCurvesContour": {
+        "label": "Контур",
+        "id": -2008022
+    },
+    "OST_RoofSoffit": {
+        "label": "Подшивные доски",
+        "id": -2001393
+    },
+    "OST_PipingSystem_Reference": {
+        "label": "Опорные линии",
+        "id": -2008158
+    },
+    "OST_PierPiles": {
+        "label": "Сваи опор",
+        "id": -2006225
+    },
+    "OST_RouteCurveBranch": {
+        "label": "Кривая трассировки",
+        "id": -2008098
+    },
+    "OST_ConduitFittingCenterLine": {
+        "label": "Осевая линия",
+        "id": -2008141
+    },
+    "OST_HVAC_Zones_Reference_Visibility": {
+        "label": "Опорные линии",
+        "id": -2008118
+    },
+    "OST_FabricationPipeworkSymbology": {
+        "label": "Условные обозначения",
+        "id": -2008211
+    },
+    "OST_GbXML_SType_Exterior": {
+        "label": "Снаружи",
+        "id": -2008092
+    },
+    "OST_RailingSystemPostHiddenLines_Deprecated": {
+        "label": "N/A",
+        "id": -2009540
+    },
+    "OST_AnalyticalNodes_Points": {
+        "label": "Точки",
+        "id": -2009646
+    },
+    "OST_VolumeOfInterest": {
+        "label": "Области видимости",
+        "id": -2006000
+    },
+    "OST_RailingSystemRail": {
+        "label": "N/A",
+        "id": -2000914
+    },
+    "OST_LightingFixturesHiddenLines": {
+        "label": "<Невидимые линии>",
+        "id": -2009519
+    },
+    "OST_Materials": {
+        "label": "Материалы",
+        "id": -2000700
+    },
+    "OST_Fixtures": {
+        "label": "N/A",
+        "id": -2000140
+    },
+    "OST_SpanDirectionSymbol": {
+        "label": "Обозначение направления пролетов",
+        "id": -2005110
+    },
+    "OST_StairsIncomplete_Deprecated": {
+        "label": "N/A",
+        "id": -2000121
+    },
+    "OST_IOSRoomComputationHeight": {
+        "label": "Линии расчетной высоты",
+        "id": -2000116
+    },
+    "OST_IOSRebarSystemSpanSymbolCtrl": {
+        "label": "Внутренние стили объектов",
+        "id": -2000099
+    },
+    "OST_AxisOfRotation": {
+        "label": "<Ось вращения>",
+        "id": -2000065
+    },
+    "OST_IOSDatumPlane": {
+        "label": "Базовая плоскость",
+        "id": -2000052
+    },
+    "OST_AreaReferenceVisibility": {
+        "label": "Объект",
+        "id": -2000164
+    },
+    "OST_ElectricalDemandFactor": {
+        "label": "Коэффициенты спроса нагрузки",
+        "id": -2008042
+    },
+    "OST_RailingSystemHandRailBracketHiddenLines_Deprecated": {
+        "label": "N/A",
+        "id": -2009545
+    },
+    "OST_DuctCurvesRiseDrop": {
+        "label": "Уклон",
+        "id": -2008036
+    },
+    "OST_Truss": {
+        "label": "Фермы",
+        "id": -2009600
+    },
+    "OST_StairTread2012HiddenLines_Deprecated": {
+        "label": "N/A",
+        "id": -2009536
+    },
+    "OST_FabricReinforcementBoundary": {
+        "label": "Граница",
+        "id": -2009026
+    },
+    "OST_TopRailTags": {
+        "label": "Марки верхних поручней",
+        "id": -2001071
+    },
+    "OST_StructConnectionAnchorTags": {
+        "label": "Марки анкеров",
+        "id": -2009057
+    },
+    "OST_PropertySet": {
+        "label": "Наборы характеристик материала",
+        "id": -2000924
+    },
+    "OST_ReferencePoints_Planes": {
+        "label": "Плоскости",
+        "id": -2000712
+    },
+    "OST_IOSDragBox": {
+        "label": "Внутренние стили объектов",
+        "id": -2000113
+    },
+    "OST_TitleBlocks": {
+        "label": "Основные надписи",
+        "id": -2000280
+    },
+    "OST_FilledRegion": {
+        "label": "Цветовая область",
+        "id": -2000190
+    },
+    "OST_CropBoundary": {
+        "label": "Границы обрезки",
+        "id": -2000536
+    },
+    "OST_CompassOuter": {
+        "label": "Компас",
+        "id": -2009615
+    },
+    "OST_SecurityDevices": {
+        "label": "Охранная сигнализация",
+        "id": -2008079
+    },
+    "OST_AlignmentStationLabelSets": {
+        "label": "Наборы меток пикетов трассы",
+        "id": -2001016
+    },
+    "OST_MassSlab": {
+        "label": "Формообразующее перекрытие",
+        "id": -2003419
+    },
+    "OST_RemovedGridSeg": {
+        "label": "Внутренние стили объектов",
+        "id": -2000827
+    },
+    "OST_IOSRoomCalculationPoint": {
+        "label": "Точка принадлежности помещению",
+        "id": -2000925
+    },
+    "OST_gbXML_ExteriorWall": {
+        "label": "Наружные стены",
+        "id": -2008167
+    },
+    "OST_HVAC_Load_Schedules": {
+        "label": "Спецификации нагрузок в системах ОВК",
+        "id": -2008121
+    },
+    "OST_RouteCurveMain": {
+        "label": "Кривая трассировки",
+        "id": -2008097
+    },
+    "OST_WallsFinish1": {
+        "label": "Отделка 1 [4]",
+        "id": -2000584
+    },
+    "OST_MassGlazingAll": {
+        "label": "Формообразующие окна и световые люки",
+        "id": -2003423
+    },
+    "OST_AssemblyTags": {
+        "label": "Марки сборок",
+        "id": -2000268
+    },
+    "OST_IOSThinPixel_Dot": {
+        "label": "Тонкий пиксел - Пунктирная",
+        "id": -2000061
+    },
+    "OST_RampTags": {
+        "label": "Марки пандусов",
+        "id": -2001068
+    },
+    "OST_IOSThinPixel_Dash": {
+        "label": "Тонкий пиксел - Штриховая",
+        "id": -2000062
+    },
+    "OST_DoorsGlassProjection": {
+        "label": "Остекление",
+        "id": -2000031
+    },
+    "OST_AudioVisualDevicesHiddenLines": {
+        "label": "<Невидимые линии>",
+        "id": -2001056
+    },
+    "OST_CeilingsStructure": {
+        "label": "Структура [1]",
+        "id": -2000611
+    },
+    "OST_Automatic": {
+        "label": "N/A",
+        "id": -2001351
+    },
+    "OST_ZoneTags": {
+        "label": "Марки зоны",
+        "id": -2008115
+    },
+    "OST_VerticalBracing": {
+        "label": "Вертикальные раскосы",
+        "id": -2001326
+    },
+    "OST_BridgeBearingTags": {
+        "label": "Марки несущих",
+        "id": -2006178
+    },
+    "OST_ExpansionJointTags": {
+        "label": "Марки температурных швов",
+        "id": -2006273
+    },
+    "OST_BridgeFramingTrusses": {
+        "label": "Фермы",
+        "id": -2006248
+    },
+    "OST_RoomColorFill": {
+        "label": "Цветовое обозначение",
+        "id": -2000551
+    },
+    "OST_ElectricalConnectorTags": {
+        "label": "Марки электрических соединителей",
+        "id": -2001102
+    },
+    "OST_RasterImages": {
+        "label": "Растровые изображения",
+        "id": -2000560
+    },
+    "OST_MechanicalEquipmentSet": {
+        "label": "Наборы оборудования",
+        "id": -2000985
+    },
+    "OST_MassSurface_Obsolete_IdInWrongRange": {
+        "label": "N/A",
+        "id": -20034004
+    },
+    "OST_MEPSystemZoneInteriorFill": {
+        "label": "N/A",
+        "id": -2001003
+    },
+    "OST_FloorTags": {
+        "label": "Марки перекрытий",
+        "id": -2005026
+    },
+    "OST_StructConnectionWelds": {
+        "label": "Сварные швы",
+        "id": -2009046
+    },
+    "OST_LinkAnalyticalTags": {
+        "label": "Марки жестких связей",
+        "id": -2000955
+    },
+    "OST_Constraints": {
+        "label": "Зависимости",
+        "id": -2000262
+    },
+    "OST_TelephoneDeviceTags": {
+        "label": "Марки телефонных устройств",
+        "id": -2008076
+    },
+    "OST_gbXML_OperableWindow": {
+        "label": "Открываемые окна",
+        "id": -2008179
+    },
+    "OST_MEPAncillaryFramingTags": {
+        "label": "Марки дополнительных каркасов MEP",
+        "id": -2008236
+    },
+    "OST_HVAC_Zones_InteriorFill_Visibility": {
+        "label": "Заливка внутренней области",
+        "id": -2008117
+    },
+    "OST_IOSModelGroups": {
+        "label": "Группы модели",
+        "id": -2000095
+    },
+    "OST_ElecDistributionSys": {
+        "label": "Типы питающей сети",
+        "id": -2008041
+    },
+    "OST_FurnitureTags": {
+        "label": "Марки мебели",
+        "id": -2005006
+    },
+    "OST_PipeAccessory": {
+        "label": "Арматура трубопроводов",
+        "id": -2008055
+    },
+    "OST_SunSurface": {
+        "label": "Нет",
+        "id": -2009619
+    },
+    "OST_StickSymbols_Obsolete_IdInWrongRange": {
+        "label": "N/A",
+        "id": -20000828
+    },
+    "OST_GbXML_Opening": {
+        "label": "Проем",
+        "id": -2008095
+    },
+    "OST_ComponentRepeaterSlot": {
+        "label": "Повторяющийся компонент",
+        "id": -2000928
+    },
+    "OST_gbXML_RaisedFloor": {
+        "label": "Фальшполы",
+        "id": -2008169
+    },
+    "OST_RoofsMembrane": {
+        "label": "Изоляционная мембрана",
+        "id": -2000590
+    },
+    "OST_ConnectorElemXAxis": {
+        "label": "Ось X",
+        "id": -2007001
+    },
+    "OST_ZoneEquipment": {
+        "label": "Оборудование зоны",
+        "id": -2001010
+    },
+    "OST_PointLoads": {
+        "label": "Сосредоточенные нагрузки",
+        "id": -2005201
+    },
+    "OST_SWallRectOpening": {
+        "label": "Прямоугольный проем в стене",
+        "id": -2000997
+    },
+    "OST_VibrationManagement": {
+        "label": "Управление вибрацией",
+        "id": -2006261
+    },
+    "OST_IOSAligningLine": {
+        "label": "Проекционная линия",
+        "id": -2000048
+    },
+    "OST_gbXML_FixedWindow": {
+        "label": "Глухие окна",
+        "id": -2008178
+    },
+    "OST_PipeSchedules": {
+        "label": "Спецификации труб",
+        "id": -2008105
+    },
+    "OST_Extrusions": {
+        "label": "N/A",
+        "id": -2000060
+    },
+    "OST_Sewer": {
+        "label": "N/A",
+        "id": -2001240
+    },
+    "OST_InternalAreaLoadTags": {
+        "label": "Марки внутренних распределенных нагрузок",
+        "id": -2005255
+    },
+    "OST_FlexPipeCurvesPattern": {
+        "label": "Конфигурация",
+        "id": -2008053
+    },
+    "OST_IOSSlabShapeEditorAutoCrease": {
+        "label": "Редактор формы перекрытия - Автосгиб",
+        "id": -2000085
+    },
+    "OST_KickerBracing": {
+        "label": "Затяжка",
+        "id": -2001328
+    },
+    "OST_RampsAboveCut": {
+        "label": "Пандусы вне пределов линии обрыва",
+        "id": -2003302
+    },
+    "INVALID": {
+        "label": "N/A",
+        "id": -1
+    },
+    "OST_ELECTRICAL_AreaBasedLoads_Reference": {
+        "label": "Опорные линии",
+        "id": -2008224
+    },
+    "OST_MassAreaFaceTags": {
+        "label": "Марки формообразующих элементов-перекрытий",
+        "id": -2003410
+    },
+    "OST_InternalPointLoadTags": {
+        "label": "Марки внутренних сосредоточенных нагрузок",
+        "id": -2005253
+    },
+    "OST_StructConnectionShearStuds": {
+        "label": "Гибкие упоры",
+        "id": -2009044
+    },
+    "OST_gbXML_SurfaceAir": {
+        "label": "Воздушные поверхности",
+        "id": -2008174
+    },
+    "OST_CeilingsSurfacePattern": {
+        "label": "Штриховка поверхностей",
+        "id": -2000543
+    },
+    "OST_CeilingsProjection": {
+        "label": "N/A",
+        "id": -2000040
+    },
+    "OST_WallAnalyticalTags": {
+        "label": "Марки аналитической модели стены",
+        "id": -2009653
+    },
+    "OST_AreaReinTags": {
+        "label": "Марки армирования по площади несущих конструкций",
+        "id": -2009021
+    },
+    "OST_Matchline": {
+        "label": "Линия соответствия",
+        "id": -2000193
+    },
+    "OST_BuildingPad": {
+        "label": "Основания",
+        "id": -2001263
+    },
+    "OST_DoorsPanelCut": {
+        "label": "N/A",
+        "id": -2000024
+    },
+    "OST_BeamSystemTags": {
+        "label": "Марки балочных систем",
+        "id": -2005130
+    },
+    "OST_CouplerHiddenLines": {
+        "label": "<Невидимые линии>",
+        "id": -2009062
+    },
+    "OST_FlexDuctCurvesInsulation": {
+        "label": "Изоляция",
+        "id": -2008065
+    },
+    "OST_CableTrayRiseDrop": {
+        "label": "Уклон",
+        "id": -2008134
+    },
+    "OST_ProjectInformation": {
+        "label": "Сведения о проекте",
+        "id": -2003101
+    },
+    "OST_CurtaSystem": {
+        "label": "Витражные системы",
+        "id": -2000340
+    },
+    "OST_FabricationContainment": {
+        "label": "Кабеленесущая система базы данных производителя",
+        "id": -2008212
+    },
+    "OST_CaseworkTags": {
+        "label": "Марки шкафов",
+        "id": -2005001
+    },
+    "OST_StairsPaths": {
+        "label": "Траектории лестницы",
+        "id": -2000938
+    },
+    "OST_FurnitureHiddenLines": {
+        "label": "<Невидимые линии>",
+        "id": -2009505
+    },
+    "OST_FireAlarmDevices": {
+        "label": "Пожарная сигнализация",
+        "id": -2008085
+    },
+    "OST_TemporaryStructure": {
+        "label": "Временные конструкции",
+        "id": -2001039
+    },
+    "OST_FabricationContainmentSymbology": {
+        "label": "Условные обозначения",
+        "id": -2008215
+    },
+    "OST_DimLockControlLeader": {
+        "label": "Выноска управления блокировкой размеров",
+        "id": -2000832
+    },
+    "OST_RailingBalusterRailCut": {
+        "label": "N/A",
+        "id": -2000177
+    },
+    "OST_EPS_Demolished": {
+        "label": "Снесенные",
+        "id": -2000103
+    },
+    "OST_ExpansionJoints": {
+        "label": "Температурные швы",
+        "id": -2006271
+    },
+    "OST_RevisionClouds": {
+        "label": "Пометочные облака",
+        "id": -2006060
+    },
+    "OST_DuctCurves": {
+        "label": "Воздуховоды",
+        "id": -2008000
+    },
+    "OST_ControlAxisY": {
+        "label": "Внутренние стили объектов",
+        "id": -2000772
+    },
+    "OST_Property": {
+        "label": "N/A",
+        "id": -2001200
+    },
+    "OST_StairsCutMarksAboveCut": {
+        "label": "<Сверху> - Марки вырезов",
+        "id": -2000931
+    },
+    "OST_Tags": {
+        "label": "N/A",
+        "id": -2005000
+    },
+    "OST_AreaReinSketchOverride": {
+        "label": "Переопределенные кривые армирования по площади",
+        "id": -2009004
+    },
+    "OST_PipeInsulations": {
+        "label": "Материалы изоляции труб",
+        "id": -2008122
+    },
+    "OST_AssemblyOrigin_Planes": {
+        "label": "Плоскости",
+        "id": -2009660
+    },
+    "OST_FabricationDuctworkSymbology": {
+        "label": "Условные обозначения",
+        "id": -2008207
+    },
+    "OST_SectionHeadWideLines": {
+        "label": "<Утолщенные линии>",
+        "id": -2000404
+    },
+    "OST_MatchAll": {
+        "label": "N/A",
+        "id": -2000002
+    },
+    "OST_HostFin": {
+        "label": "N/A",
+        "id": -2000310
+    },
+    "OST_Elev": {
+        "label": "Фасады",
+        "id": -2000535
+    },
+    "OST_ToposolidFoldingLines": {
+        "label": "Линии сгиба",
+        "id": -2001083
+    },
+    "OST_XRaySideEdge": {
+        "label": "Режим просвечивания - Боковая кромка",
+        "id": -2000716
+    },
+    "OST_ConduitDrop": {
+        "label": "Опуск",
+        "id": -2008138
+    },
+    "OST_CeilingsDefault": {
+        "label": "Общие ребра",
+        "id": -2000616
+    },
+    "OST_HiddenStructuralFoundationLines": {
+        "label": "<Невидимые линии>",
+        "id": -2001302
+    },
+    "OST_MEPAncillaries_Obsolete": {
+        "label": "N/A",
+        "id": -2008230
+    },
+    "OST_FramingAnalyticalGeometry": {
+        "label": "Аналитическая модель",
+        "id": -2001331
+    },
+    "OST_DuctCurvesDrop": {
+        "label": "Опуск",
+        "id": -2008062
+    },
+    "OST_LineLoadTags": {
+        "label": "Марки линейных нагрузок",
+        "id": -2005251
+    },
+    "OST_BraceStartSegment": {
+        "label": "Начало сегмента",
+        "id": -2009634
+    },
+    "OST_AnalyticalOpeningTags": {
+        "label": "Марки аналитического проема",
+        "id": -2000958
+    },
+    "OST_MEPLoadAreaColorFill": {
+        "label": "Цветовое обозначение",
+        "id": -2001027
+    },
+    "OST_HostFinRoof": {
+        "label": "N/A",
+        "id": -2000312
+    },
+    "OST_AreaInteriorFill": {
+        "label": "Заливка внутренней области",
+        "id": -2000168
+    },
+    "OST_RailingHandRailAboveCut": {
+        "label": "<Сверху> - Перила",
+        "id": -2000951
+    },
+    "OST_ExpansionJointHiddenLines": {
+        "label": "<Невидимые линии>",
+        "id": -2006272
+    },
+    "OST_LinesBeyond": {
+        "label": "<Вне пределов>",
+        "id": -2000287
+    },
+    "OST_FabricationPipeworkRise": {
+        "label": "Уклон",
+        "id": -2008216
+    },
+    "OST_StairsPathsAboveCut": {
+        "label": "<Сверху> - Стрелки вверх",
+        "id": -2000939
+    },
+    "OST_MassWallsAll": {
+        "label": "Формообразующие стены",
+        "id": -2003421
+    },
+    "OST_RailingSystemTerminationHiddenLines_Deprecated": {
+        "label": "N/A",
+        "id": -2009548
+    },
+    "OST_ColumnLocalCoordSys": {
+        "label": "Локальная система координат",
+        "id": -2000972
+    },
+    "OST_DataDevices": {
+        "label": "Датчики",
+        "id": -2008083
+    },
+    "OST_FireAlarmDeviceTags": {
+        "label": "Марки пожарной сигнализации",
+        "id": -2008086
+    },
+    "OST_Parking": {
+        "label": "Парковка",
+        "id": -2001180
+    },
+    "OST_RevisionNumberingSequences": {
+        "label": "Последовательности редакций",
+        "id": -2006071
+    },
+    "OST_MaskingRegion": {
+        "label": "Область маскировки",
+        "id": -2000194
+    },
+    "OST_ApproachSlabTags": {
+        "label": "Марки примыкающих перекрытий",
+        "id": -2006211
+    },
+    "OST_AnnotationCrop": {
+        "label": "Граница обрезки аннотаций",
+        "id": -2000547
+    },
+    "OST_IOSCrashGraphics": {
+        "label": "Внутренние стили объектов",
+        "id": -2000073
+    },
+    "OST_HVAC_Zones_Boundary": {
+        "label": "Граница",
+        "id": -2008108
+    },
+    "OST_CeilingsCutPattern": {
+        "label": "Штриховка в сечении",
+        "id": -2000617
+    },
+    "OST_IOSCuttingGeometry": {
+        "label": "Отсечение геометрии",
+        "id": -2000074
+    },
+    "OST_WindowsSillHeadCut": {
+        "label": "N/A",
+        "id": -2000019
+    },
+    "OST_PointLoadTags": {
+        "label": "Марки сосредоточенных нагрузок",
+        "id": -2005250
+    },
+    "OST_CalloutBoundary": {
+        "label": "Граница фрагмента",
+        "id": -2000539
+    },
+    "OST_StairsRiserLines": {
+        "label": "Линии подступенков",
+        "id": -2000936
+    },
+    "OST_Cornices": {
+        "label": "Выступающие профили",
+        "id": -2000181
+    },
+    "OST_Revisions": {
+        "label": "Изменение",
+        "id": -2006070
+    },
+    "OST_CurtainWallPanelTags": {
+        "label": "Марки панелей витража",
+        "id": -2005012
+    },
+    "OST_StructSubConnections": {
+        "label": "Компоненты соединений",
+        "id": -2009049
+    },
+    "OST_DormerOpeningIncomplete": {
+        "label": "Неполный проем под слуховое окно",
+        "id": -2000998
+    },
+    "OST_HiddenFloorLines": {
+        "label": "<Невидимые линии>",
+        "id": -2000607
+    },
+    "OST_Callouts": {
+        "label": "Фрагменты",
+        "id": -2000537
+    },
+    "OST_RoomInteriorFill": {
+        "label": "Заливка внутренней области",
+        "id": -2000166
+    },
+    "OST_CeilingsHiddenLines": {
+        "label": "<Невидимые линии>",
+        "id": -2009503
+    },
+    "OST_AbutmentPileTags": {
+        "label": "Марки свай устоев",
+        "id": -2006209
+    },
+    "OST_FabricationHangers": {
+        "label": "Подвески из базы данных производителя MEP",
+        "id": -2008203
+    },
+    "OST_RailingSystemTopRailHiddenLines_Deprecated": {
+        "label": "N/A",
+        "id": -2009546
+    },
+    "OST_StructuralConnectionHandlerTags_Deprecated": {
+        "label": "N/A",
+        "id": -2005031
+    },
+    "OST_RailingSystemHandRailHiddenLines_Deprecated": {
+        "label": "N/A",
+        "id": -2009544
+    },
+    "OST_LightingDevices": {
+        "label": "Выключатели",
+        "id": -2008087
+    },
+    "OST_CompassPrimaryMonth": {
+        "label": "Текст для солнца",
+        "id": -2009623
+    },
+    "OST_MEPSpaceInteriorFillVisibility": {
+        "label": "Внутренний",
+        "id": -2003601
+    },
+    "OST_LightingFixtureSource": {
+        "label": "Источник света",
+        "id": -2001121
+    },
+    "OST_MEPSpaceTags": {
+        "label": "Марки пространств",
+        "id": -2000485
+    },
+    "OST_ZoningEnvelope": {
+        "label": "Граница зонирования по умолчанию",
+        "id": -2003406
+    },
+    "OST_MassInteriorWall": {
+        "label": "Формообразующая внутренняя стена",
+        "id": -2003412
+    },
+    "OST_RailingRailPathLines": {
+        "label": "Линии траектории ограждения",
+        "id": -2000953
+    },
+    "OST_SecondaryTopographyContours": {
+        "label": "Доп. горизонтали",
+        "id": -2001343
+    },
+    "OST_CableTrayDrop": {
+        "label": "Опуск",
+        "id": -2008135
+    },
+    "OST_Purlin": {
+        "label": "Второстепенная балка 2-го уровня",
+        "id": -2001324
+    },
+    "OST_FabricReinSpanSymbol": {
+        "label": "Обозначения арматурной сетки несущей конструкции",
+        "id": -2009028
+    },
+    "OST_RebarHiddenLines": {
+        "label": "<Невидимые линии>",
+        "id": -2009050
+    },
+    "OST_FabricationPipeworkCenterLine": {
+        "label": "Осевая линия",
+        "id": -2008210
+    },
+    "OST_Girder": {
+        "label": "Главная балка",
+        "id": -2001322
+    },
+    "OST_RailingSystemHandRailBracket": {
+        "label": "N/A",
+        "id": -2000912
+    },
+    "OST_FlexPipeCurvesContour": {
+        "label": "Контур",
+        "id": -2008052
+    },
+    "OST_MEPLoadAreaReference": {
+        "label": "Объект",
+        "id": -2001029
+    },
+    "OST_IOSSlabShapeEditorBoundary": {
+        "label": "Редактор формы перекрытия - Граница",
+        "id": -2000086
+    },
+    "OST_BridgeGirders": {
+        "label": "Главные балки",
+        "id": -2006137
+    },
+    "OST_FloorsStructure": {
+        "label": "Структура [1]",
+        "id": -2000601
+    },
+    "OST_WindowsOpeningCut": {
+        "label": "N/A",
+        "id": -2000021
+    },
+    "OST_ColumnAnalyticalTags": {
+        "label": "Марки аналитической модели колонны",
+        "id": -2009651
+    },
+    "OST_AnalyticalNodes": {
+        "label": "Узлы аналитической модели",
+        "id": -2009645
+    },
+    "OST_StructConnectionFailed": {
+        "label": "Соединения несущих конструкций",
+        "id": -2009035
+    },
+    "OST_AreaColorFill": {
+        "label": "Цветовое обозначение",
+        "id": -2000165
+    },
+    "OST_WireTickMarks": {
+        "label": "Марки проводов",
+        "id": -2008074
+    },
+    "OST_FabricationDuctworkStiffeners": {
+        "label": "Ребра жесткости воздуховодов из базы данных производителя MEP",
+        "id": -2008228
+    },
+    "OST_ElectricalLoadZoneType": {
+        "label": "Тип нагрузки на основе зоны",
+        "id": -2001019
+    },
+    "OST_StairsDownText": {
+        "label": "Текст ВНИЗ",
+        "id": -2000129
+    },
+    "OST_ElectricalEquipmentTags": {
+        "label": "Марки электрооборудования",
+        "id": -2005003
+    },
+    "OST_LightingFixtures": {
+        "label": "Осветительные приборы",
+        "id": -2001120
+    },
+    "OST_gbXML_OpeningAir": {
+        "label": "Воздухозаборы",
+        "id": -2008184
+    },
+    "OST_TrussVertWebCurve": {
+        "label": "Раскос",
+        "id": -2009602
+    },
+    "OST_Mass": {
+        "label": "Формы",
+        "id": -2003400
+    },
+    "OST_InternalAreaLoads": {
+        "label": "Внутренние распределенные нагрузки",
+        "id": -2005207
+    },
+    "OST_DSR_InteriorTickMarkStyleId": {
+        "label": "N/A",
+        "id": -2000968
+    },
+    "OST_FabricationContainmentDrop": {
+        "label": "Опуск",
+        "id": -2008219
+    },
+    "OST_ConduitFitting": {
+        "label": "Соединительные детали коробов",
+        "id": -2008128
+    },
+    "OST_LayoutPathBase_Pipings": {
+        "label": "Базы траектории компоновки - Трубопроводы",
+        "id": -2008192
+    },
+    "OST_DuctSystem": {
+        "label": "Системы воздуховодов",
+        "id": -2008015
+    },
+    "OST_RampsHiddenLines": {
+        "label": "<Невидимые линии>",
+        "id": -2009509
+    },
+    "OST_GridHeads": {
+        "label": "Обозначения осей",
+        "id": -2006040
+    },
+    "OST_CableTrayCenterLine": {
+        "label": "Осевая линия",
+        "id": -2008136
+    },
+    "OST_RoadsHiddenLines": {
+        "label": "<Невидимые линии>",
+        "id": -2009523
+    },
+    "OST_StructConnectionNobleWarning": {
+        "label": "Соединения несущих конструкций",
+        "id": -2009043
+    },
+    "OST_SpotCoordinateSymbols": {
+        "label": "N/A",
+        "id": -2005101
+    },
+    "OST_SpecialityEquipment": {
+        "label": "Специальное оборудование",
+        "id": -2001350
+    },
+    "OST_RigidLinksAnalytical": {
+        "label": "Жесткие связи",
+        "id": -2009644
+    },
+    "OST_FloorsDefault": {
+        "label": "Общие ребра",
+        "id": -2000606
+    },
+    "OST_AppearanceAsset": {
+        "label": "N/A",
+        "id": -2000923
+    },
+    "OST_AreaSchemeLines": {
+        "label": "<Граница зон>",
+        "id": -2000079
+    },
+    "OST_RoofsInsulation": {
+        "label": "Термическая/воздушная прослойка [3]",
+        "id": -2000592
+    },
+    "OST_TitleBlockWideLines": {
+        "label": "<Утолщенные линии>",
+        "id": -2000283
+    },
+    "OST_FireProtectionHiddenLines": {
+        "label": "<Невидимые линии>",
+        "id": -2001050
+    },
+    "OST_BridgeFoundationHiddenLines2021_Deprecated": {
+        "label": "<Невидимые линии>",
+        "id": -2006156
+    },
+    "OST_MinorStations_Deprecated": {
+        "label": "N/A",
+        "id": -2001014
+    },
+    "OST_MatchProfile": {
+        "label": "N/A",
+        "id": -2000006
+    },
+    "OST_MechanicalEquipmentSetTags": {
+        "label": "Марки набора оборудования",
+        "id": -2000986
+    },
+    "OST_MEPSystemZoneReferenceLinesVisibility": {
+        "label": "N/A",
+        "id": -2001006
+    },
+    "OST_WireTags": {
+        "label": "Марки проводов",
+        "id": -2008057
+    },
+    "OST_DuctSystem_Reference_Visibility": {
+        "label": "Опорные линии",
+        "id": -2008157
+    },
+    "OST_StructConnectionHoles": {
+        "label": "Отверстия",
+        "id": -2009045
+    },
+    "OST_MEPSpaceInteriorFill": {
+        "label": "Внутренний",
+        "id": -2003603
+    },
+    "OST_IOSRoomTagToRoomLines": {
+        "label": "Внутренние стили объектов",
+        "id": -2000098
+    },
+    "OST_XRayPathPoint": {
+        "label": "Режим просвечивания - Точка траектории",
+        "id": -2000718
+    },
+    "OST_gbXML_Roof": {
+        "label": "Крыши",
+        "id": -2008168
+    },
+    "OST_RoofsProjection": {
+        "label": "N/A",
+        "id": -2000037
+    },
+    "OST_Coupler": {
+        "label": "Соединители несущей арматуры",
+        "id": -2009060
+    },
+    "OST_RvtLinks": {
+        "label": "Связанные файлы",
+        "id": -2001352
+    },
+    "OST_LinkBasePoint": {
+        "label": "Привязать базовую точку",
+        "id": -2001276
+    },
+    "OST_AnalyticalMemberCrossSection": {
+        "label": "Поперечный разрез",
+        "id": -2001075
+    },
+    "OST_FabricReinforcementTags": {
+        "label": "Марки арматурной сетки несущей конструкции",
+        "id": -2009022
+    },
+    "OST_TrussTags": {
+        "label": "Марки фермы",
+        "id": -2005030
+    },
+    "OST_Cameras": {
+        "label": "Камеры",
+        "id": -2000500
+    },
+    "OST_FloorsCut": {
+        "label": "N/A",
+        "id": -2000033
+    },
+    "OST_PlumbingFixturesHiddenLines": {
+        "label": "<Невидимые линии>",
+        "id": -2009521
+    },
+    "OST_StairsUpText": {
+        "label": "Текст ВВЕРХ",
+        "id": -2000125
+    },
+    "OST_Curves": {
+        "label": "N/A",
+        "id": -2000041
+    },
+    "OST_AxisZ": {
+        "label": "Внутренние стили объектов",
+        "id": -2000533
+    },
+    "OST_DuctFittingLining": {
+        "label": "Внутренняя изоляция",
+        "id": -2008068
+    },
+    "OST_RailingTopRail": {
+        "label": "Верхние поручни",
+        "id": -2000946
+    },
+    "OST_AxisY": {
+        "label": "Внутренние стили объектов",
+        "id": -2000532
+    },
+    "OST_HiddenStructuralColumnLines": {
+        "label": "<Невидимые линии>",
+        "id": -2001334
+    },
+    "OST_AxisX": {
+        "label": "Внутренние стили объектов",
+        "id": -2000531
+    },
+    "OST_MassFloor_Obsolete_IdInWrongRange": {
+        "label": "N/A",
+        "id": -20034003
+    },
+    "OST_Topography": {
+        "label": "Топография",
+        "id": -2001340
+    },
+    "OST_FoundationSlabAnalytical": {
+        "label": "Аналитические модели фундаментных плит",
+        "id": -2009643
+    },
+    "OST_gbXML_InteriorWall": {
+        "label": "Внутренние стены",
+        "id": -2008171
+    },
+    "OST_StairsSketchRunLines": {
+        "label": "<Эскиз лестницы/пандуса: Марш>",
+        "id": -2000069
+    },
+    "OST_InsulationLines": {
+        "label": "<Линии мягкой изоляции>",
+        "id": -2000077
+    },
+    "OST_FoodServiceEquipmentHiddenLines": {
+        "label": "<Невидимые линии>",
+        "id": -2001044
+    },
+    "OST_SectionBox": {
+        "label": "Границы 3D вида",
+        "id": -2000301
+    },
+    "OST_PlumbingEquipmentTags": {
+        "label": "Марки сантехнического оборудования",
+        "id": -2008235
+    },
+    "OST_FloorsInteriorEdges": {
+        "label": "Линии сгиба",
+        "id": -2000609
+    },
+    "OST_StairsRailingTags": {
+        "label": "Марки ограждения",
+        "id": -2000133
+    },
+    "OST_Fascia": {
+        "label": "Лобовые доски",
+        "id": -2001390
+    },
+    "OST_CropBoundarySpecial": {
+        "label": "Границы обрезки",
+        "id": -2000548
+    },
+    "OST_TemporaryStructureHiddenLines": {
+        "label": "<Невидимые линии>",
+        "id": -2001041
+    },
+    "OST_IOSSlabShapeEditorPointInterior": {
+        "label": "Редактор формы перекрытия - Точки внутри",
+        "id": -2000088
+    },
+    "OST_PierCapTags": {
+        "label": "Марки оголовков опор",
+        "id": -2006220
+    },
+    "OST_TitleBlockMediumLines": {
+        "label": "<Обычные линии>",
+        "id": -2000282
+    },
+    "OST_HiddenStructuralFramingLines": {
+        "label": "<Невидимые линии>",
+        "id": -2001329
+    },
+    "OST_AreaTags": {
+        "label": "Марки зон",
+        "id": -2005020
+    },
+    "OST_IOSTilePatternGrid": {
+        "label": "Сетки образцов плитки",
+        "id": -2000800
+    },
+    "OST_LoadCasesTemperature": {
+        "label": "Температурные нагрузки",
+        "id": -2005217
+    },
+    "OST_FlexPipeCurvesCenterLine": {
+        "label": "Осевая линия",
+        "id": -2008051
+    },
+    "OST_FloorAnalyticalTags": {
+        "label": "Марки аналитической модели перекрытия",
+        "id": -2009652
+    },
+    "OST_Reveals": {
+        "label": "Врезанные профили",
+        "id": -2000182
+    },
+    "OST_WindowsHiddenLines": {
+        "label": "<Невидимые линии>",
+        "id": -2009500
+    },
+    "OST_StairsSketchPathLines": {
+        "label": "<Эскиз лестницы/пандуса: траектория лестницы>",
+        "id": -2000945
+    },
+    "OST_AnalyticSurfaces": {
+        "label": "Аналитические поверхности",
+        "id": -2008186
+    },
+    "OST_VibrationDampers": {
+        "label": "Демпферы вибрации",
+        "id": -2006263
+    },
+    "OST_HostFinWall": {
+        "label": "N/A",
+        "id": -2000314
+    },
+    "OST_DuctTerminalTags": {
+        "label": "Марки воздухораспределителей",
+        "id": -2008014
+    },
+    "OST_ModelText": {
+        "label": "N/A",
+        "id": -2000195
+    },
+    "OST_WallRefPlanes_Obsolete_IdInWrongRange": {
+        "label": "N/A",
+        "id": -20000896
+    },
+    "OST_WindowsFrameMullionProjection": {
+        "label": "Каркас/Импост",
+        "id": -2000018
+    },
+    "OST_ElectricalLoadClassifications": {
+        "label": "Классификации нагрузок в электросетях",
+        "id": -2008143
+    },
+    "OST_Phases": {
+        "label": "Стадии",
+        "id": -2000112
+    },
+    "OST_MEPLoadAreaInteriorFillVisibility": {
+        "label": "Внутренний",
+        "id": -2001030
+    },
+    "OST_Coordination_Model": {
+        "label": "Координационная модель",
+        "id": -2000982
+    },
+    "OST_IOS_GeoSite": {
+        "label": "Данные о расположении",
+        "id": -2000111
+    },
+    "OST_EAConstructions": {
+        "label": "Конструкции",
+        "id": -2008102
+    },
+    "OST_SitePointBoundary": {
+        "label": "Точка границы",
+        "id": -2001266
+    },
+    "OST_StairsTrisers": {
+        "label": "Проступи/подступенки",
+        "id": -2000921
+    },
+    "OST_RenderRegions": {
+        "label": "Визуализировать области",
+        "id": -2000302
+    },
+    "OST_Gutter": {
+        "label": "Желоба",
+        "id": -2001391
+    },
+    "OST_StairsLandings": {
+        "label": "Площадки",
+        "id": -2000920
+    },
+    "OST_BridgeFoundationTags": {
+        "label": "Марки фундаментов опор",
+        "id": -2006176
+    },
+    "OST_BasePointAxisX": {
+        "label": "<Линии>",
+        "id": -2001273
+    },
+    "OST_StructConnectionProfilesTags": {
+        "label": "Марки профиля",
+        "id": -2009064
+    },
+    "OST_ColumnAnalyticalGeometry": {
+        "label": "Аналитическая модель",
+        "id": -2001332
+    },
+    "OST_LoadCasesSeismic": {
+        "label": "Сейсмические нагрузки",
+        "id": -2005218
+    },
+    "OST_RailingSystemSegmentHiddenLines_Deprecated": {
+        "label": "N/A",
+        "id": -2009539
+    },
+    "OST_MassForm": {
+        "label": "Форма",
+        "id": -2003404
+    },
+    "OST_MEPAnalyticalWaterLoop": {
+        "label": "Водяные контуры",
+        "id": -2001009
+    },
+    "OST_AssemblyOrigin_Points": {
+        "label": "Точки",
+        "id": -2009659
+    },
+    "OST_PipeSegments": {
+        "label": "Сегменты труб",
+        "id": -2008163
+    },
+    "OST_CurtaSystemHiddenLines": {
+        "label": "<Невидимые линии>",
+        "id": -2009531
+    },
+    "OST_CoordinateSystem": {
+        "label": "Внутреннее начало",
+        "id": -2000977
+    },
+    "OST_RampsUpArrow": {
+        "label": "Стрелка вверх",
+        "id": -2003307
+    },
+    "OST_SectionHeads": {
+        "label": "Марки разрезов",
+        "id": -2000400
+    },
+    "OST_Sections": {
+        "label": "Разрезы",
+        "id": -2000200
+    },
+    "OST_MassingCutOutlines": {
+        "label": "N/A",
+        "id": -2000186
+    },
+    "OST_Massing": {
+        "label": "Формообразующий элемент",
+        "id": -2000185
+    },
+    "OST_MajorStations_Deprecated": {
+        "label": "N/A",
+        "id": -2001013
+    },
+    "OST_Rooms": {
+        "label": "Помещения",
+        "id": -2000160
+    },
+    "OST_CableTrayFitting": {
+        "label": "Соединительные детали кабельных лотков",
+        "id": -2008126
+    },
+    "OST_Loads": {
+        "label": "Нагрузки на конструкцию",
+        "id": -2005200
+    },
+    "OST_WireInsulations": {
+        "label": "Материалы изоляции проводов",
+        "id": -2008112
+    },
+    "OST_GraphicalWarning_OpenConnector": {
+        "label": "Данный элемент имеет открытый соединитель",
+        "id": -2008162
+    },
+    "OST_RailingSystemTransitionHiddenLines_Deprecated": {
+        "label": "N/A",
+        "id": -2009549
+    },
+    "OST_RebarLines": {
+        "label": "Арматура по умолчанию",
+        "id": -2009002
+    },
+    "OST_CurtaSystemTags": {
+        "label": "Марки витражных систем",
+        "id": -2005025
+    },
+    "OST_FabricationContainmentTags": {
+        "label": "Марки кабеленесущей системы базы данных производителя",
+        "id": -2008213
+    },
+    "OST_PlumbingFixtureTags": {
+        "label": "Марки сантехнических приборов",
+        "id": -2005010
+    },
+    "OST_WallsAnalyticalGeometry": {
+        "label": "Аналитическая модель",
+        "id": -2000545
+    },
+    "OST_ElectricalAnalyticalTransformer": {
+        "label": "Аналитический трансформатор электрооборудования",
+        "id": -2001077
+    },
+    "OST_AnalysisResults": {
+        "label": "Результаты расчета",
+        "id": -2000303
+    },
+    "OST_AreaReference": {
+        "label": "Объект",
+        "id": -2000169
+    },
+    "OST_IOSArrays": {
+        "label": "Массив",
+        "id": -2000091
+    },
+    "OST_ReferenceViewer": {
+        "label": "Ссылка на вид",
+        "id": -2000198
+    },
+    "OST_Columns": {
+        "label": "Колонны",
+        "id": -2000100
+    },
+    "OST_AdaptivePoints_Points": {
+        "label": "Точки",
+        "id": -2000901
+    },
+    "OST_BridgeCableHiddenLines2021_Deprecated": {
+        "label": "<Невидимые линии>",
+        "id": -2006153
+    },
+    "OST_Viewports": {
+        "label": "Видовые экраны",
+        "id": -2000510
+    },
+    "OST_StructuralTrussStickSymbols": {
+        "label": "Стикеры с обозначениями",
+        "id": -2009608
+    },
+    "OST_FootingAnalyticalGeometry": {
+        "label": "Аналитическая модель",
+        "id": -2001353
+    },
+    "OST_PathReinTags": {
+        "label": "Марки армирования по траектории несущих конструкций",
+        "id": -2009011
+    },
+    "OST_PlumbingFixtures": {
+        "label": "Сантехнические приборы",
+        "id": -2001160
+    },
+    "OST_StairStringer2012HiddenLines_Deprecated": {
+        "label": "N/A",
+        "id": -2009537
+    },
+    "OST_MassOpening": {
+        "label": "Формообразующий проем",
+        "id": -2003417
+    },
+    "OST_DividedSurface_PatternLines": {
+        "label": "Линии образца",
+        "id": -2003326
+    },
+    "OST_SwitchSystem": {
+        "label": "Система коммутации",
+        "id": -2008101
+    },
+    "OST_SunPath1": {
+        "label": "Траектория1",
+        "id": -2009611
+    },
+    "OST_RampsDownArrow": {
+        "label": "Стрелка вниз",
+        "id": -2003308
+    },
+    "OST_Furniture": {
+        "label": "Мебель",
+        "id": -2000080
+    },
+    "OST_MassFloor": {
+        "label": "Формообразующий элемент-перекрытие",
+        "id": -2003403
+    },
+    "OST_StructuralTrussHiddenLines": {
+        "label": "N/A",
+        "id": -2009607
+    },
+    "OST_PlantingHiddenLines": {
+        "label": "<Невидимые линии>",
+        "id": -2009528
+    },
+    "OST_FoundationSlabAnalyticalTags": {
+        "label": "Марки аналитической модели фундаментной плиты",
+        "id": -2009656
+    },
+    "OST_StairsHiddenLines": {
+        "label": "<Невидимые линии>",
+        "id": -2009507
+    },
+    "OST_CableTrayRun": {
+        "label": "Участки кабельного лотка",
+        "id": -2008150
+    },
+    "OST_RouteCurve": {
+        "label": "Кривая трассировки",
+        "id": -2008096
+    },
+    "OST_AnalyticalOpening": {
+        "label": "Аналитические проемы",
+        "id": -2009665
+    },
+    "OST_StructuralTendonTags": {
+        "label": "Марки арматурных пучков несущих конструкций",
+        "id": -2006276
+    },
+    "OST_SunsetText": {
+        "label": "Текст для солнца",
+        "id": -2009617
+    },
+    "OST_BridgeArches": {
+        "label": "Арки",
+        "id": -2006134
+    },
+    "OST_RailingSystemTermination": {
+        "label": "N/A",
+        "id": -2000915
+    },
+    "OST_FabricationPipeworkDrop": {
+        "label": "Опуск",
+        "id": -2008217
+    },
+    "OST_FloorsSubstrate": {
+        "label": "Основа [2]",
+        "id": -2000603
+    },
+    "OST_PierColumns": {
+        "label": "Стойки опор",
+        "id": -2006221
+    },
+    "OST_Railings": {
+        "label": "N/A",
+        "id": -2000175
+    },
+    "OST_BridgePierTags": {
+        "label": "Марки опор",
+        "id": -2006171
+    },
+    "OST_BridgeCableTags": {
+        "label": "Марки вантов моста",
+        "id": -2006173
+    },
+    "OST_ElectricalEquipmentHiddenLines": {
+        "label": "<Невидимые линии>",
+        "id": -2009516
+    },
+    "OST_HVAC_Zones": {
+        "label": "Зоны ОВК",
+        "id": -2008107
+    },
+    "OST_DuctSystem_Reference": {
+        "label": "Опорные линии",
+        "id": -2008156
+    },
+    "OST_BridgeAbutmentTags": {
+        "label": "Марки устоев",
+        "id": -2006170
+    },
+    "OST_DividedSurface_Gridlines": {
+        "label": "Линии сетки",
+        "id": -2003325
+    },
+    "OST_Fluids": {
+        "label": "Жидкости",
+        "id": -2008106
+    },
+    "OST_GbXML_SType_Interior": {
+        "label": "Внутри",
+        "id": -2008091
+    },
+    "OST_StructConnectionPlates": {
+        "label": "Пластины",
+        "id": -2009038
+    },
+    "OST_DSR_LeaderTickMarkStyleId": {
+        "label": "N/A",
+        "id": -2000969
+    },
+    "OST_InvisibleLines": {
+        "label": "<Невидимые линии>",
+        "id": -2000064
+    },
+    "OST_Windows": {
+        "label": "Окна",
+        "id": -2000014
+    },
+    "OST_HVAC_Zones_InteriorFill": {
+        "label": "Заливка внутренней области",
+        "id": -2008109
+    },
+    "OST_PipeColorFillLegends": {
+        "label": "Легенды цветовых обозначений трубопроводов",
+        "id": -2008058
+    },
+    "OST_CeilingTags": {
+        "label": "Марки потолков",
+        "id": -2005002
+    },
+    "OST_WallsCutPattern": {
+        "label": "Штриховка в сечении",
+        "id": -2000588
+    },
+    "OST_HardscapeTags": {
+        "label": "Марки искусственного ландшафта",
+        "id": -2001038
+    },
+    "OST_TextNotes": {
+        "label": "Текстовые примечания",
+        "id": -2000300
+    },
+    "OST_MassFaceSplitter": {
+        "label": "Разделитель грани по умолчанию",
+        "id": -2003408
+    },
+    "OST_IOSSketchGrid": {
+        "label": "Сетка рабочей плоскости",
+        "id": -2000055
+    },
+    "OST_SpecialityEquipmentHiddenLines": {
+        "label": "<Невидимые линии>",
+        "id": -2009527
+    },
+    "OST_PlumbingEquipmentHiddenLines": {
+        "label": "<Невидимые линии>",
+        "id": -2009551
+    },
+    "OST_RailingSystemHandRail": {
+        "label": "N/A",
+        "id": -2000911
+    },
+    "OST_ParkingTags": {
+        "label": "Марки парковки",
+        "id": -2005017
+    },
+    "OST_PanelScheduleGraphics": {
+        "label": "Графика принципиальной схемы щита/панели",
+        "id": -2008151
+    },
+    "OST_StructuralColumns": {
+        "label": "Несущие колонны",
+        "id": -2001330
+    },
+    "OST_RoutingPreferences": {
+        "label": "Настройки трассировки",
+        "id": -2008125
+    },
+    "OST_HVAC_Zones_Reference": {
+        "label": "Опорные линии",
+        "id": -2008110
+    },
+    "OST_ElectricalFixtures": {
+        "label": "Электрические приборы",
+        "id": -2001060
+    },
+    "OST_ShaftOpening": {
+        "label": "Проемы для шахты",
+        "id": -2000996
+    },
+    "OST_HiddenLines": {
+        "label": "<Скрыто>",
+        "id": -2000286
+    },
+    "OST_IOSOpening": {
+        "label": "Вырез под проем",
+        "id": -2000810
+    },
+    "OST_GenericAnnotation": {
+        "label": "Типовые аннотации",
+        "id": -2000150
+    },
+    "OST_Blocks": {
+        "label": "Блоки",
+        "id": -2001359
+    },
+    "OST_ToposolidLink": {
+        "label": "Связи топотел",
+        "id": -2001097
+    },
+    "OST_StructuralColumnLocationLine": {
+        "label": "Линии расположения",
+        "id": -2001357
+    },
+    "OST_ControlAxisX": {
+        "label": "Внутренние стили объектов",
+        "id": -2000721
+    },
+    "OST_StairsRailingRail": {
+        "label": "Поручни",
+        "id": -2000128
+    },
+    "OST_WallsSurfacePattern": {
+        "label": "Штриховка поверхностей",
+        "id": -2000540
+    },
+    "OST_DuctCurvesCenterLine": {
+        "label": "Осевая линия",
+        "id": -2008001
+    },
+    "OST_BasePointAxisY": {
+        "label": "<Линии>",
+        "id": -2001274
+    },
+    "OST_FabricationDuctworkTags": {
+        "label": "Марки воздуховодов из базы данных производителя MEP",
+        "id": -2008194
+    },
+    "OST_SiteTags": {
+        "label": "Марки генплана",
+        "id": -2005016
+    },
+    "OST_SpotCoordinates": {
+        "label": "Координаты точек",
+        "id": -2000264
+    },
+    "OST_DuctTerminal": {
+        "label": "Воздухораспределители",
+        "id": -2008013
+    },
+    "OST_AlwaysExcludedInAllViews": {
+        "label": "Всегда исключать на всех видах",
+        "id": -2003330
+    },
+    "OST_BeamAnalyticalTags": {
+        "label": "Марки аналитической модели балки",
+        "id": -2009649
+    },
+    "OST_ElevationMarks": {
+        "label": "Марки отметок",
+        "id": -2006045
+    },
+    "OST_CableTray": {
+        "label": "Кабельные лотки",
+        "id": -2008130
+    },
+    "OST_ReferencePoints_Lines": {
+        "label": "Линии",
+        "id": -2000713
+    },
+    "OST_VerticalCirculation": {
+        "label": "Вертикальная циркуляция",
+        "id": -2001052
+    },
+    "OST_WeakDims": {
+        "label": "Автонанесение размеров в эскизе",
+        "id": -2000261
+    },
+    "OST_StructConnectionHiddenLines": {
+        "label": "<Невидимые линии>",
+        "id": -2009032
+    },
+    "OST_IOS": {
+        "label": "Внутренние стили объектов",
+        "id": -2000059
+    },
+    "OST_StructConnectionShearStudTags": {
+        "label": "Марки гибких упоров",
+        "id": -2009058
+    },
+    "OST_ToposolidInsulation": {
+        "label": "Термическая/воздушная прослойка [3]",
+        "id": -2001093
+    },
+    "OST_NurseCallDevices": {
+        "label": "Устройства вызова и оповещения",
+        "id": -2008077
+    },
+    "OST_StairsSupportsAboveCut": {
+        "label": "<Сверху> - Опоры",
+        "id": -2000124
+    },
+    "OST_ConduitStandards": {
+        "label": "Стандарты для коробов",
+        "id": -2008144
+    },
+    "OST_Alignments": {
+        "label": "Трассы",
+        "id": -2001012
+    },
+    "OST_PlaceHolderDucts": {
+        "label": "Воздуховоды по осевой",
+        "id": -2008160
+    },
+    "OST_DesignOptions": {
+        "label": "Варианты конструкции",
+        "id": -2006114
+    },
+    "OST_Parts": {
+        "label": "Части",
+        "id": -2000269
+    },
+    "OST_LoadCasesSnow": {
+        "label": "Снеговые нагрузки",
+        "id": -2005214
+    },
+    "OST_DesignOptionSets": {
+        "label": "Наборы вариантов конструкции",
+        "id": -2006112
+    },
+    "OST_TopographyHiddenLines": {
+        "label": "<Невидимые линии>",
+        "id": -2009526
+    },
+    "OST_Schedules": {
+        "label": "Спецификации",
+        "id": -2000573
+    },
+    "OST_FabricReinforcement": {
+        "label": "Арматурная сетка несущей конструкции",
+        "id": -2009016
+    },
+    "OST_RoofsFinish2": {
+        "label": "Отделка 2 [5]",
+        "id": -2000595
+    },
+    "OST_WireTemperatureRatings": {
+        "label": "Номиналы температуры для проводов",
+        "id": -2008113
+    },
+    "OST_Areas": {
+        "label": "Зоны",
+        "id": -2003200
+    },
+    "OST_IOSMeasureLineScreenSize": {
+        "label": "Внутренние стили объектов",
+        "id": -2000101
+    },
+    "OST_AreaReinBoundary": {
+        "label": "Граница",
+        "id": -2009006
+    },
+    "OST_ColumnTags": {
+        "label": "Марки колонн",
+        "id": -2001063
+    },
+    "OST_StructConnectionModifiers": {
+        "label": "Модификаторы",
+        "id": -2009047
+    },
+    "OST_StructuralFramingLocationLine": {
+        "label": "Линии расположения",
+        "id": -2001356
+    },
+    "OST_IsolatedFoundationAnalytical": {
+        "label": "Аналитические модели изолированных фундаментов",
+        "id": -2009641
+    },
+    "OST_StairStringer2012_Deprecated": {
+        "label": "N/A",
+        "id": -2000922
+    },
+    "OST_RailingSystemHardware": {
+        "label": "Оборудование",
+        "id": -2000910
+    },
+    "OST_AnalyticalPanel": {
+        "label": "Аналитические панели",
+        "id": -2009664
+    },
+    "OST_BeamStartSegment": {
+        "label": "Начало сегмента",
+        "id": -2009631
+    },
+    "OST_FasciaTags": {
+        "label": "Марки лобовых досок",
+        "id": -2001062
+    },
+    "OST_WallLocalCoordSys": {
+        "label": "Локальная система координат",
+        "id": -2000974
+    },
+    "OST_RailingBalusterRail": {
+        "label": "N/A",
+        "id": -2000176
+    },
+    "OST_DividedSurface": {
+        "label": "Разделенная поверхность",
+        "id": -2003323
+    },
+    "OST_AreaReport_Arc_Plus": {
+        "label": "Расчет площадей помещений/зон",
+        "id": -2000327
+    },
+    "OST_DecalElement": {
+        "label": "N/A",
+        "id": -2006001
+    },
+    "OST_CurtainGridsCurtaSystem": {
+        "label": "Схемы разрезки витражных систем",
+        "id": -2000323
+    },
+    "OST_MechanicalControlDevicesHiddenLines": {
+        "label": "<Невидимые линии>",
+        "id": -2009550
+    },
+    "OST_SprinklerTags": {
+        "label": "Марки спринклеров",
+        "id": -2008100
+    },
+    "OST_BridgePierHiddenLines": {
+        "label": "<Невидимые линии>",
+        "id": -2006151
+    },
+    "OST_FabricReinforcementWire": {
+        "label": "Проволочная арматура",
+        "id": -2009027
+    },
+    "OST_AnalyticSpaces": {
+        "label": "Аналитические пространства",
+        "id": -2008185
+    },
+    "OST_WallFoundationAnalytical": {
+        "label": "Аналитические модели ленточных фундаментов",
+        "id": -2009642
+    },
+    "OST_DividedSurface_PatternFill": {
+        "label": "Заполнение образца",
+        "id": -2003327
+    },
+    "OST_DuctColorFills": {
+        "label": "Цветовое обозначение воздуховода",
+        "id": -2008005
+    },
+    "OST_SignageTags": {
+        "label": "Марки для знаков",
+        "id": -2001061
+    },
+    "OST_ToposolidContours": {
+        "label": "Осн. горизонтали",
+        "id": -2001081
+    },
+    "OST_InternalPointLoads": {
+        "label": "Внутренние сосредоточенные нагрузки",
+        "id": -2005205
+    },
+    "OST_IOSNavWheelPivotBall": {
+        "label": "Внутренние стили объектов",
+        "id": -2000117
+    },
+    "OST_FloorOpening": {
+        "label": "Вырезание проема в перекрытии",
+        "id": -2000898
+    },
+    "OST_WallCoreLayer": {
+        "label": "N/A",
+        "id": -2001035
+    },
+    "OST_StructuralTendons": {
+        "label": "Арматурные пучки несущих конструкций",
+        "id": -2006274
+    },
+    "OST_StructConnectionOthers": {
+        "label": "Другие",
+        "id": -2009042
+    },
+    "OST_MassingProjectionOutlines": {
+        "label": "N/A",
+        "id": -2000187
+    },
+    "OST_BridgeDecks": {
+        "label": "Мостовое полотно",
+        "id": -2006135
+    },
+    "OST_PlaceHolderPipes": {
+        "label": "Трубопровод по осевой",
+        "id": -2008161
+    },
+    "OST_Stair2012_Deprecated": {
+        "label": "N/A",
+        "id": -2000918
+    },
+    "OST_PartTags": {
+        "label": "Марки деталей",
+        "id": -2000270
+    },
+    "OST_StructConnectionBolts": {
+        "label": "Болты",
+        "id": -2009041
+    },
+    "OST_AbutmentFoundationTags": {
+        "label": "Марки фундамента устоев",
+        "id": -2006208
+    },
+    "OST_PipingSystem": {
+        "label": "Трубопроводные системы",
+        "id": -2008043
+    },
+    "OST_ConnectorElem": {
+        "label": "Соединительный элемент",
+        "id": -2007000
+    },
+    "OST_XRayPathCurve": {
+        "label": "Режим просвечивания - Криволинейная траектория",
+        "id": -2000717
+    },
+    "OST_FlexDuctCurvesPattern": {
+        "label": "Конфигурация",
+        "id": -2008023
+    },
+    "OST_StructuralFoundation": {
+        "label": "Фундамент несущей конструкции",
+        "id": -2001300
+    },
+    "OST_EntourageTags": {
+        "label": "Марки элементов антуража",
+        "id": -2001064
+    },
+    "OST_ToposolidCutPattern": {
+        "label": "Штриховка в сечении",
+        "id": -2001086
+    },
+    "OST_IOSNotSilhouette": {
+        "label": "<Не силуэт>",
+        "id": -2000082
+    },
+    "OST_FoodServiceEquipment": {
+        "label": "Оборудование для предприятий общественного питания",
+        "id": -2001043
+    },
+    "OST_ContourLabels": {
+        "label": "Метки на горизонталях",
+        "id": -2000350
+    },
+    "OST_Ramps": {
+        "label": "Пандус",
+        "id": -2000180
+    },
+    "OST_ColumnEndSegment": {
+        "label": "Верхний сегмент",
+        "id": -2009638
+    },
+    "OST_BridgeCables": {
+        "label": "Ванты моста",
+        "id": -2006133
+    },
+    "OST_MassExteriorWallUnderground": {
+        "label": "Формообразующая наружная стена - Подземная",
+        "id": -2003420
+    },
+    "OST_SpotElevations": {
+        "label": "Высотные отметки",
+        "id": -2000263
+    },
+    "OST_Joist": {
+        "label": "Второстепенная балка 1-го уровня",
+        "id": -2001323
+    },
+    "OST_IOSThinPixel": {
+        "label": "Тонкий пиксел",
+        "id": -2000057
+    },
+    "OST_DisplacementElements": {
+        "label": "Набор смещения",
+        "id": -2000222
+    },
+    "OST_FabricAreaBoundary": {
+        "label": "Граница",
+        "id": -2009029
+    },
+    "OST_WallsInsulation": {
+        "label": "Термическая/воздушная прослойка [3]",
+        "id": -2000582
+    },
+    "OST_BridgeGirderTags": {
+        "label": "Марки ферм моста",
+        "id": -2006177
+    },
+    "OST_HorizontalBracing": {
+        "label": "Горизонтальный раскос",
+        "id": -2001325
+    },
+    "OST_Cage": {
+        "label": "Арматурные каркасы несущих конструкций",
+        "id": -2009008
+    },
+    "OST_ShaftOpeningHiddenLines": {
+        "label": "<Невидимые линии>",
+        "id": -2009513
+    },
+    "OST_IOSWallCoreBoundary": {
+        "label": "Внутренние стили объектов",
+        "id": -2000093
+    },
+    "OST_DivisionRules": {
+        "label": "Правила разделения",
+        "id": -2008190
+    },
+    "OST_EditCutProfile": {
+        "label": "Профиль сечения",
+        "id": -2006050
+    },
+    "OST_DSR_ArrowHeadStyleId": {
+        "label": "N/A",
+        "id": -2000967
+    },
+    "OST_CurtainGridsRoof": {
+        "label": "Схемы разрезки крыш",
+        "id": -2000320
+    },
+    "OST_FloorsInsulation": {
+        "label": "Термическая/воздушная прослойка [3]",
+        "id": -2000602
+    },
+    "OST_StairsSketchRiserLines": {
+        "label": "<Эскиз лестницы/пандуса: Подступенок>",
+        "id": -2000068
+    },
+    "OST_CutOutlines": {
+        "label": "N/A",
+        "id": -2000058
+    },
+    "OST_Lines": {
+        "label": "Линии",
+        "id": -2000051
+    },
+    "OST_FloorsAnalyticalGeometry": {
+        "label": "Аналитическая модель",
+        "id": -2000546
+    },
+    "OST_FabricationHangerTags": {
+        "label": "Марки подвески из базы данных производителя MEP",
+        "id": -2008204
+    },
+    "OST_StairsTags": {
+        "label": "Марки лестниц",
+        "id": -2005023
+    },
+    "OST_StructuralStiffenerHiddenLines": {
+        "label": "<Невидимые линии>",
+        "id": -2001358
+    },
+    "OST_StairsRailingAboveCut": {
+        "label": "<Сверху> - Линия разреза ограждения",
+        "id": -2000132
+    },
+    "OST_StairsRailing": {
+        "label": "Ограждение",
+        "id": -2000126
+    },
+    "OST_RailingSystemSegment": {
+        "label": "Сегменты",
+        "id": -2000906
+    },
+    "OST_PipeCurves": {
+        "label": "Трубы",
+        "id": -2008044
+    },
+    "OST_NumberingSchemas": {
+        "label": "N/A",
+        "id": -2008191
+    },
+    "OST_WallsDefault": {
+        "label": "Общие ребра",
+        "id": -2000586
+    },
+    "OST_ImportObjectStyles": {
+        "label": "Импорт в семействах",
+        "id": -2000196
+    },
+    "OST_StructConnectionPlateTags": {
+        "label": "Марки пластин",
+        "id": -2009055
+    },
+    "OST_PipeCurvesRiseDrop": {
+        "label": "Подъем",
+        "id": -2008054
+    },
+    "OST_Viewers": {
+        "label": "Виды",
+        "id": -2000278
+    },
+    "OST_SitePropertyLineSegmentTags": {
+        "label": "Марки сегментов границы участка",
+        "id": -2001269
+    },
+    "OST_PipeMaterials": {
+        "label": "Материалы труб",
+        "id": -2008104
+    },
+    "OST_StairsAboveCut_ToBeDeprecated": {
+        "label": "N/A",
+        "id": -2000122
+    },
+    "OST_RampsIncomplete": {
+        "label": "N/A",
+        "id": -2003301
+    },
+    "OST_StairsRunTags": {
+        "label": "Марки лестничного марша",
+        "id": -2000940
+    },
+    "OST_WallSweepTags": {
+        "label": "Марки выступающих профилей",
+        "id": -2001072
+    },
+    "OST_DividedSurfaceBelt": {
+        "label": "Внутренние стили объектов",
+        "id": -2003332
+    },
+    "OST_Grids": {
+        "label": "Оси",
+        "id": -2000220
+    },
+    "OST_FabricationDuctworkLining": {
+        "label": "Внутренняя изоляция",
+        "id": -2008220
+    },
+    "OST_GridChains": {
+        "label": "Многосегментная сетка",
+        "id": -2000221
+    },
+    "OST_LoadCasesAccidental": {
+        "label": "Случайные нагрузки",
+        "id": -2005216
+    },
+    "OST_AnalyticalRigidLinks": {
+        "label": "Жесткие связи",
+        "id": -2001333
+    },
+    "OST_CurtainGridsSystem": {
+        "label": "Схемы разрезки витражных систем",
+        "id": -2000322
+    },
+    "OST_FloorsCutPattern": {
+        "label": "Штриховка в сечении",
+        "id": -2000608
+    },
+    "OST_AreaReinSpanSymbol": {
+        "label": "Обозначения для армирования по площади несущих конструкций",
+        "id": -2009005
+    },
+    "OST_Planting": {
+        "label": "Озеленение",
+        "id": -2001360
+    },
+    "OST_ELECTRICAL_AreaBasedLoads_Boundary": {
+        "label": "Граница",
+        "id": -2008222
+    },
+    "OST_DSR_DimStyleHeavyEndCatId": {
+        "label": "N/A",
+        "id": -2000963
+    },
+    "OST_RoofsStructure": {
+        "label": "Структура [1]",
+        "id": -2000591
+    },
+    "OST_HiddenWallLines": {
+        "label": "<Невидимые линии>",
+        "id": -2000587
+    },
+    "OST_CeilingsMembrane": {
+        "label": "Изоляционная мембрана",
+        "id": -2000610
+    },
+    "OST_FireProtection": {
+        "label": "Система противопожарной защиты",
+        "id": -2001049
+    },
+    "OST_StairsRuns": {
+        "label": "Марши",
+        "id": -2000919
+    },
+    "OST_FlexPipeCurvesInsulation": {
+        "label": "Изоляция",
+        "id": -2008071
+    },
+    "OST_HostFinTags": {
+        "label": "N/A",
+        "id": -2005024
+    },
+    "OST_ColorFillLegends": {
+        "label": "Легенды цветовых обозначений",
+        "id": -2000550
+    },
+    "OST_CurtainWallMullionsHiddenLines": {
+        "label": "<Невидимые линии>",
+        "id": -2009511
+    },
+    "OST_ColumnAnalyticalRigidLinks": {
+        "label": "Жесткие связи",
+        "id": -2001344
+    },
+    "OST_RoofsFinish1": {
+        "label": "Отделка 1 [4]",
+        "id": -2000594
+    },
+    "OST_BridgeArchHiddenLines2021_Deprecated": {
+        "label": "<Невидимые линии>",
+        "id": -2006154
+    },
+    "OST_TilePatterns": {
+        "label": "Образец",
+        "id": -2003331
+    },
+    "OST_FabricationDuctworkStiffenerTags": {
+        "label": "Марки ребер жесткости воздуховодов из базы данных производителя MEP",
+        "id": -2008229
+    },
+    "OST_MultiSurface": {
+        "label": "Нет",
+        "id": -2009620
+    },
+    "OST_Sprinklers": {
+        "label": "Спринклеры",
+        "id": -2008099
+    },
+    "OST_RailingTermination": {
+        "label": "Ограничения",
+        "id": -2000949
+    },
+    "OST_HostFinFloor": {
+        "label": "N/A",
+        "id": -2000311
+    },
+    "OST_SiteHiddenLines": {
+        "label": "<Невидимые линии>",
+        "id": -2009524
+    },
+    "OST_StairsSupportTags": {
+        "label": "Марки лестничной опоры",
+        "id": -2000942
+    },
+    "OST_RepeatingDetailLines": {
+        "label": "N/A",
+        "id": -2003321
+    },
+    "OST_DuctInsulationsTags": {
+        "label": "Марки изоляции воздуховодов",
+        "id": -2008153
+    },
+    "OST_ApproachSlabs": {
+        "label": "Примыкающие перекрытия",
+        "id": -2006205
+    },
+    "OST_BridgeAbutmentHiddenLines": {
+        "label": "<Невидимые линии>",
+        "id": -2006150
+    },
+    "OST_AdaptivePoints": {
+        "label": "Адаптивные точки",
+        "id": -2000900
+    },
+    "OST_RailingSystemHiddenLines_Deprecated": {
+        "label": "N/A",
+        "id": -2009538
+    },
+    "OST_DirectionEdgeLines": {
+        "label": "N/A",
+        "id": -2000289
+    },
+    "OST_RailingSystemPost": {
+        "label": "Стойки",
+        "id": -2000907
+    },
+    "OST_RailingSystemBalusterHiddenLines_Deprecated": {
+        "label": "N/A",
+        "id": -2009541
+    },
+    "OST_ReferencePoints_Points": {
+        "label": "Точки",
+        "id": -2000711
+    },
+    "OST_IOSSlabShapeEditorExplitCrease": {
+        "label": "Редактор формы перекрытия - Явный сгиб",
+        "id": -2000084
+    },
+    "OST_FurnitureSystemsHiddenLines": {
+        "label": "<Невидимые линии>",
+        "id": -2009518
+    },
+    "OST_IOSSuspendedSketch_obsolete": {
+        "label": "Эскиз отложен",
+        "id": -2000054
+    },
+    "OST_HardscapeHiddenLines": {
+        "label": "<Невидимые линии>",
+        "id": -2001037
+    },
+    "OST_ConnectorElemZAxis": {
+        "label": "Ось Z",
+        "id": -2007003
+    },
+    "OST_AnalyticalMemberLocalCoordSys": {
+        "label": "Локальная система координат",
+        "id": -2009666
+    },
+    "OST_RoofsCut": {
+        "label": "N/A",
+        "id": -2000036
+    },
+    "OST_StructuralStiffenerTags": {
+        "label": "Марки ребер жесткости несущей конструкции",
+        "id": -2001355
+    },
+    "OST_BraceLocalCoordSys": {
+        "label": "Локальная система координат",
+        "id": -2000973
+    },
+    "OST_PierColumnTags": {
+        "label": "Марки стоек опор",
+        "id": -2006222
+    },
+    "OST_StairsOutlinesAboveCut": {
+        "label": "<Сверху> - Контуры",
+        "id": -2000935
+    },
+    "OST_ViewportLabel": {
+        "label": "Просмотр заголовков",
+        "id": -2000515
+    },
+    "OST_IOSMeasureLine": {
+        "label": "Внутренние стили объектов",
+        "id": -2000092
+    },
+    "OST_PlumbingEquipment": {
+        "label": "Сантехническое оборудование",
+        "id": -2008234
+    },
+    "OST_FaceSplitter": {
+        "label": "Разделение грани",
+        "id": -2000192
+    },
+    "OST_FabricationPipework": {
+        "label": "Трубы из базы данных производителя MEP",
+        "id": -2008208
+    },
+    "OST_StairLanding2012HiddenLines_Deprecated": {
+        "label": "N/A",
+        "id": -2009535
+    },
+    "OST_DuctInsulations": {
+        "label": "Материалы изоляции воздуховодов",
+        "id": -2008123
+    },
+    "OST_MEPSpaceColorFill": {
+        "label": "Цветовое обозначение",
+        "id": -2003605
+    },
+    "OST_DoorsPanelProjection": {
+        "label": "Панель",
+        "id": -2000025
+    },
+    "OST_gbXML_Ceiling": {
+        "label": "Потолки",
+        "id": -2008173
+    },
+    "OST_IOSConstructionLine": {
+        "label": "N/A",
+        "id": -2000050
+    },
+    "OST_RoofsInteriorEdges": {
+        "label": "Внутренние ребра",
+        "id": -2000598
+    },
+    "OST_DemolishedLines": {
+        "label": "<Снесено>",
+        "id": -2000285
+    },
+    "OST_ToposolidFinish1": {
+        "label": "Отделка 1 [4]",
+        "id": -2001090
+    },
+    "OST_MechanicalEquipmentHiddenLines": {
+        "label": "<Невидимые линии>",
+        "id": -2009520
+    },
+    "OST_IOSSuspendedSketch": {
+        "label": "Эскиз отложен",
+        "id": -2000094
+    },
+    "OST_FabricationDuctwork": {
+        "label": "Элементы воздуховодов из базы данных производителя MEP",
+        "id": -2008193
+    },
+    "OST_BridgeFramingDiaphragms": {
+        "label": "Диафрагмы",
+        "id": -2006246
+    },
+    "OST_MedicalEquipmentHiddenLines": {
+        "label": "<Невидимые линии>",
+        "id": -2001047
+    },
+    "OST_SecurityDeviceTags": {
+        "label": "Марки охранной сигнализации",
+        "id": -2008080
+    },
+    "OST_OBSOLETE_FabricationPartsTmpGraphicDrop": {
+        "label": "Графическое отображение уменьшения количества элементов базы данных производителя",
+        "id": -2008200
+    },
+    "OST_MechanicalEquipmentSetBoundaryLines": {
+        "label": "Линии границ набора оборудования",
+        "id": -2000987
+    },
+    "OST_StructConnectionAnchors": {
+        "label": "Анкеры",
+        "id": -2009039
+    },
+    "OST_VibrationDamperTags": {
+        "label": "Марки демпфера вибрации",
+        "id": -2006264
+    },
+    "OST_IOSBackedUpElements": {
+        "label": "Резервное копирование элементов",
+        "id": -2000047
+    },
+    "OST_AnnotationCropSpecial": {
+        "label": "Граница обрезки аннотаций",
+        "id": -2000549
+    },
+    "OST_StructuralTruss": {
+        "label": "Фермы",
+        "id": -2001336
+    },
+    "OST_ToposolidSecondaryContours": {
+        "label": "Доп. горизонтали",
+        "id": -2001082
+    },
+    "OST_BridgeBearings": {
+        "label": "Несущие",
+        "id": -2006138
+    },
+    "OST_AdaptivePoints_HiddenLines": {
+        "label": "N/A",
+        "id": -2000904
+    },
+    "OST_StairsUpArrows": {
+        "label": "Стрелки вверх",
+        "id": -2000130
+    },
+    "OST_StructLocationLineControl": {
+        "label": "Внутренние стили объектов",
+        "id": -2000880
+    },
+    "OST_AnalyticalMember": {
+        "label": "Аналитические элементы",
+        "id": -2009662
+    },
+    "OST_LayoutPath_Bases": {
+        "label": "Базы траектории компоновки",
+        "id": -2008114
+    },
+    "OST_LightingDeviceTags": {
+        "label": "Марки​ выключателей",
+        "id": -2008088
+    },
+    "OST_ToposolidOpening": {
+        "label": "Вырезание проема в топотеле",
+        "id": -2001095
+    },
+    "OST_InternalLineLoadTags": {
+        "label": "Марки внутренних линейных нагрузок",
+        "id": -2005254
+    },
+    "OST_HVAC_Load_Space_Types": {
+        "label": "Параметры назначения пространства",
+        "id": -2008119
+    },
+    "OST_TrussBottomChordCurve": {
+        "label": "Нижний пояс",
+        "id": -2009604
+    },
+    "OST_MEPAnalyticalTransferSwitch": {
+        "label": "Аналитический переключатель питания электрооборудования",
+        "id": -2001023
+    },
+    "OST_Walls": {
+        "label": "Стены",
+        "id": -2000011
+    },
+    "OST_MEPSystemZoneInteriorFillVisibility": {
+        "label": "N/A",
+        "id": -2001005
+    },
+    "OST_AreaRein": {
+        "label": "Армирование по площади несущей конструкции",
+        "id": -2009003
+    },
+    "OST_AnalyticalPanelLocalCoordSys": {
+        "label": "Локальная система координат",
+        "id": -2009667
+    },
+    "OST_AbutmentFoundations": {
+        "label": "Фундамент устоев",
+        "id": -2006202
+    },
+    "OST_MEPLoadAreas": {
+        "label": "Зоны электрической нагрузки",
+        "id": -2001024
+    },
+    "OST_WallsSubstrate": {
+        "label": "Основа [2]",
+        "id": -2000583
+    },
+    "OST_IOSGhost": {
+        "label": "Тень",
+        "id": -2000071
+    },
+    "OST_ConduitFittingTags": {
+        "label": "Марки соединительных деталей коробов",
+        "id": -2008129
+    },
+    "OST_MechanicalEquipment": {
+        "label": "Оборудование",
+        "id": -2001140
+    },
+    "OST_TopographyContours": {
+        "label": "Осн. горизонтали",
+        "id": -2001342
+    },
+    "OST_DuctLiningsTags": {
+        "label": "Марки внутренней изоляции воздуховодов",
+        "id": -2008154
+    },
+    "OST_IOSThinPixel_DashDot": {
+        "label": "Тонкий пиксел - Штрихпунктирная",
+        "id": -2000063
+    },
+    "OST_DuctTags": {
+        "label": "Марки воздуховодов",
+        "id": -2008003
+    },
+    "OST_RoofOpening": {
+        "label": "Вырезание проема в крыше",
+        "id": -2000897
+    },
+    "OST_SunStudy": {
+        "label": "Траектория солнца",
+        "id": -2009609
+    },
+    "OST_StructuralFramingTags": {
+        "label": "Марки несущего каркаса",
+        "id": -2005015
+    },
+    "OST_VibrationManagementHiddenLines": {
+        "label": "<Невидимые линии>",
+        "id": -2006262
+    },
+    "OST_Rebar": {
+        "label": "Несущая арматура",
+        "id": -2009000
+    },
+    "OST_DuctCurvesInsulation": {
+        "label": "Изоляция",
+        "id": -2008063
+    },
+    "OST_AdaptivePoints_Lines": {
+        "label": "Линии",
+        "id": -2000903
+    },
+    "OST_VibrationIsolatorTags": {
+        "label": "Марки виброизоляторов",
+        "id": -2006266
+    },
+    "OST_DoorsOpeningCut": {
+        "label": "N/A",
+        "id": -2000026
+    },
+    "OST_PipeColorFills": {
+        "label": "Цветовое обозначение трубопровода",
+        "id": -2008059
+    },
+    "OST_PipeCurvesDrop": {
+        "label": "Опуск",
+        "id": -2008069
+    },
+    "OST_MEPSpaceSeparationLines": {
+        "label": "<Разделение пространств>",
+        "id": -2000831
+    },
+    "OST_ReferenceViewerSymbol": {
+        "label": "Ссылка на вид",
+        "id": -2000197
+    },
+    "OST_CeilingsCut": {
+        "label": "N/A",
+        "id": -2000039
+    },
+    "OST_MatchDetail": {
+        "label": "N/A",
+        "id": -2000005
+    },
+    "OST_StructuralFramingSystemHiddenLines_Obsolete": {
+        "label": "N/A",
+        "id": -2009525
+    },
+    "OST_DuctCurvesLining": {
+        "label": "Внутренняя изоляция",
+        "id": -2008064
+    },
+    "OST_StructuralColumnTags": {
+        "label": "Марки несущих колонн",
+        "id": -2005018
+    },
+    "OST_SunPath2": {
+        "label": "Траектория2",
+        "id": -2009612
+    },
+    "OST_SiteSurface": {
+        "label": "N/A",
+        "id": -2001261
+    },
+    "OST_CalloutLeaderLine": {
+        "label": "Линия выноски фрагмента",
+        "id": -2000544
+    },
+    "OST_CurtainGridsWall": {
+        "label": "Схемы разрезки витражей",
+        "id": -2000321
+    },
+    "OST_FndSlabLocalCoordSys": {
+        "label": "Локальная система координат",
+        "id": -2000976
+    },
+    "OST_TrussTopChordCurve": {
+        "label": "Верхний пояс",
+        "id": -2009603
+    },
+    "OST_PathRein": {
+        "label": "Армирование по траектории несущей конструкции",
+        "id": -2009009
+    },
+    "OST_RampsDownText": {
+        "label": "Текст ВНИЗ",
+        "id": -2003306
+    },
+    "OST_PipeFittingInsulation": {
+        "label": "Изоляция",
+        "id": -2008073
+    },
+    "OST_MEPSystemZoneBoundary": {
+        "label": "N/A",
+        "id": -2001002
+    },
+    "OST_RebarTags": {
+        "label": "Марки несущей арматуры",
+        "id": -2009020
+    },
+    "OST_EPS_Existing": {
+        "label": "Существующие",
+        "id": -2000102
+    },
+    "OST_RoomSeparationLines": {
+        "label": "<Разделитель помещений>",
+        "id": -2000066
+    },
+    "OST_StructConnectionSymbol": {
+        "label": "Обозначение",
+        "id": -2009033
+    },
+    "OST_PipingSystem_Reference_Visibility": {
+        "label": "Опорные линии",
+        "id": -2008159
+    },
+    "OST_SpecialityEquipmentTags": {
+        "label": "Марки специального оборудования",
+        "id": -2005014
+    },
+    "OST_AudioVisualDeviceTags": {
+        "label": "Марки для аудиовизуальных устройств",
+        "id": -2001057
+    },
+    "OST_PreviewLegendComponents": {
+        "label": "Компоненты легенды",
+        "id": -2000576
+    },
+    "OST_DataDeviceTags": {
+        "label": "Марки датчиков",
+        "id": -2008084
+    },
+    "OST_ToposolidLinkTags": {
+        "label": "Марки связей топотел",
+        "id": -2001103
+    },
+    "OST_StairsNosingLinesAboveCut": {
+        "label": "<Сверху> - Линии свеса",
+        "id": -2000933
+    },
+    "OST_WallsMembrane": {
+        "label": "Изоляционная мембрана",
+        "id": -2000580
+    },
+    "OST_WireMaterials": {
+        "label": "Материалы проводов",
+        "id": -2008111
+    },
+    "OST_BridgeFramingHiddenLines": {
+        "label": "<Невидимые линии>",
+        "id": -2006242
+    },
+    "OST_ELECTRICAL_AreaBasedLoads_InteriorFill": {
+        "label": "Заливка внутренней области",
+        "id": -2008223
+    },
+    "OST_Conduit": {
+        "label": "Короба",
+        "id": -2008132
+    },
+    "OST_RoofsCutPattern": {
+        "label": "Штриховка в сечении",
+        "id": -2000597
+    },
+    "OST_AudioVisualDevices": {
+        "label": "Аудиовизуальные устройства",
+        "id": -2001055
+    },
+    "OST_EPS_Temporary": {
+        "label": "Временные",
+        "id": -2000105
+    },
+    "OST_ComponentRepeater": {
+        "label": "Повторитель",
+        "id": -2000927
+    },
+    "OST_gbXML_UndergroundCeiling": {
+        "label": "Потолки подвала",
+        "id": -2008177
+    },
+    "OST_RoomReferenceVisibility": {
+        "label": "Объект",
+        "id": -2000162
+    },
+    "OST_GbXMLFaces": {
+        "label": "Аналитические поверхности",
+        "id": -2008090
+    },
+    "OST_CLines": {
+        "label": "Опорные плоскости",
+        "id": -2000530
+    },
+    "OST_ELECTRICAL_AreaBasedLoads_Tags": {
+        "label": "Марки нагрузок на основе зоны",
+        "id": -2001078
+    },
+    "OST_FabricationDuctworkRise": {
+        "label": "Уклон",
+        "id": -2008205
+    },
+    "OST_BridgeArchTags": {
+        "label": "Марки арок моста",
+        "id": -2006174
+    },
+    "OST_MEPSpaces": {
+        "label": "Пространства",
+        "id": -2003600
+    },
+    "OST_ElectricalConnector": {
+        "label": "Электрический соединитель",
+        "id": -2001101
+    },
+    "OST_PipeCurvesContour": {
+        "label": "Контур",
+        "id": -2008046
+    },
+    "OST_DSR_LineAndTextAttrCategoryId": {
+        "label": "N/A",
+        "id": -2000960
+    },
+    "OST_PipeConnections": {
+        "label": "Соединения труб",
+        "id": -2008103
+    },
+    "OST_MEPSystemZoneTags": {
+        "label": "Марки зоны системы",
+        "id": -2001007
+    },
+    "OST_RailingSystemBaluster": {
+        "label": "N/A",
+        "id": -2000908
+    },
+    "OST_LoadCasesDead": {
+        "label": "Постоянные нагрузки",
+        "id": -2005211
+    },
+    "OST_ElectricalLoadCase": {
+        "label": "Сценарий аналитической электрической нагрузки",
+        "id": -2001099
+    },
+    "OST_IOSRegenerationFailure": {
+        "label": "Ошибка при регенерации",
+        "id": -2000010
+    },
+    "OST_StructuralFramingOther": {
+        "label": "Прочее",
+        "id": -2001321
+    },
+    "OST_LoadCasesRoofLive": {
+        "label": "Временные нагрузки на крыши",
+        "id": -2005215
+    },
+    "OST_AnalyticalPanelTags": {
+        "label": "Марки аналитических панелей",
+        "id": -2000957
+    },
+    "OST_RoomInteriorFillVisibility": {
+        "label": "Заливка внутренней области",
+        "id": -2000161
+    },
+    "OST_ControlLocal": {
+        "label": "Внутренние стили объектов",
+        "id": -2000774
+    },
+    "OST_HostTemplate": {
+        "label": "Главный шаблон по умолчанию",
+        "id": -2003409
+    },
+    "OST_ElectricalCircuitTags": {
+        "label": "N/A",
+        "id": -2008038
+    },
+    "OST_ScheduleViewParamGroup": {
+        "label": "N/A",
+        "id": -2000008
+    },
+    "OST_DuctFittingCenterLine": {
+        "label": "Осевая линия",
+        "id": -2008066
+    },
+    "OST_GenericModelTags": {
+        "label": "Марки обобщенной модели",
+        "id": -2005013
+    },
+    "OST_ColumnAnalytical": {
+        "label": "Аналитические модели колонн",
+        "id": -2009636
+    },
+    "OST_Wire": {
+        "label": "Провода",
+        "id": -2008039
+    },
+    "OST_ToposolidFinish2": {
+        "label": "Отделка 2 [5]",
+        "id": -2001091
+    },
+    "OST_DSR_CenterlineTickMarkStyleId": {
+        "label": "N/A",
+        "id": -2000966
+    },
+    "OST_BridgeFoundations": {
+        "label": "Фундаменты опор",
+        "id": -2006136
+    },
+    "OST_StructConnectionStale": {
+        "label": "Соединения несущих конструкций",
+        "id": -2009034
+    },
+    "OST_DecalType": {
+        "label": "N/A",
+        "id": -2006002
+    },
+    "OST_StructuralFoundationTags": {
+        "label": "Марки фундамента несущей конструкции",
+        "id": -2005019
+    },
+    "OST_RampsStringer": {
+        "label": "Косоуры/Тетивы",
+        "id": -2003303
+    },
+    "OST_LightLine": {
+        "label": "Нет",
+        "id": -2009621
+    },
+    "OST_BasePointAxisZ": {
+        "label": "<Линии>",
+        "id": -2001275
+    },
+    "OST_ToposolidMembrane": {
+        "label": "Изоляционная мембрана",
+        "id": -2001087
+    },
+    "OST_FireProtectionTags": {
+        "label": "Марки для системы противопожарной защиты",
+        "id": -2001051
+    },
+    "OST_DSR_LineAndTextAttrFontId": {
+        "label": "N/A",
+        "id": -2000961
+    },
+    "OST_Lights": {
+        "label": "Освещение",
+        "id": -2000520
+    },
+    "OST_InstanceDrivenLineStyle": {
+        "label": "<Задано экземпляром>",
+        "id": -2000828
+    },
+    "OST_BrokenSectionLine": {
+        "label": "Линия разорванного разреза",
+        "id": -2000202
+    },
+    "OST_EPS_Future": {
+        "label": "Будущее",
+        "id": -2000106
+    },
+    "OST_PipeTags": {
+        "label": "Марки труб",
+        "id": -2008047
+    },
+    "OST_LinesHiddenLines": {
+        "label": "<Невидимые линии>",
+        "id": -2009504
+    },
+    "OST_CurtainGrids": {
+        "label": "Схемы разрезки витража",
+        "id": -2000173
+    },
+    "OST_StructuralConnectionHandler_Deprecated": {
+        "label": "N/A",
+        "id": -2000978
+    },
+    "OST_IOSAlignmentGraphics": {
+        "label": "N/A",
+        "id": -2000049
+    },
+    "OST_Hardscape": {
+        "label": "Искусственный ландшафт",
+        "id": -2001036
+    },
+    "OST_CloudLines": {
+        "label": "N/A",
+        "id": -2000076
+    },
+    "OST_MechanicalControlDevices": {
+        "label": "Устройства механического управления",
+        "id": -2008232
+    },
+    "OST_gbXML_UndergroundWall": {
+        "label": "Стены подвала",
+        "id": -2008175
+    },
+    "OST_StructuralBracePlanReps": {
+        "label": "Обозначения раскосов на плане",
+        "id": -2006110
+    },
+    "OST_CeilingsFinish1": {
+        "label": "Отделка 1 [4]",
+        "id": -2000614
+    },
+    "OST_CeilingsFinish2": {
+        "label": "Отделка 2 [5]",
+        "id": -2000615
+    },
+    "OST_StructWeldLines": {
+        "label": "Линии сварки",
+        "id": -2009031
+    },
+    "OST_Mass_Obsolete_IdInWrongRange": {
+        "label": "N/A",
+        "id": -20034000
+    },
+    "OST_PathOfTravelTags": {
+        "label": "Марки траектории движения",
+        "id": -2000834
+    },
+    "OST_DetailComponentTags": {
+        "label": "Марки элементов узлов",
+        "id": -2005028
+    },
+    "OST_SpotSlopes": {
+        "label": "Уклоны в точках",
+        "id": -2000265
+    },
+    "OST_SectionHeadThinLines": {
+        "label": "<Тонкие линии>",
+        "id": -2000401
+    },
+    "OST_ElectricalCircuitNaming": {
+        "label": "Схема обозначения цепей",
+        "id": -2001011
+    },
+    "OST_MassExteriorWall": {
+        "label": "Формообразующая наружная стена",
+        "id": -2003413
+    },
+    "OST_BeamEndSegment": {
+        "label": "Конец сегмента",
+        "id": -2009632
+    },
+    "OST_DivisionProfile": {
+        "label": "Профили разделения",
+        "id": -2008165
+    },
+    "OST_FlexPipeCurves": {
+        "label": "Гибкие трубы",
+        "id": -2008050
+    },
+    "OST_MEPSpaceReferenceVisibility": {
+        "label": "Связь",
+        "id": -2003602
+    },
+    "OST_FabricationServiceElements": {
+        "label": "N/A",
+        "id": -2008195
+    },
+    "OST_CableTrayTags": {
+        "label": "Марки кабельных лотков",
+        "id": -2008131
+    },
+    "OST_ToposolidSurfacePattern": {
+        "label": "Штриховка поверхностей",
+        "id": -2001092
+    },
+    "OST_SpotElevSymbols": {
+        "label": "Обозначения высотных отметок",
+        "id": -2005100
+    },
+    "OST_RailingSupport": {
+        "label": "Опоры",
+        "id": -2000948
+    },
+    "OST_Roads": {
+        "label": "Дорожки",
+        "id": -2001220
+    },
+    "OST_SiteProperty": {
+        "label": "Границы участков",
+        "id": -2001265
+    },
+    "OST_ElectricalPowerSource": {
+        "label": "Аналитический источник питания электрической цепи",
+        "id": -2001026
+    },
+    "OST_IOSDragBoxInverted": {
+        "label": "Внутренние стили объектов",
+        "id": -2000114
+    },
+    "OST_InternalLoads": {
+        "label": "Внутренние нагрузки несущих конструкций",
+        "id": -2005204
+    },
+    "OST_BridgeGirderHiddenLines2021_Deprecated": {
+        "label": "<Невидимые линии>",
+        "id": -2006157
+    },
+    "OST_StructuralFraming": {
+        "label": "Каркас несущий",
+        "id": -2001320
+    },
+    "OST_BraceEndSegment": {
+        "label": "Конец сегмента",
+        "id": -2009635
+    },
+    "OST_WindowsSillHeadProjection": {
+        "label": "Подоконник/Верхний брус",
+        "id": -2000020
+    },
+    "OST_MedicalEquipment": {
+        "label": "Медицинское оборудование",
+        "id": -2001046
+    },
+    "OST_NodeAnalyticalTags": {
+        "label": "Марки узла аналитической модели",
+        "id": -2000956
+    },
+    "OST_SectionHeadMediumLines": {
+        "label": "<Обычные линии>",
+        "id": -2000403
+    },
+    "OST_AreaReport_Arc_Minus": {
+        "label": "Расчет площадей помещений/зон",
+        "id": -2000328
+    },
+    "OST_ToposolidSplitLines": {
+        "label": "Линии разделения",
+        "id": -2001084
+    },
+    "OST_HostFinCeiling": {
+        "label": "N/A",
+        "id": -2000313
+    },
+    "OST_MatchAnnotation": {
+        "label": "N/A",
+        "id": -2000004
+    },
+    "OST_TemporaryStructureTags": {
+        "label": "Марки временных конструкций",
+        "id": -2001042
+    },
+    "OST_ToposolidStructure": {
+        "label": "Структура [1]",
+        "id": -2001088
+    },
+    "OST_MEPSystemZoneReferenceLines": {
+        "label": "N/A",
+        "id": -2001004
+    },
+    "OST_StairsSketchLandingCenterLines": {
+        "label": "<Эскиз лестницы/пандуса: Площадка>",
+        "id": -2000070
+    },
+    "OST_Site": {
+        "label": "Генплан",
+        "id": -2001260
+    },
+    "OST_NurseCallDeviceTags": {
+        "label": "Марки устройств для вызова и оповещения",
+        "id": -2008078
+    },
+    "OST_FloorsSurfacePattern": {
+        "label": "Штриховка поверхностей",
+        "id": -2000541
+    },
+    "OST_MultiCategoryTags": {
+        "label": "Марки по нескольким категориям",
+        "id": -2005022
+    },
+    "OST_Ceilings": {
+        "label": "Потолки",
+        "id": -2000038
+    },
+    "OST_AnalyticalNodes_Planes": {
+        "label": "Плоскости",
+        "id": -2009647
+    },
+    "OST_BridgeDeckTags": {
+        "label": "Марки мостового полотна",
+        "id": -2006175
+    },
+    "OST_IOSFabricReinSpanSymbolCtrl": {
+        "label": "Внутренние стили объектов",
+        "id": -2000109
+    },
+    "OST_DividedSurface_Nodes": {
+        "label": "Узлы",
+        "id": -2003324
+    },
+    "OST_RiseDropSymbols": {
+        "label": "Обозначения подъема и опуска",
+        "id": -2000989
+    },
+    "OST_MassTags": {
+        "label": "Марки формообразующих элементов",
+        "id": -2003405
+    },
+    "OST_RailingSystemTransition": {
+        "label": "N/A",
+        "id": -2000916
+    },
+    "OST_ElectricalLoadZoneInstance": {
+        "label": "Аналитические электрические нагрузки",
+        "id": -2001020
+    },
+    "OST_RailingSystemTags": {
+        "label": "N/A",
+        "id": -2000917
+    },
+    "OST_Assemblies": {
+        "label": "Сборки",
+        "id": -2000267
+    },
+    "OST_AreaReinXVisibility": {
+        "label": "Префикс нижнего значения",
+        "id": -2009007
+    },
+    "OST_PlantingTags": {
+        "label": "Марки элементов озеленения",
+        "id": -2005021
+    },
+    "OST_PartHiddenLines": {
+        "label": "<Невидимые линии>",
+        "id": -2000271
+    },
+    "OST_FillPatterns": {
+        "label": "Внутренние стили объектов",
+        "id": -2000081
+    },
+    "OST_ColumnsHiddenLines": {
+        "label": "<Невидимые линии>",
+        "id": -2009506
+    },
+    "OST_CeilingOpening": {
+        "label": "Вырезание проема в потолке",
+        "id": -2000899
+    },
+    "OST_Divisions": {
+        "label": "Деления",
+        "id": -2000291
+    },
+    "OST_ReferencePoints_HiddenLines": {
+        "label": "N/A",
+        "id": -2000714
+    },
+    "OST_StructConnectionSymbols": {
+        "label": "Обозначения соединений",
+        "id": -2006100
+    },
+    "OST_AnalysisDisplayStyle": {
+        "label": "Графический стиль отображения расчетов",
+        "id": -2000304
+    },
+    "OST_WindowsOpeningProjection": {
+        "label": "Проем",
+        "id": -2000022
+    },
+    "OST_GutterTags": {
+        "label": "Марки желобов",
+        "id": -2001065
+    },
+    "OST_TrussWeb": {
+        "label": "Раскос",
+        "id": -2009605
+    },
+    "OST_PipeFittingTags": {
+        "label": "Марки соединительных деталей трубопроводов",
+        "id": -2008060
+    },
+    "OST_SitePropertyLineSegment": {
+        "label": "Сегменты границы участка",
+        "id": -2001268
+    },
+    "OST_DoorsGlassCut": {
+        "label": "N/A",
+        "id": -2000030
+    },
+    "OST_MEPAnalyticalAirLoop": {
+        "label": "Системы воздухоснабжения",
+        "id": -2001008
+    },
+    "OST_Catalogs": {
+        "label": "N/A",
+        "id": -2000290
+    },
+    "OST_ELECTRICAL_AreaBasedLoads_Reference_Visibility": {
+        "label": "Опорные линии",
+        "id": -2008227
+    },
+    "OST_ElectricalEquipment": {
+        "label": "Электрооборудование",
+        "id": -2001040
+    },
+    "OST_BridgeBearingHiddenLines": {
+        "label": "<Невидимые линии>",
+        "id": -2006158
+    },
+    "OST_TrussDummy": {
+        "label": "N/A",
+        "id": -2003300
+    },
+    "OST_ColorFillSchema": {
+        "label": "Схема цветового обозначения",
+        "id": -2000552
+    },
+    "OST_DividedSurface_DiscardedDivisionLines": {
+        "label": "Отмененные линии разделения",
+        "id": -2003333
+    },
+    "OST_VerticalCirculationHiddenLines": {
+        "label": "<Невидимые линии>",
+        "id": -2001053
+    },
+    "OST_FoodServiceEquipmentTags": {
+        "label": "Марки оборудования для предприятий общественного питания",
+        "id": -2001045
+    },
+    "OST_OBSOLETE_MEPAnalyticalElectricalBranch": {
+        "label": "Аналитическое ответвление в электрической цепи",
+        "id": -2001022
+    },
+    "OST_MassHiddenLines": {
+        "label": "<Невидимые линии>",
+        "id": -2009532
+    },
+    "OST_BridgeFramingTags": {
+        "label": "Марки каркаса моста",
+        "id": -2006243
+    },
+    "OST_BridgeAbutments": {
+        "label": "Устои",
+        "id": -2006130
+    },
+    "OST_RvtLinksTags": {
+        "label": "Марки связанных файлов RVT",
+        "id": -2001074
+    },
+    "OST_WallNonCoreLayer": {
+        "label": "Слои вне сердцевины",
+        "id": -2001034
+    },
+    "OST_BeamLocalCoordSys": {
+        "label": "Локальная система координат",
+        "id": -2000971
+    },
+    "OST_Camera_Lines": {
+        "label": "Камеры",
+        "id": -2000501
+    },
+    "OST_ElectricalFixtureTags": {
+        "label": "Марки силовых электроприборов",
+        "id": -2005004
+    },
+    "OST_RailingRailPathExtensionLines": {
+        "label": "Выносные линии траектории ограждения",
+        "id": -2000954
+    },
+    "OST_AssemblyOrigin": {
+        "label": "Начала сборки",
+        "id": -2009658
+    },
+    "OST_RemovedGridSeg_Obsolete_IdInWrongRange": {
+        "label": "N/A",
+        "id": -20000827
+    },
+    "OST_CurtaSystemFaceManager": {
+        "label": "Схема разрезки витражной системы",
+        "id": -2000341
+    },
+    "OST_FabricAreas": {
+        "label": "Области раскладки арматурных сеток",
+        "id": -2009017
+    },
+    "OST_AbutmentPiles": {
+        "label": "Сваи устоев",
+        "id": -2006203
+    },
+    "OST_AreaPolylines": {
+        "label": "Полилинии зоны",
+        "id": -2000830
+    },
+    "OST_DividedSurface_TransparentFace": {
+        "label": "Прозрачная грань",
+        "id": -2003329
+    },
+    "OST_MultiReferenceAnnotations": {
+        "label": "Аннотации для нескольких арматурных стержней",
+        "id": -2000970
+    },
+    "OST_StructuralColumnStickSymbols": {
+        "label": "Стикеры с обозначениями",
+        "id": -2001335
+    },
+    "OST_CompassSecondaryMonth": {
+        "label": "Текст для солнца",
+        "id": -2009624
+    },
+    "OST_StructuralTendonHiddenLines": {
+        "label": "<Невидимые линии>",
+        "id": -2006275
+    },
+    "OST_StairsLandingTags": {
+        "label": "Марки лестничной площадки",
+        "id": -2000941
+    },
+    "OST_StairsTriserNumbers": {
+        "label": "Номера проступей/подступенков лестницы",
+        "id": -2000944
+    },
+    "OST_StairsRailingHiddenLines": {
+        "label": "<Невидимые линии>",
+        "id": -2009508
+    },
+    "OST_PathReinBoundary": {
+        "label": "Граница",
+        "id": -2009012
+    },
+    "OST_DataExchanges": {
+        "label": "Пакеты для обмена данными",
+        "id": -2001107
+    },
+    "OST_RevisionCloudTags": {
+        "label": "Марки пометочных облаков",
+        "id": -2006080
+    },
+    "OST_RailingSystemTopRail": {
+        "label": "N/A",
+        "id": -2000913
+    },
+    "OST_MEPAnalyticalBus": {
+        "label": "Электрическая аналитическая шина",
+        "id": -2001021
+    },
+    "OST_SunriseText": {
+        "label": "Текст для солнца",
+        "id": -2009614
+    },
+    "OST_SignageHiddenLines": {
+        "label": "<Невидимые линии>",
+        "id": -2001059
+    },
+    "OST_GbXML_SType_Shade": {
+        "label": "Экраны",
+        "id": -2008093
+    },
+    "OST_MatchSiteComponent": {
+        "label": "N/A",
+        "id": -2000007
+    },
+    "OST_IOSBBoxScreenSize": {
+        "label": "Тонкий пиксел - Штриховая",
+        "id": -2000089
+    },
+    "OST_Doors": {
+        "label": "Двери",
+        "id": -2000023
+    },
+    "OST_ToposolidTags": {
+        "label": "Марки топотел",
+        "id": -2001094
+    },
+    "OST_CeilingsSubstrate": {
+        "label": "Основа [2]",
+        "id": -2000613
+    },
+    "OST_GenericLines": {
+        "label": "<Линии>",
+        "id": -2000078
+    },
+    "OST_CurvesWideLines": {
+        "label": "<Утолщенные линии>",
+        "id": -2000044
+    },
+    "OST_StackedWalls_Obsolete_IdInWrongRange": {
+        "label": "N/A",
+        "id": -20034100
+    },
+    "OST_DuctAccessory": {
+        "label": "Арматура воздуховодов",
+        "id": -2008016
+    },
+    "OST_gbXML_FixedSkylight": {
+        "label": "Глухие световые люки",
+        "id": -2008180
+    },
+    "OST_CurvesMediumLines": {
+        "label": "<Обычные линии>",
+        "id": -2000043
+    },
+    "OST_MassTags_Obsolete_IdInWrongRange": {
+        "label": "N/A",
+        "id": -20034005
+    },
+    "OST_Analemma": {
+        "label": "Нет",
+        "id": -2009618
+    },
+    "OST_RebarBendingDetails": {
+        "label": "Эскизы несущей арматуры",
+        "id": -2001104
+    },
+    "OST_RailingHandRail": {
+        "label": "Перила",
+        "id": -2000947
+    },
+    "OST_StairsTriserTags": {
+        "label": "N/A",
+        "id": -2000943
+    },
+    "OST_StructConnectionHoleTags": {
+        "label": "Марки отверстий",
+        "id": -2009063
+    },
+    "OST_OBSOLETE_ElemArrayHiddenLines": {
+        "label": "N/A",
+        "id": -2009530
+    },
+    "OST_StructuralFramingSystem": {
+        "label": "Балочные системы",
+        "id": -2001327
+    },
+    "OST_FloorsSplitLines": {
+        "label": "Линии разделения",
+        "id": -2001076
+    },
+    "OST_SharedBasePoint": {
+        "label": "Точка съемки",
+        "id": -2001272
+    },
+    "OST_CoverType": {
+        "label": "Тип защитного слоя",
+        "id": -2009014
+    },
+    "OST_gbXML_InteriorFloor": {
+        "label": "Внутренние полы",
+        "id": -2008172
+    },
+    "OST_EntourageHiddenLines": {
+        "label": "<Невидимые линии>",
+        "id": -2009529
+    },
+    "OST_EdgeSlab": {
+        "label": "Ребра плит",
+        "id": -2001392
+    },
+    "OST_CableTrayFittingCenterLine": {
+        "label": "Осевая линия",
+        "id": -2008140
+    },
+    "OST_RampsStringerAboveCut": {
+        "label": "Косоуры/тетивы вне пределов линии обрыва",
+        "id": -2003304
+    },
+    "OST_AreaReport_Triangle": {
+        "label": "Расчет площадей помещений/зон",
+        "id": -2000325
+    },
+    "OST_BoundaryConditions": {
+        "label": "Граничные условия",
+        "id": -2005301
+    },
+    "OST_StructConnectionProfiles": {
+        "label": "Профили",
+        "id": -2009037
+    },
+    "OST_OverheadLines": {
+        "label": "<Сверху>",
+        "id": -2000284
+    },
+    "OST_AreaLoads": {
+        "label": "Распределенные нагрузки",
+        "id": -2005203
+    },
+    "OST_BridgeFraming": {
+        "label": "Каркас моста",
+        "id": -2006241
+    },
+    "OST_MassFloorsAll": {
+        "label": "Формообразующие элементы-перекрытия",
+        "id": -2003422
+    },
+    "OST_TopographySurface": {
+        "label": "Линии триангуляции",
+        "id": -2001341
+    },
+    "OST_SectionLine": {
+        "label": "Линия сечения",
+        "id": -2000201
+    },
+    "OST_RailingSystemPanelHiddenLines_Deprecated": {
+        "label": "N/A",
+        "id": -2009542
+    },
+    "OST_PipeInsulationsTags": {
+        "label": "Марки изоляции труб",
+        "id": -2008155
+    },
+    "OST_MEPSpaceReference": {
+        "label": "Связь",
+        "id": -2003604
+    },
+    "OST_DoorsHiddenLines": {
+        "label": "<Невидимые линии>",
+        "id": -2009501
+    },
+    "OST_AlignmentsTags": {
+        "label": "Марки трассы",
+        "id": -2001015
+    },
+    "OST_StairsStringerCarriage": {
+        "label": "Опоры",
+        "id": -2000123
+    },
+    "OST_PierCaps": {
+        "label": "Оголовки опор",
+        "id": -2006219
+    },
+    "OST_RoofsDefault": {
+        "label": "Общие ребра",
+        "id": -2000596
+    },
+    "OST_LightingFixtureTags": {
+        "label": "Марки осветительных приборов",
+        "id": -2005008
+    },
+    "OST_Stairs2012HiddenLines_Deprecated": {
+        "label": "N/A",
+        "id": -2009533
+    },
+    "OST_CurtainWallMullionsCut": {
+        "label": "N/A",
+        "id": -2000172
+    },
+    "OST_HVAC_Load_Building_Types": {
+        "label": "Параметры типа здания",
+        "id": -2008120
+    },
+    "OST_FurnitureSystemTags": {
+        "label": "Марки комплектов мебели",
+        "id": -2005007
+    },
+    "OST_MEPAncillaryFraming": {
+        "label": "Дополнительные каркасы MEP",
+        "id": -2008231
+    },
+    "OST_MassSkylights": {
+        "label": "Формообразующий световой люк",
+        "id": -2003416
+    },
+    "OST_ElectricalLoadSet": {
+        "label": "Набор аналитических электрических нагрузок",
+        "id": -2001098
+    },
+    "OST_GenericModel": {
+        "label": "Обобщенные модели",
+        "id": -2000151
+    },
+    "OST_FabricationPartsTmpGraphicDrag": {
+        "label": "Графическое отображение увеличения количества элементов базы данных производителя при перетаскивании",
+        "id": -2008201
+    },
+    "OST_WallsProjectionOutlines": {
+        "label": "N/A",
+        "id": -2000013
+    },
+    "OST_XRayProfileEdge": {
+        "label": "Режим просвечивания - Кромка профиля",
+        "id": -2000715
+    },
+    "OST_FabricationPartsTmpGraphicEnd": {
+        "label": "Графическое отображение увеличения количества элементов базы данных производителя",
+        "id": -2008199
+    },
+    "OST_StairsSketchBoundaryLines": {
+        "label": "<Эскиз лестницы/пандуса: Граница>",
+        "id": -2000067
+    },
+    "OST_ElectricalAnalyticalFeeder": {
+        "label": "Аналитический отвод",
+        "id": -2001096
+    },
+    "OST_FabricationPipeworkTags": {
+        "label": "Марки труб из базы данных производителя MEP",
+        "id": -2008209
+    },
+    "OST_ZoneSchemes": {
+        "label": "Схемы зон",
+        "id": -2003225
+    },
+    "OST_FabricAreaSketchSheetsLines": {
+        "label": "<Арматурные сетки>",
+        "id": -2009019
+    },
+    "OST_ELECTRICAL_AreaBasedLoads_InteriorFill_Visibility": {
+        "label": "Заливка внутренней области",
+        "id": -2008226
+    },
+    "OST_BridgeTowerHiddenLines2021_Deprecated": {
+        "label": "<Невидимые линии>",
+        "id": -2006152
+    },
+    "OST_ToposolidHiddenLines": {
+        "label": "<Невидимые линии>",
+        "id": -2001080
+    },
+    "OST_KeynoteTags": {
+        "label": "Марки ключевых пометок",
+        "id": -2005029
+    },
+    "OST_LoadCasesLive": {
+        "label": "Временные нагрузки",
+        "id": -2005212
+    },
+    "OST_StructuralStiffener": {
+        "label": "Ребра жесткости несущей конструкции",
+        "id": -2001354
+    },
+    "OST_StairsCutMarks": {
+        "label": "Марки вырезов",
+        "id": -2000930
+    },
+    "OST_IOSFlipControl": {
+        "label": "Стрелка разворота",
+        "id": -2000056
+    },
+    "OST_MassGlazing": {
+        "label": "Остекление по формообразующим",
+        "id": -2003415
+    },
+    "OST_DuctCurvesContour": {
+        "label": "Контур",
+        "id": -2008002
+    },
+    "OST_RoofsSurfacePattern": {
+        "label": "Штриховка поверхностей",
+        "id": -2000542
+    },
+    "OST_DataPanelScheduleTemplates": {
+        "label": "Шаблоны принципиальной схемы щита/панели - Телекоммуникационный щит",
+        "id": -2008147
+    },
+    "OST_SpotSlopesSymbols": {
+        "label": "N/A",
+        "id": -2005102
+    },
+    "OST_RampsUpText": {
+        "label": "Текст ВВЕРХ",
+        "id": -2003305
+    },
+    "OST_WindowTags": {
+        "label": "Марки окон",
+        "id": -2000450
+    },
+    "OST_MechanicalControlDeviceTags": {
+        "label": "Марки устройств механического управления",
+        "id": -2008233
+    },
+    "OST_CurtainWallPanels": {
+        "label": "Панели витража",
+        "id": -2000170
+    },
+    "OST_ParkingHiddenLines": {
+        "label": "<Невидимые линии>",
+        "id": -2009522
+    },
+    "OST_Sun": {
+        "label": "Солнце",
+        "id": -2009610
+    },
+    "OST_MassCutter": {
+        "label": "Секущая формообразующих элементов по умолчанию",
+        "id": -2003407
+    },
+    "OST_TrussChord": {
+        "label": "Пояс",
+        "id": -2009606
+    },
+    "OST_PipeAccessoryTags": {
+        "label": "Марки арматуры трубопроводов",
+        "id": -2008056
+    },
+    "OST_FloorsProjection": {
+        "label": "N/A",
+        "id": -2000034
+    },
+    "OST_ConduitRun": {
+        "label": "Короба",
+        "id": -2008149
+    },
+    "OST_FabricationContainmentRise": {
+        "label": "Уклон",
+        "id": -2008218
+    },
+    "OST_BridgeTowerTags": {
+        "label": "Марки башен опор",
+        "id": -2006172
+    }
+}

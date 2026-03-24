@@ -1,0 +1,43 @@
+services:
+  db:
+    image: postgres:18-alpine
+    container_name: postgres_db
+    restart: always
+    environment:
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: hotcoolaid
+      POSTGRES_DB: db_pg
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+  redis:
+    image: redis:7-alpine
+    container_name: redis_cache
+    restart: always
+    ports:
+      - "6379:6379"
+
+  app:
+    build: .
+    container_name: fastapi_app
+    restart: always
+    volumes:
+      - .:/code
+      - "C:/Users/eliseev_i/Yandex.Disk/_revit_library:/data/rvt_files"
+    command: uvicorn app.main:app --host 0.0.0.0 --port 80 --reload
+    # Имена сервисов (db, redis) используются как хосты в URL
+    environment:
+      - DATABASE_URL=postgresql+asyncpg://admin:hotcoolaid@db:5432/db_pg
+      - CELERY_BROKER_URL=redis://host.docker.internal:6379/0
+      - REDIS_URL=redis://redis:6379/0
+      - STORAGE_PATH=/data/rvt_files
+    ports:
+      - "80:80"
+    depends_on:
+      - db
+      - redis
+
+volumes:
+  postgres_data:

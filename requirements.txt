@@ -1,0 +1,13 @@
+pyodbc
+aioodbc
+asyncpg
+sqlalchemy
+fastapi[standard]
+pydantic
+pydantic_settings
+apscheduler==3.10.4
+pytz
+celery
+redis
+
+
