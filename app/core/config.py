@@ -17,8 +17,12 @@ class Settings(BaseSettings):
     FRONTEND_HOST: str = "http://172.16.251.163:5004/"
 
     # paths
-    APP_PATH: str = os.path.join(pathlib.Path(
-        __file__).parent.parent.parent.resolve())
+    APP_PATH: str = os.path.join(pathlib.Path(__file__).parent.parent.parent.resolve())
+    CONFIGS_FOLDER: str = os.path.join(APP_PATH, 'service', 'configs')
+    CATEGORIES_JSON_PATH: str = os.path.join(CONFIGS_FOLDER, 'revit_categories_full.json')
+    SP_FILE_PATH: str = os.path.join(CONFIGS_FOLDER, 'ФОП2021.txt')
+    PARAMETERS_CONFIG_PATH: str = os.path.join(CONFIGS_FOLDER, "params_to_add.xml")
+    REVIT_STARTUP_CONFIG_PATH: str = os.path.join(CONFIGS_FOLDER, "revit_startup_config.json")
 
     # *rfa files (family files) storage paths
     MOUNTED_STORAGE_PATH: str = os.path.join("data", "rvt_files")
@@ -27,9 +31,7 @@ class Settings(BaseSettings):
     # revit and db settings for export
     RSN_INI_PATH: str = "C:\\ProgramData\\Autodesk\\Revit Server 2024\\Config\\RSN.ini"
     ADDINS_PATH: str = "C:\\Users\\eliseev_i\\AppData\\Roaming\\Autodesk\\REVIT\\Addins"
-    PARAMETERS_CONFIG_PATH: str = os.path.join(ADDINS_PATH, "params_to_add.xml")
-    REVIT_STARTUP_CONFIG_PATH: str = os.path.join(ADDINS_PATH, "revit_startup_config.json")
-    TASK_JSON_PATH: str = os.path.join(ADDINS_PATH, "tasks")
+    TASKS_FOLDER: str = os.path.join(ADDINS_PATH, "tasks")
 
     # celery settings
     CELERY_WORKER_NAME: str = "celery_tasks"
@@ -39,28 +41,12 @@ class Settings(BaseSettings):
         'worker_2',
     ]
     
-    CATEGORIES_JSON_PATH: str = os.path.join(
-        APP_PATH, 'service', 'configs', 'revit_categories_full.json')
-    
     # revit settings for pdf print
     REVIT_EXPORT_PATH: str = os.path.join(APP_PATH, 'pdf_exported')
 
     # export config
     REVIT_EXPORT_MODE: str = "sync"
     EXPORT_TIMEOUT: int = 3600
-
-    # CONFIG_PATH: str = os.path.join(
-    #     APP_PATH, 'backend', 'service', 'configs', 'config.json')
-    
-    # DB_SCHEME_PATH: str = os.path.join(
-    #     APP_PATH, 'backend', 'service', 'configs', 'db_scheme.json')
-
-    # DB_DATA_SOURCE: str = 'SB-REVIT-DB'
-
-    # # db connection
-    # DB_NAME: str = 'db_pg'
-    # DB_PORT: str = '5432'
-    # DB_CONTAINER: str = 'db'
 
     @computed_field
     @property

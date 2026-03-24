@@ -33,16 +33,16 @@ async def add_family(request_info: FamilyFileRequest, session: AsyncSession = De
 
 
 @router.get("/get", summary="add family to db", description="service utils", response_model=Response)
-async def get_family(family_id: Optional[str] = None, path: Optional[str] = None, session: AsyncSession = Depends(get_session)):
-    if not family_id and not path:
+async def get_family(file_id: Optional[str] = None, path: Optional[str] = None, session: AsyncSession = Depends(get_session)):
+    if not file_id and not path:
         raise HTTPException(status_code=status.HTTP_404_NOT_FOUND,
                             detail="provide at least one argument")
     
-    if family_id:
-        file_query = await session.execute(select(FamilyFile).where(FamilyFile.id == family_id))
+    if file_id:
+        file_query = await session.execute(select(FamilyFile).where(FamilyFile.id == file_id))
         family_file = file_query.scalars().first()
         
-    if not family_id and path:
+    if not file_id and path:
         file_query = await session.execute(select(FamilyFile).where(FamilyFile.path == path))
         family_file = file_query.scalars().first()
     
@@ -77,8 +77,8 @@ async def update_family(request_info: FamilyFileRequest, session: AsyncSession =
     return Response(message='file updated', data=family_file.as_dict()).as_dict()
 
 
-@router.post("/batch_sync", summary="update files from storage", description="for auto tests", response_model=Response)
-async def sync_group_of_files(id_list: List[str], session: AsyncSession = Depends(get_session)):
+@router.post("/batch_io", summary="update files from storage", description="for auto tests", response_model=Response)
+async def process_group_of_files(id_list: List[str], mode: str, session: AsyncSession = Depends(get_session)):
     for family_id in id_list:
         file_query = await session.execute(select(FamilyFile).where(FamilyFile.id == family_id))
         family_file = file_query.scalars().first()
@@ -90,7 +90,7 @@ async def sync_group_of_files(id_list: List[str], session: AsyncSession = Depend
     celery_app = Celery(settings.CELERY_WORKER_NAME, broker=BROKER_URL)
 
     job_signatures = [
-        celery_app.signature("process_family", args=[family_id]) 
+        celery_app.signature("process_family", args=[family_id, mode]) 
         for family_id in id_list
     ]
     
@@ -100,7 +100,7 @@ async def sync_group_of_files(id_list: List[str], session: AsyncSession = Depend
     return Response(message=f'{len(id_list)} tasks transmited to worker', data={'result_id': result.id}).as_dict()
 
 
-@router.post("/create_types", summary="create types for family in db", description="for service", response_model=Response)
+@router.post("/create_types", summary="revit plugin bound - create types for family in db", description="for service", response_model=Response)
 async def create_types(types: Dict[str, str], session: AsyncSession = Depends(get_session)):
     for type_name, family_id in types.items():
         file_query = await session.execute(select(FamilyFile).where(FamilyFile.id == family_id))
@@ -128,7 +128,7 @@ async def create_types(types: Dict[str, str], session: AsyncSession = Depends(ge
     return Response(message=f'{len(types)} added to a family {family_file.id}', data=types).as_dict()
 
 
-@router.post("/update_type_parameters", summary="update type parameters in db", description="for service", response_model=Response)
+@router.post("/update_type_parameters", summary="revit plugin bound - update type parameters in db", description="for service", response_model=Response)
 async def update_type_parameters(data: Dict[str, str], session: AsyncSession = Depends(get_session)):
     # print(f'received')
     # print(data)
@@ -175,3 +175,32 @@ async def update_type_parameters(data: Dict[str, str], session: AsyncSession = D
     await session.commit()
 
     return Response(message='file updated', data=family_type.as_dict()).as_dict()
+
+
+@router.get("/get_family_types", summary="update type parameters in db", description="for service", response_model=Response)
+async def get_family_types(file_id: str, session: AsyncSession = Depends(get_session)):
+    file_query = await session.execute(select(FamilyFile).where(FamilyFile.id == file_id))
+    family_file = file_query.scalars().first()
+    if not family_file:
+        raise HTTPException(status_code=status.HTTP_404_NOT_FOUND,
+                            detail="file not found")
+
+    type_query = await session.execute(select(FamilyType)
+                                        .where(FamilyType.file_id == family_file.id))
+    family_types = type_query.scalars().all()
+    
+    types_data = {}
+    for f_type in family_types:
+        spec_params_query = await session.execute(select(SpecParamSet).where(SpecParamSet.type_id == f_type.id))
+        spec_params = spec_params_query.scalars().first()
+
+        sp_dict = {}
+        for c in spec_params.__table__.columns:
+            sp_dict[c.name] = getattr(spec_params, c.key)
+
+        types_data[f_type.name] = {
+            "name": f_type.name,
+            "parameters": sp_dict
+        }
+
+    return Response(message='file updated', data=types_data).as_dict()

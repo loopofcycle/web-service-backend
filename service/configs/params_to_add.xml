@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ParameterConfig xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SharedParameterFilePath>C:\Users\eliseev_i\Yandex.Disk\_revit_library\project_templates\ФОП2021.txt</SharedParameterFilePath>
+  <Parameters>
+    <ControlledParameter>
+      <Name>ADSK_Наименование</Name>
+      <Group>Text</Group>
+      <IsInstance>false</IsInstance>
+    </ControlledParameter>
+    <ControlledParameter>
+      <Name>ADSK_Количество</Name>
+      <Group>Text</Group>
+      <Value>1</Value>
+      <IsInstance>false</IsInstance>
+    </ControlledParameter>
+    <ControlledParameter>
+      <Name>ADSK_Марка</Name>
+      <Group>Text</Group>
+      <IsInstance>false</IsInstance>
+    </ControlledParameter>
+    <ControlledParameter>
+      <Name>ADSK_Код изделия</Name>
+      <Group>Text</Group>
+      <IsInstance>false</IsInstance>
+    </ControlledParameter>
+    <ControlledParameter>
+      <Name>ADSK_Завод-изготовитель</Name>
+      <Group>Text</Group>
+      <IsInstance>false</IsInstance>
+    </ControlledParameter>
+    <ControlledParameter>
+      <Name>ADSK_Техническая характеристика</Name>
+      <Group>Text</Group>
+      <IsInstance>false</IsInstance>
+    </ControlledParameter>
+    <ControlledParameter>
+      <Name>ADSK_Единица измерения</Name>
+      <Group>Text</Group>
+      <Value>шт.</Value>
+      <IsInstance>false</IsInstance>
+    </ControlledParameter>
+    <ControlledParameter>
+      <Name>ADSK_Масса</Name>
+      <Group>Text</Group>
+      <IsInstance>false</IsInstance>
+    </ControlledParameter>
+  </Parameters>
+  <Types>
+    <TypeItem>
+      <Name>foo</Name>
+      <Parameters>
+        <ControlledParameter>
+          <Name>ADSK_Наименование</Name>
+          <Group>Text</Group>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Количество</Name>
+          <Group>Text</Group>
+          <Value>1</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Марка</Name>
+          <Group>Text</Group>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Код изделия</Name>
+          <Group>Text</Group>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Завод-изготовитель</Name>
+          <Group>Text</Group>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Техническая характеристика</Name>
+          <Group>Text</Group>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Единица измерения</Name>
+          <Group>Text</Group>
+          <Value>шт.</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Масса</Name>
+          <Group>Text</Group>
+          <IsInstance>false</IsInstance>
+        </ControlledParameter>
+      </Parameters>
+    </TypeItem>
+    <TypeItem>
+      <Name>foo</Name>
+      <Parameters>
+        <ControlledParameter>
+          <Name>ADSK_Наименование</Name>
+          <Group>Text</Group>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Количество</Name>
+          <Group>Text</Group>
+          <Value>1</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Марка</Name>
+          <Group>Text</Group>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Код изделия</Name>
+          <Group>Text</Group>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Завод-изготовитель</Name>
+          <Group>Text</Group>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Техническая характеристика</Name>
+          <Group>Text</Group>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Единица измерения</Name>
+          <Group>Text</Group>
+          <Value>шт.</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Масса</Name>
+          <Group>Text</Group>
+          <IsInstance>false</IsInstance>
+        </ControlledParameter>
+      </Parameters>
+    </TypeItem>
+  </Types>
+</ParameterConfig>

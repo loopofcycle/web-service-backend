@@ -35,18 +35,18 @@ async def lifespan(app: FastAPI):
 
 
 description = """
-this API provide high level management of revit files. 🚀
+this API provide high level management of .rfa files. 🚀
 
-## Get revit files from PDM and extract data from it
+## Upload .rfa files, and manage shared parameters
 
 You can:
 
-* **browse available revit files** .
-* **export, print and sync data from those files** .
+* **browse available .rfa files** .
+* **read, write and sync parameters with db** .
 
 """
 app = FastAPI(
-    title='Template for FastAPI backend',
+    title='Revit family manager',
     description=description,
     summary="FastAPI based backend",
     version="0.0.1",
@@ -58,7 +58,7 @@ app = FastAPI(
         "name": "Apache 2.0",
         "url": "https://www.apache.org/licenses/LICENSE-2.0.html",
     },
-    lifespan=lifespan
+    # lifespan=lifespan
 )
 app.include_router(api_router)
 
