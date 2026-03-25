@@ -37,7 +37,7 @@ async def lifespan(app: FastAPI):
 description = """
 this API provide high level management of .rfa files. 🚀
 
-## Upload .rfa files, and manage shared parameters
+## Upload .rfa files, manage shared parameters
 
 You can:
 

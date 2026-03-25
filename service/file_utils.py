@@ -3,6 +3,7 @@ import os
 import errno
 import shutil
 from datetime import datetime
+from pathlib import Path
 
 
 class FileUtils:
@@ -58,15 +59,31 @@ class FileUtils:
             except Exception as e:
                 print('Failed to delete %s. Reason: %s' % (file_path, e))
 
+    @classmethod
+    def clean_revit_backups(cls, directory_path):
+        
+        path = Path(directory_path)
+        print(path)
+        
+        # Ищем файлы, которые заканчиваются на .####.rvt (4 цифры)
+        # rglob делает поиск рекурсивным (включая подпапки)
+        for file in path.rglob("*.00[0-9][0-9].rfa"):
+            print(file)
+            try:
+                file.unlink() # Удаление файла
+                # print(f"Удален: {file.name}") # Раскомментируйте для логов
+            except Exception:
+                pass # Игнорируем ошибки (например, файл занят Revit)
 
 if __name__ == '__main__':
     from pprint import pprint
     _path = r'C:\Users\Eliseev.I\PycharmProjects\revit-specifications-export\buffer\excel_files'
-    excel_files = FileUtils.find_files(_path, extension='.xlsx', as_dicts=True)
-    corresponding_revit_files = [
-        {'file': note['file'].replace(
-            '.xlsx', '.rvt'), 'datetime': note['datetime']}
-        for note in excel_files
-    ]
+    # excel_files = FileUtils.find_files(_path, extension='.xlsx', as_dicts=True)
+    # corresponding_revit_files = [
+    #     {'file': note['file'].replace(
+    #         '.xlsx', '.rvt'), 'datetime': note['datetime']}
+    #     for note in excel_files
+    # ]
 
-    pprint(corresponding_revit_files)
+    FileUtils.clean_revit_backups(r'C:\Users\eliseev_i\Yandex.Disk\_revit_library')
+

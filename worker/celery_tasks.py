@@ -29,16 +29,15 @@ def run_task(family_id, mode):
 async def family_sync_data_task(family_id: str, mode: str):
     update_url = 'http://localhost/api/v1/families/update'
     get_url = 'http://localhost/api/v1/families/get'
-    get_data_url = 'http://localhost/api/v1/families/get_family_types'
 
     # get file info
-    get_types_response = requests.get(url=get_url, params={"file_id": family_id}, timeout=5)
-    if get_types_response.status_code != 200:
-        print(f'failed to receive data for id={family_id}, status={get_types_response.status_code}')
+    get_response = requests.get(url=get_url, params={"file_id": family_id}, timeout=5)
+    if get_response.status_code != 200:
+        print(f'failed to receive data for id={family_id}, status={get_response.status_code}')
         return False
     
     # find file in storage
-    relative_path = get_types_response.json()['data']['path']
+    relative_path = get_response.json()['data']['path']
     file_path = os.path.join(settings.SERVER_STORAGE_PATH, relative_path)
     if not os.path.exists(file_path):
         print(f'family not found in storage')
@@ -55,10 +54,20 @@ async def family_sync_data_task(family_id: str, mode: str):
     print(update_response.json())
 
     # generate xml
-    get_types_response = requests.get(url=get_data_url, params={"file_id": family_id}, timeout=5)
+    params_data = [
+        ("ADSK_Наименование", None),
+        ("ADSK_Количество", "1"),
+        ("ADSK_Марка", None),
+        ("ADSK_Код изделия", None),
+        ("ADSK_Завод-изготовитель", None),
+        ("ADSK_Техническая характеристика", None),
+        ("ADSK_Единица измерения", "шт."),
+        ("ADSK_Масса", None),
+    ]
     XMLgenerator.generate_from_dict(
         file_path=settings.PARAMETERS_CONFIG_PATH,
-        params_data=get_types_response.json()['data'],
+        params_data=params_data,
+        types_dict=get_response.json()['data']['types_data'],
         fop_path=settings.SP_FILE_PATH
     )
 

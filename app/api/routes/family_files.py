@@ -32,7 +32,7 @@ async def add_family(request_info: FamilyFileRequest, session: AsyncSession = De
     return Response(message='family added to db', data=family_file.as_dict()).as_dict()
 
 
-@router.get("/get", summary="add family to db", description="service utils", response_model=Response)
+@router.get("/get", summary="read family from db", description="service utils", response_model=Response)
 async def get_family(file_id: Optional[str] = None, path: Optional[str] = None, session: AsyncSession = Depends(get_session)):
     if not file_id and not path:
         raise HTTPException(status_code=status.HTTP_404_NOT_FOUND,
@@ -50,7 +50,28 @@ async def get_family(file_id: Optional[str] = None, path: Optional[str] = None, 
         raise HTTPException(status_code=status.HTTP_404_NOT_FOUND,
                             detail="file not found")
 
-    return Response(message='family data', data=family_file.as_dict()).as_dict()
+    type_query = await session.execute(select(FamilyType)
+                                        .where(FamilyType.file_id == family_file.id))
+    family_types = type_query.scalars().all()
+    
+    types_data = {}
+    for f_type in family_types:
+        spec_params_query = await session.execute(select(SpecParamSet).where(SpecParamSet.type_id == f_type.id))
+        spec_params = spec_params_query.scalars().first()
+
+        sp_dict = {}
+        for c in spec_params.__table__.columns:
+            sp_dict[c.name] = getattr(spec_params, c.key)
+
+        types_data[f_type.name] = {
+            "name": f_type.name,
+            "parameters": sp_dict
+        }
+
+    result = family_file.as_dict()
+    result['types_data'] = types_data
+
+    return Response(message='family data', data=result).as_dict()
 
 
 @router.post("/update", summary="update family info in db", description="for service", response_model=Response)
@@ -100,7 +121,7 @@ async def process_group_of_files(id_list: List[str], mode: str, session: AsyncSe
     return Response(message=f'{len(id_list)} tasks transmited to worker', data={'result_id': result.id}).as_dict()
 
 
-@router.post("/create_types", summary="revit plugin bound - create types for family in db", description="for service", response_model=Response)
+@router.post("/create_types", summary="revit plugin bound", description="for service", response_model=Response)
 async def create_types(types: Dict[str, str], session: AsyncSession = Depends(get_session)):
     for type_name, family_id in types.items():
         file_query = await session.execute(select(FamilyFile).where(FamilyFile.id == family_id))
@@ -128,7 +149,7 @@ async def create_types(types: Dict[str, str], session: AsyncSession = Depends(ge
     return Response(message=f'{len(types)} added to a family {family_file.id}', data=types).as_dict()
 
 
-@router.post("/update_type_parameters", summary="revit plugin bound - update type parameters in db", description="for service", response_model=Response)
+@router.post("/update_type_parameters", summary="revit plugin bound", description="for service", response_model=Response)
 async def update_type_parameters(data: Dict[str, str], session: AsyncSession = Depends(get_session)):
     # print(f'received')
     # print(data)
@@ -176,31 +197,3 @@ async def update_type_parameters(data: Dict[str, str], session: AsyncSession = D
 
     return Response(message='file updated', data=family_type.as_dict()).as_dict()
 
-
-@router.get("/get_family_types", summary="update type parameters in db", description="for service", response_model=Response)
-async def get_family_types(file_id: str, session: AsyncSession = Depends(get_session)):
-    file_query = await session.execute(select(FamilyFile).where(FamilyFile.id == file_id))
-    family_file = file_query.scalars().first()
-    if not family_file:
-        raise HTTPException(status_code=status.HTTP_404_NOT_FOUND,
-                            detail="file not found")
-
-    type_query = await session.execute(select(FamilyType)
-                                        .where(FamilyType.file_id == family_file.id))
-    family_types = type_query.scalars().all()
-    
-    types_data = {}
-    for f_type in family_types:
-        spec_params_query = await session.execute(select(SpecParamSet).where(SpecParamSet.type_id == f_type.id))
-        spec_params = spec_params_query.scalars().first()
-
-        sp_dict = {}
-        for c in spec_params.__table__.columns:
-            sp_dict[c.name] = getattr(spec_params, c.key)
-
-        types_data[f_type.name] = {
-            "name": f_type.name,
-            "parameters": sp_dict
-        }
-
-    return Response(message='file updated', data=types_data).as_dict()

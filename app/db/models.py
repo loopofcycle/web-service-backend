@@ -53,6 +53,7 @@ class Base(AsyncAttrs, DeclarativeBase):
     #         result = await session.execute(query)
     #         return result.scalars().all()
 
+
 class SpecParamSet(Base):
     name: Mapped[str] = mapped_column(key='name', name='ADSK_Наименование', type_=String(128), unique=False, nullable=True)
     count: Mapped[int] = mapped_column(key='count', name='ADSK_Количество', type_=Integer, unique=False, nullable=True)
@@ -62,6 +63,8 @@ class SpecParamSet(Base):
     characteristic: Mapped[str] = mapped_column(key='characteristic', name='ADSK_Техническая характеристика', type_=String(128), unique=False, nullable=True)
     unit: Mapped[str] = mapped_column(key='unit', name='ADSK_Единица измерения', type_=String(128), unique=False, nullable=True)
     mass: Mapped[str] = mapped_column(key='mass', name='ADSK_Масса', type_=String(128), unique=False, nullable=True)
+    version: Mapped[str] = mapped_column(key='version', name='ADSK_Версия семейства', type_=String(128), unique=False, nullable=True)
+    url: Mapped[str] = mapped_column(key='url', name='ADSK_URL документации изделия', type_=String(128), unique=False, nullable=True)
     type_id = mapped_column(Uuid, ForeignKey('family_types.id'), nullable=False)
     type = relationship('FamilyType', backref=backref('spec_param_sets', lazy=True))
 
@@ -83,7 +86,7 @@ class FamilyFile(Base):
 
 
 class FamilyType(Base):
-    name = Column(String(128), unique=True, nullable=False)
+    name = Column(String(128), unique=False, nullable=False)
     file_id = Column(Uuid, ForeignKey('family_files.id'), nullable=False)
     file = relationship('FamilyFile', backref=backref('types', lazy=True))
 
