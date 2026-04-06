@@ -1,6 +1,7 @@
 import json
 from fastapi import APIRouter, Depends, HTTPException, status
 from typing import Optional, List, Dict
+from starlette.responses import FileResponse
 from sqlalchemy.ext.asyncio import AsyncSession
 from sqlalchemy import delete
 
@@ -32,7 +33,24 @@ async def add_family(request_info: FamilyFileRequest, session: AsyncSession = De
     return Response(message='family added to db', data=family_file.as_dict()).as_dict()
 
 
-@router.get("/get", summary="read family from db", description="service utils", response_model=Response)
+@router.get("/list", summary="read family from db", description="service utils")
+async def get_families(session: AsyncSession = Depends(get_session)):
+    files_query = await session.execute(select(FamilyFile))
+    families = files_query.scalars().all()
+    # result = [f.as_dict() for f in families]
+
+    data = []
+    for f in families:
+        data.append({
+            'title': f.title,
+            'category': 'common',
+            'file_name': f.title + '.rfa',
+            'path': f.path,
+        })
+    return data
+
+
+@router.get("/get", summary="get list of all families", description="service utils", response_model=Response)
 async def get_family(file_id: Optional[str] = None, path: Optional[str] = None, session: AsyncSession = Depends(get_session)):
     if not file_id and not path:
         raise HTTPException(status_code=status.HTTP_404_NOT_FOUND,
@@ -72,6 +90,19 @@ async def get_family(file_id: Optional[str] = None, path: Optional[str] = None, 
     result['types_data'] = types_data
 
     return Response(message='family data', data=result).as_dict()
+
+
+@router.get("/download", summary="download family file", description="service utils")
+async def download_family(file_id: str, session: AsyncSession = Depends(get_session)):
+    file_query = await session.execute(select(FamilyFile).where(FamilyFile.id == file_id))
+    family_file = file_query.scalars().first()
+    if not family_file:
+        raise HTTPException(status_code=status.HTTP_404_NOT_FOUND,
+                            detail="file not found")
+
+    return FileResponse(path=os.path.join(settings.MOUNTED_STORAGE_PATH, family_file.path),
+                        media_type='application/octet-stream',
+                        filename=family_file.title + '.rfa')
 
 
 @router.post("/update", summary="update family info in db", description="for service", response_model=Response)

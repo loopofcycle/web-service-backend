@@ -6,7 +6,7 @@ from app.core.config import settings
 from app.db.engine import get_session, engine
 from app.db.models import *
 from app.api.routes.family_files import add_family, process_group_of_files
-from app.api.schemas import Response, AdminCommand, FamilyFileRequest
+from app.api.schemas import Response, AdminCommand, FamilyFileRequest, FamilyFileStatus
 
 
 router = APIRouter(prefix=f"{settings.API_V1_STR}/jobs", tags=["jobs"])
@@ -24,7 +24,7 @@ async def periodic(cmd: AdminCommand):
 
 @router.post("/read_from_storage", summary="update files from storage", description="for auto tests", response_model=Response)
 async def read_from_storage(cmd: AdminCommand, session: AsyncSession = Depends(get_session)):
-    files_query = await session.execute(select(FamilyFile))
+    files_query = await session.execute(select(FamilyFile).where(FamilyFile.status != FamilyFileStatus.SYNCHRONIZED.value))
     families = files_query.scalars().all()
     response = await process_group_of_files(id_list=[str(family.id) for family in families],
                                             mode='read',

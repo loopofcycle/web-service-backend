@@ -14,7 +14,7 @@ class Settings(BaseSettings):
         extra="ignore",
     )
     API_V1_STR: str = "/api/v1"
-    FRONTEND_HOST: str = "http://172.16.251.163:5004/"
+    FRONTEND_HOST: str = "http://localhost/"
 
     # paths
     APP_PATH: str = os.path.join(pathlib.Path(__file__).parent.parent.parent.resolve())
@@ -25,7 +25,7 @@ class Settings(BaseSettings):
     REVIT_STARTUP_CONFIG_PATH: str = os.path.join(CONFIGS_FOLDER, "revit_startup_config.json")
 
     # *rfa files (family files) storage paths
-    MOUNTED_STORAGE_PATH: str = os.path.join("data", "rvt_files")
+    MOUNTED_STORAGE_PATH: str = r'/data/rvt_files'
     SERVER_STORAGE_PATH: str = "C:\\Users\\eliseev_i\\Yandex.Disk\\_revit_library"
 
     # revit and db settings for export

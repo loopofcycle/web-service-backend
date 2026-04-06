@@ -45,5 +45,150 @@
       <IsInstance>false</IsInstance>
     </ControlledParameter>
   </Parameters>
-  <Types/>
+  <Types>
+    <TypeItem>
+      <Name>Трансформатор медицинский</Name>
+      <Parameters>
+        <ControlledParameter>
+          <Name>ADSK_Наименование</Name>
+          <Group>Text</Group>
+          <Value>Трансформатор разделительный медицинский</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Количество</Name>
+          <Group>Text</Group>
+          <Value>1</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Марка</Name>
+          <Group>Text</Group>
+          <Value/>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Код изделия</Name>
+          <Group>Text</Group>
+          <Value/>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Завод-изготовитель</Name>
+          <Group>Text</Group>
+          <Value/>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Техническая характеристика</Name>
+          <Group>Text</Group>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Единица измерения</Name>
+          <Group>Text</Group>
+          <Value>шт.</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Масса</Name>
+          <Group>Text</Group>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Версия семейства</Name>
+          <Group>Text</Group>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_URL документации изделия</Name>
+          <Group>Text</Group>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>type_id</Name>
+          <Group>Text</Group>
+          <Value>8fa92e81-99b5-4f43-837e-475434345f58</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>id</Name>
+          <Group>Text</Group>
+          <Value>7bbc0026-0d40-4ccf-8f9c-30a1316d5981</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>created_at</Name>
+          <Group>Text</Group>
+          <Value>2026-03-29T09:14:01.970938</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>updated_at</Name>
+          <Group>Text</Group>
+          <Value>2026-03-29T09:14:01.970938</Value>
+          <IsInstance>false</IsInstance>
+        </ControlledParameter>
+      </Parameters>
+    </TypeItem>
+    <TypeItem>
+      <Name>Трансформатор ремонтного освещения</Name>
+      <Parameters>
+        <ControlledParameter>
+          <Name>ADSK_Наименование</Name>
+          <Group>Text</Group>
+          <Value>Трансформатор ремонтного освещения</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Количество</Name>
+          <Group>Text</Group>
+          <Value>1</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Марка</Name>
+          <Group>Text</Group>
+          <Value/>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Код изделия</Name>
+          <Group>Text</Group>
+          <Value/>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Завод-изготовитель</Name>
+          <Group>Text</Group>
+          <Value/>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Техническая характеристика</Name>
+          <Group>Text</Group>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Единица измерения</Name>
+          <Group>Text</Group>
+          <Value>шт.</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Масса</Name>
+          <Group>Text</Group>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Версия семейства</Name>
+          <Group>Text</Group>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_URL документации изделия</Name>
+          <Group>Text</Group>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>type_id</Name>
+          <Group>Text</Group>
+          <Value>35f49b37-6d89-451a-94cd-e8d312c1db12</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>id</Name>
+          <Group>Text</Group>
+          <Value>bb698809-d1dc-4291-8020-e24353d0c79d</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>created_at</Name>
+          <Group>Text</Group>
+          <Value>2026-03-29T09:14:01.913744</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>updated_at</Name>
+          <Group>Text</Group>
+          <Value>2026-03-29T09:14:01.913744</Value>
+          <IsInstance>false</IsInstance>
+        </ControlledParameter>
+      </Parameters>
+    </TypeItem>
+  </Types>
 </ParameterConfig>

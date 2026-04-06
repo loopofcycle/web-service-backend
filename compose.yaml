@@ -19,14 +19,14 @@ services:
     ports:
       - "6379:6379"
 
-  app:
+  backend:
     build: .
     container_name: fastapi_app
     restart: always
     volumes:
       - .:/code
       - "C:/Users/eliseev_i/Yandex.Disk/_revit_library:/data/rvt_files"
-    command: uvicorn app.main:app --host 0.0.0.0 --port 80 --reload
+    command: uvicorn app.main:app --host 0.0.0.0 --port 5000 --reload
     # Имена сервисов (db, redis) используются как хосты в URL
     environment:
       - DATABASE_URL=postgresql+asyncpg://admin:hotcoolaid@db:5432/db_pg
@@ -34,7 +34,7 @@ services:
       - REDIS_URL=redis://redis:6379/0
       - STORAGE_PATH=/data/rvt_files
     ports:
-      - "80:80"
+      - "5000:5000"
     depends_on:
       - db
       - redis
