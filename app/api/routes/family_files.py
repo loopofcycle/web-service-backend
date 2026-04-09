@@ -39,11 +39,18 @@ async def get_families(session: AsyncSession = Depends(get_session)):
     families = files_query.scalars().all()
     # result = [f.as_dict() for f in families]
 
+    categories_query = await session.execute(select(Category))
+    categories = categories_query.scalars().all()
+    category_by_id = {c.id: c.label for c in categories}
+    category_by_id[None] = 'common'
+
     data = []
     for f in families:
         data.append({
+            'id': f.id,
             'title': f.title,
-            'category': 'common',
+            'name': f.title.replace('_', ' '),
+            'category': category_by_id[f.category_id],
             'file_name': f.title + '.rfa',
             'path': f.path,
         })
@@ -90,6 +97,24 @@ async def get_family(file_id: Optional[str] = None, path: Optional[str] = None, 
     result['types_data'] = types_data
 
     return Response(message='family data', data=result).as_dict()
+
+
+@router.get("/preview_pic", summary="download family preview picture", description="service utils")
+async def download_preview(file_id: str, session: AsyncSession = Depends(get_session)):
+    file_query = await session.execute(select(FamilyFile).where(FamilyFile.id == file_id))
+    family_file = file_query.scalars().first()
+    if not family_file:
+        raise HTTPException(status_code=status.HTTP_404_NOT_FOUND,
+                            detail="file not found")
+    
+    picture_path = os.path.join(settings.MOUNTED_STORAGE_PATH, family_file.path.replace('.rfa', '.jpg'))
+    if not os.path.exists(picture_path):
+        raise HTTPException(status_code=status.HTTP_404_NOT_FOUND,
+                            detail="file not found")
+    
+    return FileResponse(path=picture_path,
+                        media_type='application/octet-stream',
+                        filename=family_file.title + '.jpg')
 
 
 @router.get("/download", summary="download family file", description="service utils")
@@ -227,4 +252,3 @@ async def update_type_parameters(data: Dict[str, str], session: AsyncSession = D
     await session.commit()
 
     return Response(message='file updated', data=family_type.as_dict()).as_dict()
-

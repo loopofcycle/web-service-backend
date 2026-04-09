@@ -47,12 +47,12 @@
   </Parameters>
   <Types>
     <TypeItem>
-      <Name>Трансформатор медицинский</Name>
+      <Name>Вентилятор VTR DU-35A-1,5x30</Name>
       <Parameters>
         <ControlledParameter>
           <Name>ADSK_Наименование</Name>
           <Group>Text</Group>
-          <Value>Трансформатор разделительный медицинский</Value>
+          <Value>Вентилятор радиальный дымоудаления</Value>
         </ControlledParameter>
         <ControlledParameter>
           <Name>ADSK_Количество</Name>
@@ -62,17 +62,16 @@
         <ControlledParameter>
           <Name>ADSK_Марка</Name>
           <Group>Text</Group>
-          <Value/>
+          <Value>VTR DU-400-35A-1,5x30-R-0-У2</Value>
         </ControlledParameter>
         <ControlledParameter>
           <Name>ADSK_Код изделия</Name>
           <Group>Text</Group>
-          <Value/>
         </ControlledParameter>
         <ControlledParameter>
           <Name>ADSK_Завод-изготовитель</Name>
           <Group>Text</Group>
-          <Value/>
+          <Value>NED</Value>
         </ControlledParameter>
         <ControlledParameter>
           <Name>ADSK_Техническая характеристика</Name>
@@ -86,6 +85,7 @@
         <ControlledParameter>
           <Name>ADSK_Масса</Name>
           <Group>Text</Group>
+          <Value>42.000000</Value>
         </ControlledParameter>
         <ControlledParameter>
           <Name>ADSK_Версия семейства</Name>
@@ -98,33 +98,33 @@
         <ControlledParameter>
           <Name>type_id</Name>
           <Group>Text</Group>
-          <Value>8fa92e81-99b5-4f43-837e-475434345f58</Value>
+          <Value>3352a455-151b-4ab6-af0f-53adc6f5285a</Value>
         </ControlledParameter>
         <ControlledParameter>
           <Name>id</Name>
           <Group>Text</Group>
-          <Value>7bbc0026-0d40-4ccf-8f9c-30a1316d5981</Value>
+          <Value>bb455108-7cd6-446f-8c56-1a07813cd7eb</Value>
         </ControlledParameter>
         <ControlledParameter>
           <Name>created_at</Name>
           <Group>Text</Group>
-          <Value>2026-03-29T09:14:01.970938</Value>
+          <Value>2026-04-09T11:41:28.919637</Value>
         </ControlledParameter>
         <ControlledParameter>
           <Name>updated_at</Name>
           <Group>Text</Group>
-          <Value>2026-03-29T09:14:01.970938</Value>
+          <Value>2026-04-09T11:41:28.919637</Value>
           <IsInstance>false</IsInstance>
         </ControlledParameter>
       </Parameters>
     </TypeItem>
     <TypeItem>
-      <Name>Трансформатор ремонтного освещения</Name>
+      <Name>Вентилятор VTR DU-35B-2,2x30</Name>
       <Parameters>
         <ControlledParameter>
           <Name>ADSK_Наименование</Name>
           <Group>Text</Group>
-          <Value>Трансформатор ремонтного освещения</Value>
+          <Value>Вентилятор радиальный дымоудаления</Value>
         </ControlledParameter>
         <ControlledParameter>
           <Name>ADSK_Количество</Name>
@@ -134,17 +134,16 @@
         <ControlledParameter>
           <Name>ADSK_Марка</Name>
           <Group>Text</Group>
-          <Value/>
+          <Value>VTR DU-400-35B-2,2x30-R-0-У2</Value>
         </ControlledParameter>
         <ControlledParameter>
           <Name>ADSK_Код изделия</Name>
           <Group>Text</Group>
-          <Value/>
         </ControlledParameter>
         <ControlledParameter>
           <Name>ADSK_Завод-изготовитель</Name>
           <Group>Text</Group>
-          <Value/>
+          <Value>NED</Value>
         </ControlledParameter>
         <ControlledParameter>
           <Name>ADSK_Техническая характеристика</Name>
@@ -158,6 +157,7 @@
         <ControlledParameter>
           <Name>ADSK_Масса</Name>
           <Group>Text</Group>
+          <Value>42.000000</Value>
         </ControlledParameter>
         <ControlledParameter>
           <Name>ADSK_Версия семейства</Name>
@@ -170,22 +170,2614 @@
         <ControlledParameter>
           <Name>type_id</Name>
           <Group>Text</Group>
-          <Value>35f49b37-6d89-451a-94cd-e8d312c1db12</Value>
+          <Value>933cc927-877c-4ed0-ac9a-606c7265b87d</Value>
         </ControlledParameter>
         <ControlledParameter>
           <Name>id</Name>
           <Group>Text</Group>
-          <Value>bb698809-d1dc-4291-8020-e24353d0c79d</Value>
+          <Value>1a9b7151-0bcf-4ae3-b8dc-28b1ca603aa4</Value>
         </ControlledParameter>
         <ControlledParameter>
           <Name>created_at</Name>
           <Group>Text</Group>
-          <Value>2026-03-29T09:14:01.913744</Value>
+          <Value>2026-04-09T11:41:29.078786</Value>
         </ControlledParameter>
         <ControlledParameter>
           <Name>updated_at</Name>
           <Group>Text</Group>
-          <Value>2026-03-29T09:14:01.913744</Value>
+          <Value>2026-04-09T11:41:29.078786</Value>
+          <IsInstance>false</IsInstance>
+        </ControlledParameter>
+      </Parameters>
+    </TypeItem>
+    <TypeItem>
+      <Name>Вентилятор VTR DU-80B-4x10</Name>
+      <Parameters>
+        <ControlledParameter>
+          <Name>ADSK_Наименование</Name>
+          <Group>Text</Group>
+          <Value>Вентилятор радиальный дымоудаления</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Количество</Name>
+          <Group>Text</Group>
+          <Value>1</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Марка</Name>
+          <Group>Text</Group>
+          <Value>VTR DU-400-80B-4x10-R-0-У2</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Код изделия</Name>
+          <Group>Text</Group>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Завод-изготовитель</Name>
+          <Group>Text</Group>
+          <Value>NED</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Техническая характеристика</Name>
+          <Group>Text</Group>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Единица измерения</Name>
+          <Group>Text</Group>
+          <Value>шт.</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Масса</Name>
+          <Group>Text</Group>
+          <Value>220.000000</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Версия семейства</Name>
+          <Group>Text</Group>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_URL документации изделия</Name>
+          <Group>Text</Group>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>type_id</Name>
+          <Group>Text</Group>
+          <Value>507b2967-786f-44e9-9f53-1f347d0f1968</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>id</Name>
+          <Group>Text</Group>
+          <Value>9218fa4c-5534-42c1-8764-f069408a5ec1</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>created_at</Name>
+          <Group>Text</Group>
+          <Value>2026-04-09T11:41:29.240085</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>updated_at</Name>
+          <Group>Text</Group>
+          <Value>2026-04-09T11:41:29.240085</Value>
+          <IsInstance>false</IsInstance>
+        </ControlledParameter>
+      </Parameters>
+    </TypeItem>
+    <TypeItem>
+      <Name>Вентилятор VTR DU-50B-1,5x15</Name>
+      <Parameters>
+        <ControlledParameter>
+          <Name>ADSK_Наименование</Name>
+          <Group>Text</Group>
+          <Value>Вентилятор радиальный дымоудаления</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Количество</Name>
+          <Group>Text</Group>
+          <Value>1</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Марка</Name>
+          <Group>Text</Group>
+          <Value>VTR DU-400-50B-1,5x15-R-0-У2</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Код изделия</Name>
+          <Group>Text</Group>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Завод-изготовитель</Name>
+          <Group>Text</Group>
+          <Value>NED</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Техническая характеристика</Name>
+          <Group>Text</Group>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Единица измерения</Name>
+          <Group>Text</Group>
+          <Value>шт.</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Масса</Name>
+          <Group>Text</Group>
+          <Value>73.000000</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Версия семейства</Name>
+          <Group>Text</Group>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_URL документации изделия</Name>
+          <Group>Text</Group>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>type_id</Name>
+          <Group>Text</Group>
+          <Value>2d2b62fd-162c-44c4-a604-7ef20c459e94</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>id</Name>
+          <Group>Text</Group>
+          <Value>0e7b8d16-e848-4493-93a3-a130ea0399fa</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>created_at</Name>
+          <Group>Text</Group>
+          <Value>2026-04-09T11:41:28.612503</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>updated_at</Name>
+          <Group>Text</Group>
+          <Value>2026-04-09T11:41:28.612503</Value>
+          <IsInstance>false</IsInstance>
+        </ControlledParameter>
+      </Parameters>
+    </TypeItem>
+    <TypeItem>
+      <Name>Вентилятор VTR DU-100B-5,5x7,5</Name>
+      <Parameters>
+        <ControlledParameter>
+          <Name>ADSK_Наименование</Name>
+          <Group>Text</Group>
+          <Value>Вентилятор радиальный дымоудаления</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Количество</Name>
+          <Group>Text</Group>
+          <Value>1</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Марка</Name>
+          <Group>Text</Group>
+          <Value>VTR DU-400-100B-5,5x7,5-R-0-У2</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Код изделия</Name>
+          <Group>Text</Group>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Завод-изготовитель</Name>
+          <Group>Text</Group>
+          <Value>NED</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Техническая характеристика</Name>
+          <Group>Text</Group>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Единица измерения</Name>
+          <Group>Text</Group>
+          <Value>шт.</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Масса</Name>
+          <Group>Text</Group>
+          <Value>375.000000</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Версия семейства</Name>
+          <Group>Text</Group>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_URL документации изделия</Name>
+          <Group>Text</Group>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>type_id</Name>
+          <Group>Text</Group>
+          <Value>20257fd6-53d8-4483-a3fd-d5deaf08b9c9</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>id</Name>
+          <Group>Text</Group>
+          <Value>590e7790-327d-47c7-ae11-f8e9a0137c3b</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>created_at</Name>
+          <Group>Text</Group>
+          <Value>2026-04-09T11:41:29.674005</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>updated_at</Name>
+          <Group>Text</Group>
+          <Value>2026-04-09T11:41:29.674005</Value>
+          <IsInstance>false</IsInstance>
+        </ControlledParameter>
+      </Parameters>
+    </TypeItem>
+    <TypeItem>
+      <Name>Вентилятор VTR DU-112A-7,5x7,5</Name>
+      <Parameters>
+        <ControlledParameter>
+          <Name>ADSK_Наименование</Name>
+          <Group>Text</Group>
+          <Value>Вентилятор радиальный дымоудаления</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Количество</Name>
+          <Group>Text</Group>
+          <Value>1</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Марка</Name>
+          <Group>Text</Group>
+          <Value>VTR DU-400-112A-7,5x7,5-R-0-У2</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Код изделия</Name>
+          <Group>Text</Group>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Завод-изготовитель</Name>
+          <Group>Text</Group>
+          <Value>NED</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Техническая характеристика</Name>
+          <Group>Text</Group>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Единица измерения</Name>
+          <Group>Text</Group>
+          <Value>шт.</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Масса</Name>
+          <Group>Text</Group>
+          <Value>570.000000</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Версия семейства</Name>
+          <Group>Text</Group>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_URL документации изделия</Name>
+          <Group>Text</Group>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>type_id</Name>
+          <Group>Text</Group>
+          <Value>6890c535-dcd2-498b-bdbb-ab7ff12bb435</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>id</Name>
+          <Group>Text</Group>
+          <Value>20d17aee-6bf4-4de6-9ab8-9f54ea8f4d22</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>created_at</Name>
+          <Group>Text</Group>
+          <Value>2026-04-09T11:41:29.459551</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>updated_at</Name>
+          <Group>Text</Group>
+          <Value>2026-04-09T11:41:29.459551</Value>
+          <IsInstance>false</IsInstance>
+        </ControlledParameter>
+      </Parameters>
+    </TypeItem>
+    <TypeItem>
+      <Name>Вентилятор VTR DU-71B-11x15</Name>
+      <Parameters>
+        <ControlledParameter>
+          <Name>ADSK_Наименование</Name>
+          <Group>Text</Group>
+          <Value>Вентилятор радиальный дымоудаления</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Количество</Name>
+          <Group>Text</Group>
+          <Value>1</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Марка</Name>
+          <Group>Text</Group>
+          <Value>VTR DU-400-71B-11x15-R-0-У2</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Код изделия</Name>
+          <Group>Text</Group>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Завод-изготовитель</Name>
+          <Group>Text</Group>
+          <Value>NED</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Техническая характеристика</Name>
+          <Group>Text</Group>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Единица измерения</Name>
+          <Group>Text</Group>
+          <Value>шт.</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Масса</Name>
+          <Group>Text</Group>
+          <Value>155.000000</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Версия семейства</Name>
+          <Group>Text</Group>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_URL документации изделия</Name>
+          <Group>Text</Group>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>type_id</Name>
+          <Group>Text</Group>
+          <Value>a611aef9-3281-4023-9182-15824914eb29</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>id</Name>
+          <Group>Text</Group>
+          <Value>8d367cd9-7b62-4df9-93a0-f1e70c1afb5d</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>created_at</Name>
+          <Group>Text</Group>
+          <Value>2026-04-09T11:41:27.905980</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>updated_at</Name>
+          <Group>Text</Group>
+          <Value>2026-04-09T11:41:27.905980</Value>
+          <IsInstance>false</IsInstance>
+        </ControlledParameter>
+      </Parameters>
+    </TypeItem>
+    <TypeItem>
+      <Name>Вентилятор VTR DU-112B-11x7,5</Name>
+      <Parameters>
+        <ControlledParameter>
+          <Name>ADSK_Наименование</Name>
+          <Group>Text</Group>
+          <Value>Вентилятор радиальный дымоудаления</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Количество</Name>
+          <Group>Text</Group>
+          <Value>1</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Марка</Name>
+          <Group>Text</Group>
+          <Value>VTR DU-400-112B-11x7,5-R-0-У2</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Код изделия</Name>
+          <Group>Text</Group>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Завод-изготовитель</Name>
+          <Group>Text</Group>
+          <Value>NED</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Техническая характеристика</Name>
+          <Group>Text</Group>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Единица измерения</Name>
+          <Group>Text</Group>
+          <Value>шт.</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Масса</Name>
+          <Group>Text</Group>
+          <Value>570.000000</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Версия семейства</Name>
+          <Group>Text</Group>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_URL документации изделия</Name>
+          <Group>Text</Group>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>type_id</Name>
+          <Group>Text</Group>
+          <Value>6bed8d6f-5406-4816-b5d3-d6f140db4228</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>id</Name>
+          <Group>Text</Group>
+          <Value>0b28d8b5-fdcf-4abc-aa5e-b163a03f9908</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>created_at</Name>
+          <Group>Text</Group>
+          <Value>2026-04-09T11:41:28.682831</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>updated_at</Name>
+          <Group>Text</Group>
+          <Value>2026-04-09T11:41:28.682831</Value>
+          <IsInstance>false</IsInstance>
+        </ControlledParameter>
+      </Parameters>
+    </TypeItem>
+    <TypeItem>
+      <Name>Вентилятор VTR DU-56B-2,2x15</Name>
+      <Parameters>
+        <ControlledParameter>
+          <Name>ADSK_Наименование</Name>
+          <Group>Text</Group>
+          <Value>Вентилятор радиальный дымоудаления</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Количество</Name>
+          <Group>Text</Group>
+          <Value>1</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Марка</Name>
+          <Group>Text</Group>
+          <Value>VTR DU-400-56B-2,2x15-R-0-У2</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Код изделия</Name>
+          <Group>Text</Group>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Завод-изготовитель</Name>
+          <Group>Text</Group>
+          <Value>NED</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Техническая характеристика</Name>
+          <Group>Text</Group>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Единица измерения</Name>
+          <Group>Text</Group>
+          <Value>шт.</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Масса</Name>
+          <Group>Text</Group>
+          <Value>90.000000</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Версия семейства</Name>
+          <Group>Text</Group>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_URL документации изделия</Name>
+          <Group>Text</Group>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>type_id</Name>
+          <Group>Text</Group>
+          <Value>7c2ec129-66d1-40fa-93c6-8090294f9569</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>id</Name>
+          <Group>Text</Group>
+          <Value>fd8c729e-0290-40e1-a2b7-61b46d80d908</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>created_at</Name>
+          <Group>Text</Group>
+          <Value>2026-04-09T11:41:28.974491</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>updated_at</Name>
+          <Group>Text</Group>
+          <Value>2026-04-09T11:41:28.974491</Value>
+          <IsInstance>false</IsInstance>
+        </ControlledParameter>
+      </Parameters>
+    </TypeItem>
+    <TypeItem>
+      <Name>Вентилятор VTR DU-80A-3x10</Name>
+      <Parameters>
+        <ControlledParameter>
+          <Name>ADSK_Наименование</Name>
+          <Group>Text</Group>
+          <Value>Вентилятор радиальный дымоудаления</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Количество</Name>
+          <Group>Text</Group>
+          <Value>1</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Марка</Name>
+          <Group>Text</Group>
+          <Value>VTR DU-400-80A-3x10-R-0-У2</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Код изделия</Name>
+          <Group>Text</Group>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Завод-изготовитель</Name>
+          <Group>Text</Group>
+          <Value>NED</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Техническая характеристика</Name>
+          <Group>Text</Group>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Единица измерения</Name>
+          <Group>Text</Group>
+          <Value>шт.</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Масса</Name>
+          <Group>Text</Group>
+          <Value>220.000000</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Версия семейства</Name>
+          <Group>Text</Group>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_URL документации изделия</Name>
+          <Group>Text</Group>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>type_id</Name>
+          <Group>Text</Group>
+          <Value>a4531812-8a48-4e41-b62e-f51667228560</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>id</Name>
+          <Group>Text</Group>
+          <Value>3e697815-90b3-4a33-a42e-40a120ea3d30</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>created_at</Name>
+          <Group>Text</Group>
+          <Value>2026-04-09T11:41:28.278272</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>updated_at</Name>
+          <Group>Text</Group>
+          <Value>2026-04-09T11:41:28.278272</Value>
+          <IsInstance>false</IsInstance>
+        </ControlledParameter>
+      </Parameters>
+    </TypeItem>
+    <TypeItem>
+      <Name>Вентилятор VTR DU-71A-7,5x15</Name>
+      <Parameters>
+        <ControlledParameter>
+          <Name>ADSK_Наименование</Name>
+          <Group>Text</Group>
+          <Value>Вентилятор радиальный дымоудаления</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Количество</Name>
+          <Group>Text</Group>
+          <Value>1</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Марка</Name>
+          <Group>Text</Group>
+          <Value>VTR DU-400-71A-7,5x15-R-0-У2</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Код изделия</Name>
+          <Group>Text</Group>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Завод-изготовитель</Name>
+          <Group>Text</Group>
+          <Value>NED</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Техническая характеристика</Name>
+          <Group>Text</Group>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Единица измерения</Name>
+          <Group>Text</Group>
+          <Value>шт.</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Масса</Name>
+          <Group>Text</Group>
+          <Value>155.000000</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Версия семейства</Name>
+          <Group>Text</Group>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_URL документации изделия</Name>
+          <Group>Text</Group>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>type_id</Name>
+          <Group>Text</Group>
+          <Value>dd08af8a-0aec-4cd4-8c52-b9508b9fa463</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>id</Name>
+          <Group>Text</Group>
+          <Value>6dc6dc28-9b69-49bd-94c4-ebf2d1aa82c1</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>created_at</Name>
+          <Group>Text</Group>
+          <Value>2026-04-09T11:41:28.808079</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>updated_at</Name>
+          <Group>Text</Group>
+          <Value>2026-04-09T11:41:28.808079</Value>
+          <IsInstance>false</IsInstance>
+        </ControlledParameter>
+      </Parameters>
+    </TypeItem>
+    <TypeItem>
+      <Name>Вентилятор VTR DU-40A-3x30</Name>
+      <Parameters>
+        <ControlledParameter>
+          <Name>ADSK_Наименование</Name>
+          <Group>Text</Group>
+          <Value>Вентилятор радиальный дымоудаления</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Количество</Name>
+          <Group>Text</Group>
+          <Value>1</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Марка</Name>
+          <Group>Text</Group>
+          <Value>VTR DU-400-40A-3x30-R-0-У2</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Код изделия</Name>
+          <Group>Text</Group>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Завод-изготовитель</Name>
+          <Group>Text</Group>
+          <Value>NED</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Техническая характеристика</Name>
+          <Group>Text</Group>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Единица измерения</Name>
+          <Group>Text</Group>
+          <Value>шт.</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Масса</Name>
+          <Group>Text</Group>
+          <Value>45.000000</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Версия семейства</Name>
+          <Group>Text</Group>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_URL документации изделия</Name>
+          <Group>Text</Group>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>type_id</Name>
+          <Group>Text</Group>
+          <Value>2b6c1b1e-dc81-41ea-885a-3e90cb9ae1c2</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>id</Name>
+          <Group>Text</Group>
+          <Value>a6570e79-9399-4715-8f7c-861fdb61991e</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>created_at</Name>
+          <Group>Text</Group>
+          <Value>2026-04-09T11:41:29.570537</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>updated_at</Name>
+          <Group>Text</Group>
+          <Value>2026-04-09T11:41:29.570537</Value>
+          <IsInstance>false</IsInstance>
+        </ControlledParameter>
+      </Parameters>
+    </TypeItem>
+    <TypeItem>
+      <Name>Вентилятор VTR DU-112B-22x10</Name>
+      <Parameters>
+        <ControlledParameter>
+          <Name>ADSK_Наименование</Name>
+          <Group>Text</Group>
+          <Value>Вентилятор радиальный дымоудаления</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Количество</Name>
+          <Group>Text</Group>
+          <Value>1</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Марка</Name>
+          <Group>Text</Group>
+          <Value>VTR DU-400-112B-22x10-R-0-У2</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Код изделия</Name>
+          <Group>Text</Group>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Завод-изготовитель</Name>
+          <Group>Text</Group>
+          <Value>NED</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Техническая характеристика</Name>
+          <Group>Text</Group>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Единица измерения</Name>
+          <Group>Text</Group>
+          <Value>шт.</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Масса</Name>
+          <Group>Text</Group>
+          <Value>570.000000</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Версия семейства</Name>
+          <Group>Text</Group>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_URL документации изделия</Name>
+          <Group>Text</Group>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>type_id</Name>
+          <Group>Text</Group>
+          <Value>38df1dd9-8475-451a-a8f3-7efe61895be9</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>id</Name>
+          <Group>Text</Group>
+          <Value>b13f9de1-c78d-4160-8afe-5a17b0b38fab</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>created_at</Name>
+          <Group>Text</Group>
+          <Value>2026-04-09T11:41:29.835297</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>updated_at</Name>
+          <Group>Text</Group>
+          <Value>2026-04-09T11:41:29.835297</Value>
+          <IsInstance>false</IsInstance>
+        </ControlledParameter>
+      </Parameters>
+    </TypeItem>
+    <TypeItem>
+      <Name>Вентилятор VTR DU-63B-5,5x15</Name>
+      <Parameters>
+        <ControlledParameter>
+          <Name>ADSK_Наименование</Name>
+          <Group>Text</Group>
+          <Value>Вентилятор радиальный дымоудаления</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Количество</Name>
+          <Group>Text</Group>
+          <Value>1</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Марка</Name>
+          <Group>Text</Group>
+          <Value>VTR DU-400-63B-5,5x15-R-0-У2</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Код изделия</Name>
+          <Group>Text</Group>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Завод-изготовитель</Name>
+          <Group>Text</Group>
+          <Value>NED</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Техническая характеристика</Name>
+          <Group>Text</Group>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Единица измерения</Name>
+          <Group>Text</Group>
+          <Value>шт.</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Масса</Name>
+          <Group>Text</Group>
+          <Value>121.000000</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Версия семейства</Name>
+          <Group>Text</Group>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_URL документации изделия</Name>
+          <Group>Text</Group>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>type_id</Name>
+          <Group>Text</Group>
+          <Value>5f1f0eda-cf4c-499a-9ccc-6a83af33dc2b</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>id</Name>
+          <Group>Text</Group>
+          <Value>6ef908de-863b-4106-9ab6-b058a5116979</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>created_at</Name>
+          <Group>Text</Group>
+          <Value>2026-04-09T11:41:29.518150</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>updated_at</Name>
+          <Group>Text</Group>
+          <Value>2026-04-09T11:41:29.518150</Value>
+          <IsInstance>false</IsInstance>
+        </ControlledParameter>
+      </Parameters>
+    </TypeItem>
+    <TypeItem>
+      <Name>Вентилятор VTR DU-125B-18,5x7,5</Name>
+      <Parameters>
+        <ControlledParameter>
+          <Name>ADSK_Наименование</Name>
+          <Group>Text</Group>
+          <Value>Вентилятор радиальный дымоудаления</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Количество</Name>
+          <Group>Text</Group>
+          <Value>1</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Марка</Name>
+          <Group>Text</Group>
+          <Value>VTR DU-400-125B-18,5x7,5-R-0-У2</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Код изделия</Name>
+          <Group>Text</Group>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Завод-изготовитель</Name>
+          <Group>Text</Group>
+          <Value>NED</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Техническая характеристика</Name>
+          <Group>Text</Group>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Единица измерения</Name>
+          <Group>Text</Group>
+          <Value>шт.</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Масса</Name>
+          <Group>Text</Group>
+          <Value>659.000000</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Версия семейства</Name>
+          <Group>Text</Group>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_URL документации изделия</Name>
+          <Group>Text</Group>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>type_id</Name>
+          <Group>Text</Group>
+          <Value>10f0c2bd-dfaf-42db-b869-b2de452c9d37</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>id</Name>
+          <Group>Text</Group>
+          <Value>115bcfd0-d02c-4950-a536-b76e0c1b3deb</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>created_at</Name>
+          <Group>Text</Group>
+          <Value>2026-04-09T11:41:29.778942</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>updated_at</Name>
+          <Group>Text</Group>
+          <Value>2026-04-09T11:41:29.778942</Value>
+          <IsInstance>false</IsInstance>
+        </ControlledParameter>
+      </Parameters>
+    </TypeItem>
+    <TypeItem>
+      <Name>Вентилятор VTR DU-90A-22x15</Name>
+      <Parameters>
+        <ControlledParameter>
+          <Name>ADSK_Наименование</Name>
+          <Group>Text</Group>
+          <Value>Вентилятор радиальный дымоудаления</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Количество</Name>
+          <Group>Text</Group>
+          <Value>1</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Марка</Name>
+          <Group>Text</Group>
+          <Value>VTR DU-400-90A-22x15-R-0-У2</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Код изделия</Name>
+          <Group>Text</Group>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Завод-изготовитель</Name>
+          <Group>Text</Group>
+          <Value>NED</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Техническая характеристика</Name>
+          <Group>Text</Group>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Единица измерения</Name>
+          <Group>Text</Group>
+          <Value>шт.</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Масса</Name>
+          <Group>Text</Group>
+          <Value>282.000000</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Версия семейства</Name>
+          <Group>Text</Group>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_URL документации изделия</Name>
+          <Group>Text</Group>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>type_id</Name>
+          <Group>Text</Group>
+          <Value>9b945db2-4f10-4a84-92f2-2d87a09e80ab</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>id</Name>
+          <Group>Text</Group>
+          <Value>36e8738b-a9f3-49b8-af98-1ac4dd3d63d9</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>created_at</Name>
+          <Group>Text</Group>
+          <Value>2026-04-09T11:41:29.726540</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>updated_at</Name>
+          <Group>Text</Group>
+          <Value>2026-04-09T11:41:29.726540</Value>
+          <IsInstance>false</IsInstance>
+        </ControlledParameter>
+      </Parameters>
+    </TypeItem>
+    <TypeItem>
+      <Name>Вентилятор VTR DU-40B-4x30</Name>
+      <Parameters>
+        <ControlledParameter>
+          <Name>ADSK_Наименование</Name>
+          <Group>Text</Group>
+          <Value>Вентилятор радиальный дымоудаления</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Количество</Name>
+          <Group>Text</Group>
+          <Value>1</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Марка</Name>
+          <Group>Text</Group>
+          <Value>VTR DU-400-40B-4x30-R-0-У2</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Код изделия</Name>
+          <Group>Text</Group>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Завод-изготовитель</Name>
+          <Group>Text</Group>
+          <Value>NED</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Техническая характеристика</Name>
+          <Group>Text</Group>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Единица измерения</Name>
+          <Group>Text</Group>
+          <Value>шт.</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Масса</Name>
+          <Group>Text</Group>
+          <Value>45.000000</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Версия семейства</Name>
+          <Group>Text</Group>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_URL документации изделия</Name>
+          <Group>Text</Group>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>type_id</Name>
+          <Group>Text</Group>
+          <Value>70b7c326-0032-4c7f-9ae4-d1567f1fee95</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>id</Name>
+          <Group>Text</Group>
+          <Value>8dd39259-e385-4b37-862c-ac0f68729d48</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>created_at</Name>
+          <Group>Text</Group>
+          <Value>2026-04-09T11:41:29.345727</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>updated_at</Name>
+          <Group>Text</Group>
+          <Value>2026-04-09T11:41:29.345727</Value>
+          <IsInstance>false</IsInstance>
+        </ControlledParameter>
+      </Parameters>
+    </TypeItem>
+    <TypeItem>
+      <Name>Вентилятор VTR DU-50A-1,1x15</Name>
+      <Parameters>
+        <ControlledParameter>
+          <Name>ADSK_Наименование</Name>
+          <Group>Text</Group>
+          <Value>Вентилятор радиальный дымоудаления</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Количество</Name>
+          <Group>Text</Group>
+          <Value>1</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Марка</Name>
+          <Group>Text</Group>
+          <Value>VTR DU-400-50A-1,1x15-R-0-У2</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Код изделия</Name>
+          <Group>Text</Group>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Завод-изготовитель</Name>
+          <Group>Text</Group>
+          <Value>NED</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Техническая характеристика</Name>
+          <Group>Text</Group>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Единица измерения</Name>
+          <Group>Text</Group>
+          <Value>шт.</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Масса</Name>
+          <Group>Text</Group>
+          <Value>73.000000</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Версия семейства</Name>
+          <Group>Text</Group>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_URL документации изделия</Name>
+          <Group>Text</Group>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>type_id</Name>
+          <Group>Text</Group>
+          <Value>74f908db-a027-4e87-9176-d26dac27b03c</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>id</Name>
+          <Group>Text</Group>
+          <Value>5fa2b02e-d95d-4d0b-a75c-1232bac70b72</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>created_at</Name>
+          <Group>Text</Group>
+          <Value>2026-04-09T11:41:28.445099</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>updated_at</Name>
+          <Group>Text</Group>
+          <Value>2026-04-09T11:41:28.445099</Value>
+          <IsInstance>false</IsInstance>
+        </ControlledParameter>
+      </Parameters>
+    </TypeItem>
+    <TypeItem>
+      <Name>Вентилятор VTR DU-100A-4x7,5</Name>
+      <Parameters>
+        <ControlledParameter>
+          <Name>ADSK_Наименование</Name>
+          <Group>Text</Group>
+          <Value>Вентилятор радиальный дымоудаления</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Количество</Name>
+          <Group>Text</Group>
+          <Value>1</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Марка</Name>
+          <Group>Text</Group>
+          <Value>VTR DU-400-100A-4x7,5-R-0-У2</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Код изделия</Name>
+          <Group>Text</Group>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Завод-изготовитель</Name>
+          <Group>Text</Group>
+          <Value>NED</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Техническая характеристика</Name>
+          <Group>Text</Group>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Единица измерения</Name>
+          <Group>Text</Group>
+          <Value>шт.</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Масса</Name>
+          <Group>Text</Group>
+          <Value>375.000000</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Версия семейства</Name>
+          <Group>Text</Group>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_URL документации изделия</Name>
+          <Group>Text</Group>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>type_id</Name>
+          <Group>Text</Group>
+          <Value>3a619fcc-eb75-40bf-8fab-c621e08ea00d</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>id</Name>
+          <Group>Text</Group>
+          <Value>b62d70ee-560a-4305-8fe1-892c31cb98f4</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>created_at</Name>
+          <Group>Text</Group>
+          <Value>2026-04-09T11:41:29.129914</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>updated_at</Name>
+          <Group>Text</Group>
+          <Value>2026-04-09T11:41:29.129914</Value>
+          <IsInstance>false</IsInstance>
+        </ControlledParameter>
+      </Parameters>
+    </TypeItem>
+    <TypeItem>
+      <Name>Вентилятор VTR DU-100B-15 x10</Name>
+      <Parameters>
+        <ControlledParameter>
+          <Name>ADSK_Наименование</Name>
+          <Group>Text</Group>
+          <Value>Вентилятор радиальный дымоудаления</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Количество</Name>
+          <Group>Text</Group>
+          <Value>1</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Марка</Name>
+          <Group>Text</Group>
+          <Value>VTR DU-400-100B-15 x10-R-0-У2</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Код изделия</Name>
+          <Group>Text</Group>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Завод-изготовитель</Name>
+          <Group>Text</Group>
+          <Value>NED</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Техническая характеристика</Name>
+          <Group>Text</Group>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Единица измерения</Name>
+          <Group>Text</Group>
+          <Value>шт.</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Масса</Name>
+          <Group>Text</Group>
+          <Value>375.000000</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Версия семейства</Name>
+          <Group>Text</Group>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_URL документации изделия</Name>
+          <Group>Text</Group>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>type_id</Name>
+          <Group>Text</Group>
+          <Value>563af3ac-a486-4fa5-b410-f9d2bcdbe881</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>id</Name>
+          <Group>Text</Group>
+          <Value>23d88cb6-041e-4f2f-8595-fb1addf8e129</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>created_at</Name>
+          <Group>Text</Group>
+          <Value>2026-04-09T11:41:28.175058</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>updated_at</Name>
+          <Group>Text</Group>
+          <Value>2026-04-09T11:41:28.175058</Value>
+          <IsInstance>false</IsInstance>
+        </ControlledParameter>
+      </Parameters>
+    </TypeItem>
+    <TypeItem>
+      <Name>Вентилятор VTR DU-71B-2,2x10</Name>
+      <Parameters>
+        <ControlledParameter>
+          <Name>ADSK_Наименование</Name>
+          <Group>Text</Group>
+          <Value>Вентилятор радиальный дымоудаления</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Количество</Name>
+          <Group>Text</Group>
+          <Value>1</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Марка</Name>
+          <Group>Text</Group>
+          <Value>VTR DU-400-71B-2,2x10-R-0-У2</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Код изделия</Name>
+          <Group>Text</Group>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Завод-изготовитель</Name>
+          <Group>Text</Group>
+          <Value>NED</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Техническая характеристика</Name>
+          <Group>Text</Group>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Единица измерения</Name>
+          <Group>Text</Group>
+          <Value>шт.</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Масса</Name>
+          <Group>Text</Group>
+          <Value>155.000000</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Версия семейства</Name>
+          <Group>Text</Group>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_URL документации изделия</Name>
+          <Group>Text</Group>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>type_id</Name>
+          <Group>Text</Group>
+          <Value>e416d9c9-bdb4-4a35-bc22-aacde3f1991e</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>id</Name>
+          <Group>Text</Group>
+          <Value>ff5357df-0dcb-4ab3-be0f-29cd17d5bdf6</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>created_at</Name>
+          <Group>Text</Group>
+          <Value>2026-04-09T11:41:28.865857</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>updated_at</Name>
+          <Group>Text</Group>
+          <Value>2026-04-09T11:41:28.865857</Value>
+          <IsInstance>false</IsInstance>
+        </ControlledParameter>
+      </Parameters>
+    </TypeItem>
+    <TypeItem>
+      <Name>Вентилятор VTR DU-112A-18,5x10</Name>
+      <Parameters>
+        <ControlledParameter>
+          <Name>ADSK_Наименование</Name>
+          <Group>Text</Group>
+          <Value>Вентилятор радиальный дымоудаления</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Количество</Name>
+          <Group>Text</Group>
+          <Value>1</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Марка</Name>
+          <Group>Text</Group>
+          <Value>VTR DU-400-112A-18,5x10-R-0-У2</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Код изделия</Name>
+          <Group>Text</Group>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Завод-изготовитель</Name>
+          <Group>Text</Group>
+          <Value>NED</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Техническая характеристика</Name>
+          <Group>Text</Group>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Единица измерения</Name>
+          <Group>Text</Group>
+          <Value>шт.</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Масса</Name>
+          <Group>Text</Group>
+          <Value>570.000000</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Версия семейства</Name>
+          <Group>Text</Group>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_URL документации изделия</Name>
+          <Group>Text</Group>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>type_id</Name>
+          <Group>Text</Group>
+          <Value>9dad3d8e-cd3d-4c34-b23b-73c5c50416d3</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>id</Name>
+          <Group>Text</Group>
+          <Value>809b5976-509b-4f8a-809a-72693db574bf</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>created_at</Name>
+          <Group>Text</Group>
+          <Value>2026-04-09T11:41:29.890489</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>updated_at</Name>
+          <Group>Text</Group>
+          <Value>2026-04-09T11:41:29.890489</Value>
+          <IsInstance>false</IsInstance>
+        </ControlledParameter>
+      </Parameters>
+    </TypeItem>
+    <TypeItem>
+      <Name>Вентилятор VTR DU-45B-7,5x30</Name>
+      <Parameters>
+        <ControlledParameter>
+          <Name>ADSK_Наименование</Name>
+          <Group>Text</Group>
+          <Value>Вентилятор радиальный дымоудаления</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Количество</Name>
+          <Group>Text</Group>
+          <Value>1</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Марка</Name>
+          <Group>Text</Group>
+          <Value>VTR DU-400-45B-7,5x30-R-0-У2</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Код изделия</Name>
+          <Group>Text</Group>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Завод-изготовитель</Name>
+          <Group>Text</Group>
+          <Value>NED</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Техническая характеристика</Name>
+          <Group>Text</Group>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Единица измерения</Name>
+          <Group>Text</Group>
+          <Value>шт.</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Масса</Name>
+          <Group>Text</Group>
+          <Value>55.000000</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Версия семейства</Name>
+          <Group>Text</Group>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_URL документации изделия</Name>
+          <Group>Text</Group>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>type_id</Name>
+          <Group>Text</Group>
+          <Value>37779fa2-b291-4f00-89ac-9c5854a33754</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>id</Name>
+          <Group>Text</Group>
+          <Value>26056a61-6f95-47a9-bdbd-e58c86e10ef9</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>created_at</Name>
+          <Group>Text</Group>
+          <Value>2026-04-09T11:41:28.000031</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>updated_at</Name>
+          <Group>Text</Group>
+          <Value>2026-04-09T11:41:28.000031</Value>
+          <IsInstance>false</IsInstance>
+        </ControlledParameter>
+      </Parameters>
+    </TypeItem>
+    <TypeItem>
+      <Name>Вентилятор VTR DU-80A-11x15</Name>
+      <Parameters>
+        <ControlledParameter>
+          <Name>ADSK_Наименование</Name>
+          <Group>Text</Group>
+          <Value>Вентилятор радиальный дымоудаления</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Количество</Name>
+          <Group>Text</Group>
+          <Value>1</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Марка</Name>
+          <Group>Text</Group>
+          <Value>VTR DU-400-80A-11x15-R-0-У2</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Код изделия</Name>
+          <Group>Text</Group>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Завод-изготовитель</Name>
+          <Group>Text</Group>
+          <Value>NED</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Техническая характеристика</Name>
+          <Group>Text</Group>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Единица измерения</Name>
+          <Group>Text</Group>
+          <Value>шт.</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Масса</Name>
+          <Group>Text</Group>
+          <Value>220.000000</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Версия семейства</Name>
+          <Group>Text</Group>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_URL документации изделия</Name>
+          <Group>Text</Group>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>type_id</Name>
+          <Group>Text</Group>
+          <Value>f513df81-e0f4-4530-bc30-e91ab0c3fd15</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>id</Name>
+          <Group>Text</Group>
+          <Value>f1dd1a1d-af79-47cf-b7e3-7743ff54b5ef</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>created_at</Name>
+          <Group>Text</Group>
+          <Value>2026-04-09T11:41:28.386942</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>updated_at</Name>
+          <Group>Text</Group>
+          <Value>2026-04-09T11:41:28.386942</Value>
+          <IsInstance>false</IsInstance>
+        </ControlledParameter>
+      </Parameters>
+    </TypeItem>
+    <TypeItem>
+      <Name>Вентилятор VTR DU-80B-15 x15</Name>
+      <Parameters>
+        <ControlledParameter>
+          <Name>ADSK_Наименование</Name>
+          <Group>Text</Group>
+          <Value>Вентилятор радиальный дымоудаления</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Количество</Name>
+          <Group>Text</Group>
+          <Value>1</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Марка</Name>
+          <Group>Text</Group>
+          <Value>VTR DU-400-80B-15 x15-R-0-У2</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Код изделия</Name>
+          <Group>Text</Group>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Завод-изготовитель</Name>
+          <Group>Text</Group>
+          <Value>NED</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Техническая характеристика</Name>
+          <Group>Text</Group>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Единица измерения</Name>
+          <Group>Text</Group>
+          <Value>шт.</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Масса</Name>
+          <Group>Text</Group>
+          <Value>220.000000</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Версия семейства</Name>
+          <Group>Text</Group>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_URL документации изделия</Name>
+          <Group>Text</Group>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>type_id</Name>
+          <Group>Text</Group>
+          <Value>b96e77bf-1eb5-4631-b47c-bef33a793c08</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>id</Name>
+          <Group>Text</Group>
+          <Value>442abe7c-6a91-4074-abb7-be17d78fecff</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>created_at</Name>
+          <Group>Text</Group>
+          <Value>2026-04-09T11:41:28.115014</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>updated_at</Name>
+          <Group>Text</Group>
+          <Value>2026-04-09T11:41:28.115014</Value>
+          <IsInstance>false</IsInstance>
+        </ControlledParameter>
+      </Parameters>
+    </TypeItem>
+    <TypeItem>
+      <Name>Вентилятор VTR DU-125A-37x10</Name>
+      <Parameters>
+        <ControlledParameter>
+          <Name>ADSK_Наименование</Name>
+          <Group>Text</Group>
+          <Value>Вентилятор радиальный дымоудаления</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Количество</Name>
+          <Group>Text</Group>
+          <Value>1</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Марка</Name>
+          <Group>Text</Group>
+          <Value>VTR DU-400-125A-37x10-R-0-У2</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Код изделия</Name>
+          <Group>Text</Group>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Завод-изготовитель</Name>
+          <Group>Text</Group>
+          <Value>NED</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Техническая характеристика</Name>
+          <Group>Text</Group>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Единица измерения</Name>
+          <Group>Text</Group>
+          <Value>шт.</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Масса</Name>
+          <Group>Text</Group>
+          <Value>659.000000</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Версия семейства</Name>
+          <Group>Text</Group>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_URL документации изделия</Name>
+          <Group>Text</Group>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>type_id</Name>
+          <Group>Text</Group>
+          <Value>1d6b7a25-1c23-4cda-84c2-eb550a039a36</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>id</Name>
+          <Group>Text</Group>
+          <Value>893cc30b-8fe4-4cdb-b53d-1c05079b658f</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>created_at</Name>
+          <Group>Text</Group>
+          <Value>2026-04-09T11:41:28.748665</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>updated_at</Name>
+          <Group>Text</Group>
+          <Value>2026-04-09T11:41:28.748665</Value>
+          <IsInstance>false</IsInstance>
+        </ControlledParameter>
+      </Parameters>
+    </TypeItem>
+    <TypeItem>
+      <Name>Вентилятор VTR DU-63B-1,5x10</Name>
+      <Parameters>
+        <ControlledParameter>
+          <Name>ADSK_Наименование</Name>
+          <Group>Text</Group>
+          <Value>Вентилятор радиальный дымоудаления</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Количество</Name>
+          <Group>Text</Group>
+          <Value>1</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Марка</Name>
+          <Group>Text</Group>
+          <Value>VTR DU-400-63B-1,5x10-R-0-У2</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Код изделия</Name>
+          <Group>Text</Group>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Завод-изготовитель</Name>
+          <Group>Text</Group>
+          <Value>NED</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Техническая характеристика</Name>
+          <Group>Text</Group>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Единица измерения</Name>
+          <Group>Text</Group>
+          <Value>шт.</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Масса</Name>
+          <Group>Text</Group>
+          <Value>121.000000</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Версия семейства</Name>
+          <Group>Text</Group>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_URL документации изделия</Name>
+          <Group>Text</Group>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>type_id</Name>
+          <Group>Text</Group>
+          <Value>523d1977-63fe-4708-a411-ab66b01adb62</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>id</Name>
+          <Group>Text</Group>
+          <Value>a5caa41c-dceb-482e-a4ef-c7b742b2821c</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>created_at</Name>
+          <Group>Text</Group>
+          <Value>2026-04-09T11:41:28.556394</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>updated_at</Name>
+          <Group>Text</Group>
+          <Value>2026-04-09T11:41:28.556394</Value>
+          <IsInstance>false</IsInstance>
+        </ControlledParameter>
+      </Parameters>
+    </TypeItem>
+    <TypeItem>
+      <Name>Вентилятор VTR DU-90A-7,5x10</Name>
+      <Parameters>
+        <ControlledParameter>
+          <Name>ADSK_Наименование</Name>
+          <Group>Text</Group>
+          <Value>Вентилятор радиальный дымоудаления</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Количество</Name>
+          <Group>Text</Group>
+          <Value>1</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Марка</Name>
+          <Group>Text</Group>
+          <Value>VTR DU-400-90A-7,5x10-R-0-У2</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Код изделия</Name>
+          <Group>Text</Group>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Завод-изготовитель</Name>
+          <Group>Text</Group>
+          <Value>NED</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Техническая характеристика</Name>
+          <Group>Text</Group>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Единица измерения</Name>
+          <Group>Text</Group>
+          <Value>шт.</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Масса</Name>
+          <Group>Text</Group>
+          <Value>282.000000</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Версия семейства</Name>
+          <Group>Text</Group>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_URL документации изделия</Name>
+          <Group>Text</Group>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>type_id</Name>
+          <Group>Text</Group>
+          <Value>52a954f6-6cee-43b2-a041-69091711668f</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>id</Name>
+          <Group>Text</Group>
+          <Value>63262213-3fe0-402f-9d13-7e5903626653</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>created_at</Name>
+          <Group>Text</Group>
+          <Value>2026-04-09T11:41:29.402036</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>updated_at</Name>
+          <Group>Text</Group>
+          <Value>2026-04-09T11:41:29.402036</Value>
+          <IsInstance>false</IsInstance>
+        </ControlledParameter>
+      </Parameters>
+    </TypeItem>
+    <TypeItem>
+      <Name>Вентилятор VTR DU-56A-2,2x15</Name>
+      <Parameters>
+        <ControlledParameter>
+          <Name>ADSK_Наименование</Name>
+          <Group>Text</Group>
+          <Value>Вентилятор радиальный дымоудаления</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Количество</Name>
+          <Group>Text</Group>
+          <Value>1</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Марка</Name>
+          <Group>Text</Group>
+          <Value>VTR DU-400-56A-2,2x15-R-0-У2</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Код изделия</Name>
+          <Group>Text</Group>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Завод-изготовитель</Name>
+          <Group>Text</Group>
+          <Value>NED</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Техническая характеристика</Name>
+          <Group>Text</Group>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Единица измерения</Name>
+          <Group>Text</Group>
+          <Value>шт.</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Масса</Name>
+          <Group>Text</Group>
+          <Value>90.000000</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Версия семейства</Name>
+          <Group>Text</Group>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_URL документации изделия</Name>
+          <Group>Text</Group>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>type_id</Name>
+          <Group>Text</Group>
+          <Value>028bd2b5-e237-419a-af0b-deee9d40fad6</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>id</Name>
+          <Group>Text</Group>
+          <Value>cf4cf524-cd24-4a54-96b6-768ed7c45a60</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>created_at</Name>
+          <Group>Text</Group>
+          <Value>2026-04-09T11:41:29.026479</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>updated_at</Name>
+          <Group>Text</Group>
+          <Value>2026-04-09T11:41:29.026479</Value>
+          <IsInstance>false</IsInstance>
+        </ControlledParameter>
+      </Parameters>
+    </TypeItem>
+    <TypeItem>
+      <Name>Вентилятор VTR DU-125A-15 x7,5</Name>
+      <Parameters>
+        <ControlledParameter>
+          <Name>ADSK_Наименование</Name>
+          <Group>Text</Group>
+          <Value>Вентилятор радиальный дымоудаления</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Количество</Name>
+          <Group>Text</Group>
+          <Value>1</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Марка</Name>
+          <Group>Text</Group>
+          <Value>VTR DU-400-125A-15 x7,5-R-0-У2</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Код изделия</Name>
+          <Group>Text</Group>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Завод-изготовитель</Name>
+          <Group>Text</Group>
+          <Value>NED</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Техническая характеристика</Name>
+          <Group>Text</Group>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Единица измерения</Name>
+          <Group>Text</Group>
+          <Value>шт.</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Масса</Name>
+          <Group>Text</Group>
+          <Value>659.000000</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Версия семейства</Name>
+          <Group>Text</Group>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_URL документации изделия</Name>
+          <Group>Text</Group>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>type_id</Name>
+          <Group>Text</Group>
+          <Value>575c6a70-7cee-4194-b1a4-ddce68cc60b9</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>id</Name>
+          <Group>Text</Group>
+          <Value>9d310631-0ba7-4775-992f-d30d56d6bcac</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>created_at</Name>
+          <Group>Text</Group>
+          <Value>2026-04-09T11:41:29.184435</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>updated_at</Name>
+          <Group>Text</Group>
+          <Value>2026-04-09T11:41:29.184435</Value>
+          <IsInstance>false</IsInstance>
+        </ControlledParameter>
+      </Parameters>
+    </TypeItem>
+    <TypeItem>
+      <Name>Вентилятор VTR DU-90B-30 x15</Name>
+      <Parameters>
+        <ControlledParameter>
+          <Name>ADSK_Наименование</Name>
+          <Group>Text</Group>
+          <Value>Вентилятор радиальный дымоудаления</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Количество</Name>
+          <Group>Text</Group>
+          <Value>1</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Марка</Name>
+          <Group>Text</Group>
+          <Value>VTR DU-400-90B-30 x15-R-0-У2</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Код изделия</Name>
+          <Group>Text</Group>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Завод-изготовитель</Name>
+          <Group>Text</Group>
+          <Value>NED</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Техническая характеристика</Name>
+          <Group>Text</Group>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Единица измерения</Name>
+          <Group>Text</Group>
+          <Value>шт.</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Масса</Name>
+          <Group>Text</Group>
+          <Value>282.000000</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Версия семейства</Name>
+          <Group>Text</Group>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_URL документации изделия</Name>
+          <Group>Text</Group>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>type_id</Name>
+          <Group>Text</Group>
+          <Value>5de72dca-cefc-4a68-a3e6-14f755abee6d</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>id</Name>
+          <Group>Text</Group>
+          <Value>5af530a2-027d-4c19-9b68-1bcdb1b8ac4f</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>created_at</Name>
+          <Group>Text</Group>
+          <Value>2026-04-09T11:41:28.499556</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>updated_at</Name>
+          <Group>Text</Group>
+          <Value>2026-04-09T11:41:28.499556</Value>
+          <IsInstance>false</IsInstance>
+        </ControlledParameter>
+      </Parameters>
+    </TypeItem>
+    <TypeItem>
+      <Name>Вентилятор VTR DU-71A-2,2x10</Name>
+      <Parameters>
+        <ControlledParameter>
+          <Name>ADSK_Наименование</Name>
+          <Group>Text</Group>
+          <Value>Вентилятор радиальный дымоудаления</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Количество</Name>
+          <Group>Text</Group>
+          <Value>1</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Марка</Name>
+          <Group>Text</Group>
+          <Value>VTR DU-400-71A-2,2x10-R-0-У2</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Код изделия</Name>
+          <Group>Text</Group>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Завод-изготовитель</Name>
+          <Group>Text</Group>
+          <Value>NED</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Техническая характеристика</Name>
+          <Group>Text</Group>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Единица измерения</Name>
+          <Group>Text</Group>
+          <Value>шт.</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Масса</Name>
+          <Group>Text</Group>
+          <Value>155.000000</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Версия семейства</Name>
+          <Group>Text</Group>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_URL документации изделия</Name>
+          <Group>Text</Group>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>type_id</Name>
+          <Group>Text</Group>
+          <Value>12e21341-f225-4a5a-8944-709c0762695e</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>id</Name>
+          <Group>Text</Group>
+          <Value>6b7e377e-3351-4398-aa60-8046007e3c77</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>created_at</Name>
+          <Group>Text</Group>
+          <Value>2026-04-09T11:41:29.294807</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>updated_at</Name>
+          <Group>Text</Group>
+          <Value>2026-04-09T11:41:29.294807</Value>
+          <IsInstance>false</IsInstance>
+        </ControlledParameter>
+      </Parameters>
+    </TypeItem>
+    <TypeItem>
+      <Name>Вентилятор VTR DU-45A-5,5x30</Name>
+      <Parameters>
+        <ControlledParameter>
+          <Name>ADSK_Наименование</Name>
+          <Group>Text</Group>
+          <Value>Вентилятор радиальный дымоудаления</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Количество</Name>
+          <Group>Text</Group>
+          <Value>1</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Марка</Name>
+          <Group>Text</Group>
+          <Value>VTR DU-400-45A-5,5x30-R-0-У2</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Код изделия</Name>
+          <Group>Text</Group>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Завод-изготовитель</Name>
+          <Group>Text</Group>
+          <Value>NED</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Техническая характеристика</Name>
+          <Group>Text</Group>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Единица измерения</Name>
+          <Group>Text</Group>
+          <Value>шт.</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Масса</Name>
+          <Group>Text</Group>
+          <Value>55.000000</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Версия семейства</Name>
+          <Group>Text</Group>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_URL документации изделия</Name>
+          <Group>Text</Group>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>type_id</Name>
+          <Group>Text</Group>
+          <Value>cc000fbb-d162-46fc-ab13-002ab253f107</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>id</Name>
+          <Group>Text</Group>
+          <Value>e63d4743-3ed5-412f-a19d-76cd797132b3</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>created_at</Name>
+          <Group>Text</Group>
+          <Value>2026-04-09T11:41:27.790741</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>updated_at</Name>
+          <Group>Text</Group>
+          <Value>2026-04-09T11:41:27.790741</Value>
+          <IsInstance>false</IsInstance>
+        </ControlledParameter>
+      </Parameters>
+    </TypeItem>
+    <TypeItem>
+      <Name>Вентилятор VTR DU-125B-45x10</Name>
+      <Parameters>
+        <ControlledParameter>
+          <Name>ADSK_Наименование</Name>
+          <Group>Text</Group>
+          <Value>Вентилятор радиальный дымоудаления</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Количество</Name>
+          <Group>Text</Group>
+          <Value>1</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Марка</Name>
+          <Group>Text</Group>
+          <Value>VTR DU-400-125B-45x10-R-0-У2</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Код изделия</Name>
+          <Group>Text</Group>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Завод-изготовитель</Name>
+          <Group>Text</Group>
+          <Value>NED</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Техническая характеристика</Name>
+          <Group>Text</Group>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Единица измерения</Name>
+          <Group>Text</Group>
+          <Value>шт.</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Масса</Name>
+          <Group>Text</Group>
+          <Value>659.000000</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Версия семейства</Name>
+          <Group>Text</Group>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_URL документации изделия</Name>
+          <Group>Text</Group>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>type_id</Name>
+          <Group>Text</Group>
+          <Value>8d7b9b28-eec5-4af2-b05c-8e2e5597758e</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>id</Name>
+          <Group>Text</Group>
+          <Value>1959b222-104d-41a7-89fd-fb09ba562432</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>created_at</Name>
+          <Group>Text</Group>
+          <Value>2026-04-09T11:41:27.842803</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>updated_at</Name>
+          <Group>Text</Group>
+          <Value>2026-04-09T11:41:27.842803</Value>
+          <IsInstance>false</IsInstance>
+        </ControlledParameter>
+      </Parameters>
+    </TypeItem>
+    <TypeItem>
+      <Name>Вентилятор VTR DU-63A-4x15</Name>
+      <Parameters>
+        <ControlledParameter>
+          <Name>ADSK_Наименование</Name>
+          <Group>Text</Group>
+          <Value>Вентилятор радиальный дымоудаления</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Количество</Name>
+          <Group>Text</Group>
+          <Value>1</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Марка</Name>
+          <Group>Text</Group>
+          <Value>VTR DU-400-63A-4x15-R-0-У2</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Код изделия</Name>
+          <Group>Text</Group>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Завод-изготовитель</Name>
+          <Group>Text</Group>
+          <Value>NED</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Техническая характеристика</Name>
+          <Group>Text</Group>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Единица измерения</Name>
+          <Group>Text</Group>
+          <Value>шт.</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Масса</Name>
+          <Group>Text</Group>
+          <Value>121.000000</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Версия семейства</Name>
+          <Group>Text</Group>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_URL документации изделия</Name>
+          <Group>Text</Group>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>type_id</Name>
+          <Group>Text</Group>
+          <Value>0da0598c-70fd-4d1f-b076-a32d31367fad</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>id</Name>
+          <Group>Text</Group>
+          <Value>cde4e628-9cd5-4946-8647-1bc5e4e0878a</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>created_at</Name>
+          <Group>Text</Group>
+          <Value>2026-04-09T11:41:29.622241</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>updated_at</Name>
+          <Group>Text</Group>
+          <Value>2026-04-09T11:41:29.622241</Value>
+          <IsInstance>false</IsInstance>
+        </ControlledParameter>
+      </Parameters>
+    </TypeItem>
+    <TypeItem>
+      <Name>Вентилятор VTR DU-90B-11x10</Name>
+      <Parameters>
+        <ControlledParameter>
+          <Name>ADSK_Наименование</Name>
+          <Group>Text</Group>
+          <Value>Вентилятор радиальный дымоудаления</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Количество</Name>
+          <Group>Text</Group>
+          <Value>1</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Марка</Name>
+          <Group>Text</Group>
+          <Value>VTR DU-400-90B-11x10-R-0-У2</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Код изделия</Name>
+          <Group>Text</Group>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Завод-изготовитель</Name>
+          <Group>Text</Group>
+          <Value>NED</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Техническая характеристика</Name>
+          <Group>Text</Group>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Единица измерения</Name>
+          <Group>Text</Group>
+          <Value>шт.</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Масса</Name>
+          <Group>Text</Group>
+          <Value>282.000000</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Версия семейства</Name>
+          <Group>Text</Group>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_URL документации изделия</Name>
+          <Group>Text</Group>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>type_id</Name>
+          <Group>Text</Group>
+          <Value>fc6d6548-e5a9-46d1-9141-77d13f4f5a98</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>id</Name>
+          <Group>Text</Group>
+          <Value>cb3a22d9-23fb-429a-b6d7-72fe7dff0ae8</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>created_at</Name>
+          <Group>Text</Group>
+          <Value>2026-04-09T11:41:28.332632</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>updated_at</Name>
+          <Group>Text</Group>
+          <Value>2026-04-09T11:41:28.332632</Value>
+          <IsInstance>false</IsInstance>
+        </ControlledParameter>
+      </Parameters>
+    </TypeItem>
+    <TypeItem>
+      <Name>Вентилятор VTR DU-100A-11x10</Name>
+      <Parameters>
+        <ControlledParameter>
+          <Name>ADSK_Наименование</Name>
+          <Group>Text</Group>
+          <Value>Вентилятор радиальный дымоудаления</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Количество</Name>
+          <Group>Text</Group>
+          <Value>1</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Марка</Name>
+          <Group>Text</Group>
+          <Value>VTR DU-400-100A-11x10-R-0-У2</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Код изделия</Name>
+          <Group>Text</Group>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Завод-изготовитель</Name>
+          <Group>Text</Group>
+          <Value>NED</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Техническая характеристика</Name>
+          <Group>Text</Group>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Единица измерения</Name>
+          <Group>Text</Group>
+          <Value>шт.</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Масса</Name>
+          <Group>Text</Group>
+          <Value>375.000000</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Версия семейства</Name>
+          <Group>Text</Group>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_URL документации изделия</Name>
+          <Group>Text</Group>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>type_id</Name>
+          <Group>Text</Group>
+          <Value>0d6bee51-0ffb-43e6-8c6e-c7d8c1baeaee</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>id</Name>
+          <Group>Text</Group>
+          <Value>09b4163d-171a-4c91-9e5a-6bc29e8f0520</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>created_at</Name>
+          <Group>Text</Group>
+          <Value>2026-04-09T11:41:28.226938</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>updated_at</Name>
+          <Group>Text</Group>
+          <Value>2026-04-09T11:41:28.226938</Value>
+          <IsInstance>false</IsInstance>
+        </ControlledParameter>
+      </Parameters>
+    </TypeItem>
+    <TypeItem>
+      <Name>Вентилятор VTR DU-63A-1,1x10</Name>
+      <Parameters>
+        <ControlledParameter>
+          <Name>ADSK_Наименование</Name>
+          <Group>Text</Group>
+          <Value>Вентилятор радиальный дымоудаления</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Количество</Name>
+          <Group>Text</Group>
+          <Value>1</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Марка</Name>
+          <Group>Text</Group>
+          <Value>VTR DU-400-63A-1,1x10-R-0-У2</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Код изделия</Name>
+          <Group>Text</Group>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Завод-изготовитель</Name>
+          <Group>Text</Group>
+          <Value>NED</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Техническая характеристика</Name>
+          <Group>Text</Group>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Единица измерения</Name>
+          <Group>Text</Group>
+          <Value>шт.</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Масса</Name>
+          <Group>Text</Group>
+          <Value>121.000000</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_Версия семейства</Name>
+          <Group>Text</Group>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>ADSK_URL документации изделия</Name>
+          <Group>Text</Group>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>type_id</Name>
+          <Group>Text</Group>
+          <Value>54c93f52-0451-4d4a-85fe-7e949a8a7d2e</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>id</Name>
+          <Group>Text</Group>
+          <Value>4813d4d5-b1be-4a83-869a-0f0833689d73</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>created_at</Name>
+          <Group>Text</Group>
+          <Value>2026-04-09T11:41:28.056438</Value>
+        </ControlledParameter>
+        <ControlledParameter>
+          <Name>updated_at</Name>
+          <Group>Text</Group>
+          <Value>2026-04-09T11:41:28.056438</Value>
           <IsInstance>false</IsInstance>
         </ControlledParameter>
       </Parameters>
