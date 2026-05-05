@@ -53,6 +53,9 @@ async def get_families(session: AsyncSession = Depends(get_session)):
             'category': category_by_id[f.category_id],
             'file_name': f.title + '.rfa',
             'path': f.path,
+            'file_link': f'http://95.105.0.250:5000/api/v1/families/download?file_id={f.id}',
+            'image_link': f'http://95.105.0.250:5000/api/v1/families/preview_pic?file_id={f.id}',
+            'revit_version': '2024',
         })
     return data
 
