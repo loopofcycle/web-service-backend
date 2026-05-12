@@ -7,6 +7,7 @@ services:
       POSTGRES_USER: admin
       POSTGRES_PASSWORD: hotcoolaid
       POSTGRES_DB: db_pg
+      PGDATA: /var/lib/postgresql/data/pgdata
     ports:
       - "5432:5432"
     volumes:
@@ -25,7 +26,7 @@ services:
     restart: always
     volumes:
       - .:/code
-      - "C:/Users/eliseev_i/Yandex.Disk/_revit_library:/data/rvt_files"
+      - "C:/Users/loopo/YandexDisk/_revit_library:/data/rvt_files"
     command: uvicorn app.main:app --host 0.0.0.0 --port 5000 --reload
     # Имена сервисов (db, redis) используются как хосты в URL
     environment:
