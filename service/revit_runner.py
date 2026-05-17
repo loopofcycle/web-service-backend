@@ -25,7 +25,7 @@ class RevitRunner(NameSpaceConfig):
 
         self.setup_config_from_dict(runner_config)
         self.revit_config = revit_config
-        self.command = "C:\Program Files\Autodesk\Revit 2024\Revit.exe /language RUS"
+        self.command = "C:\Program Files\Autodesk\Revit 2022\Revit.exe /language RUS"
         self.command += f" /config {self.config.revit_config_path}"
         self.process = None
         self.proc_status = ProcessStatus.ONGOING

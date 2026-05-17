@@ -55,28 +55,28 @@ class Base(AsyncAttrs, DeclarativeBase):
 
 
 class SpecParamSet(Base):
-    name: Mapped[str] = mapped_column(key='name', name='ADSK_Наименование', type_=String(128), unique=False, nullable=True)
+    name: Mapped[str] = mapped_column(key='name', name='ADSK_Наименование', type_=String(1024), unique=False, nullable=True)
     count: Mapped[int] = mapped_column(key='count', name='ADSK_Количество', type_=Integer, unique=False, nullable=True)
-    mark: Mapped[str] = mapped_column(key='mark', name='ADSK_Марка', type_=String(128), unique=False, nullable=True)
-    code: Mapped[str] = mapped_column(key='code', name='ADSK_Код изделия', type_=String(128), unique=False, nullable=True)
+    mark: Mapped[str] = mapped_column(key='mark', name='ADSK_Марка', type_=String(256), unique=False, nullable=True)
+    code: Mapped[str] = mapped_column(key='code', name='ADSK_Код изделия', type_=String(256), unique=False, nullable=True)
     manufacturer: Mapped[str] = mapped_column(key='manufacturer', name='ADSK_Завод-изготовитель', type_=String(128), unique=False, nullable=True)
-    characteristic: Mapped[str] = mapped_column(key='characteristic', name='ADSK_Техническая характеристика', type_=String(128), unique=False, nullable=True)
+    characteristic: Mapped[str] = mapped_column(key='characteristic', name='ADSK_Техническая характеристика', type_=String(1024), unique=False, nullable=True)
     unit: Mapped[str] = mapped_column(key='unit', name='ADSK_Единица измерения', type_=String(128), unique=False, nullable=True)
     mass: Mapped[str] = mapped_column(key='mass', name='ADSK_Масса', type_=String(128), unique=False, nullable=True)
-    version: Mapped[str] = mapped_column(key='version', name='ADSK_Версия семейства', type_=String(128), unique=False, nullable=True)
-    url: Mapped[str] = mapped_column(key='url', name='ADSK_URL документации изделия', type_=String(128), unique=False, nullable=True)
+    version: Mapped[str] = mapped_column(key='version', name='ADSK_Версия семейства', type_=String(256), unique=False, nullable=True)
+    url: Mapped[str] = mapped_column(key='url', name='ADSK_URL документации изделия', type_=String(256), unique=False, nullable=True)
     type_id = mapped_column(Uuid, ForeignKey('family_types.id'), nullable=False)
     type = relationship('FamilyType', backref=backref('spec_param_sets', lazy=True))
 
 
 class Category(Base):
-    name = Column(String(128), unique=False, nullable=False)
+    name = Column(String(256), unique=False, nullable=False)
     number = Column(String(128), unique=True, nullable=False)
-    label = Column(String(128), unique=False, nullable=True)
+    label = Column(String(256), unique=False, nullable=True)
 
 
 class FamilyFile(Base):
-    title = Column(String(128), unique=False, nullable=False)
+    title = Column(String(1024), unique=False, nullable=False)
     status = Column(String(128), unique=False, nullable=False)
     path = Column(String(512), unique=True, nullable=False)
     version_id = Column(Uuid, unique=False, nullable=True)
@@ -86,13 +86,13 @@ class FamilyFile(Base):
 
 
 class FamilyType(Base):
-    name = Column(String(128), unique=False, nullable=False)
+    name = Column(String(256), unique=False, nullable=False)
     file_id = Column(Uuid, ForeignKey('family_files.id'), nullable=False)
     file = relationship('FamilyFile', backref=backref('types', lazy=True))
 
 
 class Task(Base):
-    file_title = Column(String(128), unique=False, nullable=False)
+    file_title = Column(String(1024), unique=False, nullable=False)
     file_id = Column(Uuid, ForeignKey('family_files.id'), nullable=False)
     file = relationship('FamilyFile', backref=backref('tasks', lazy=True))
     priority = Column(Integer, unique=False, nullable=True)
