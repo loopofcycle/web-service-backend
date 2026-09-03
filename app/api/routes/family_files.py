@@ -1,4 +1,3 @@
-import json
 from fastapi import APIRouter, Depends, HTTPException, status
 from typing import Optional, List, Dict
 from starlette.responses import FileResponse
@@ -6,10 +5,11 @@ from sqlalchemy.ext.asyncio import AsyncSession
 from sqlalchemy import delete
 
 from app.core.config import settings
-from app.db.engine import get_session, engine
+from app.core.security import resolve_under_storage
+from app.db.engine import get_session
 from app.db.models import *
 
-from app.api.schemas import Response, AdminCommand, FamilyFileRequest
+from app.api.schemas import Response, FamilyFileRequest
 from celery.app import Celery
 from celery import group
 import os
@@ -44,17 +44,18 @@ async def get_families(session: AsyncSession = Depends(get_session)):
     category_by_id = {c.id: c.label for c in categories}
     category_by_id[None] = 'common'
 
+    base = settings.PUBLIC_API_BASE_URL.rstrip('/')
     data = []
     for f in families:
         data.append({
             'id': f.id,
             'title': f.title,
             'name': f.title.replace('_', ' '),
-            'category': category_by_id[f.category_id],
+            'category': category_by_id.get(f.category_id, 'common'),
             'file_name': f.title + '.rfa',
             'path': f.path,
-            'file_link': f'http://95.105.0.250:5000/api/v1/families/download?file_id={f.id}',
-            'image_link': f'http://95.105.0.250:5000/api/v1/families/preview_pic?file_id={f.id}',
+            'file_link': f'{base}{settings.API_V1_STR}/families/download?file_id={f.id}',
+            'image_link': f'{base}{settings.API_V1_STR}/families/preview_pic?file_id={f.id}',
             'revit_version': '2024',
         })
     return data
@@ -63,17 +64,17 @@ async def get_families(session: AsyncSession = Depends(get_session)):
 @router.get("/get", summary="get list of all families", description="service utils", response_model=Response)
 async def get_family(file_id: Optional[str] = None, path: Optional[str] = None, session: AsyncSession = Depends(get_session)):
     if not file_id and not path:
-        raise HTTPException(status_code=status.HTTP_404_NOT_FOUND,
+        raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST,
                             detail="provide at least one argument")
-    
+
+    family_file = None
     if file_id:
         file_query = await session.execute(select(FamilyFile).where(FamilyFile.id == file_id))
         family_file = file_query.scalars().first()
-        
-    if not file_id and path:
+    elif path:
         file_query = await session.execute(select(FamilyFile).where(FamilyFile.path == path))
         family_file = file_query.scalars().first()
-    
+
     if not family_file:
         raise HTTPException(status_code=status.HTTP_404_NOT_FOUND,
                             detail="file not found")
@@ -81,15 +82,18 @@ async def get_family(file_id: Optional[str] = None, path: Optional[str] = None, 
     type_query = await session.execute(select(FamilyType)
                                         .where(FamilyType.file_id == family_file.id))
     family_types = type_query.scalars().all()
-    
+
     types_data = {}
     for f_type in family_types:
-        spec_params_query = await session.execute(select(SpecParamSet).where(SpecParamSet.type_id == f_type.id))
+        spec_params_query = await session.execute(
+            select(SpecParamSet).where(SpecParamSet.type_id == f_type.id)
+        )
         spec_params = spec_params_query.scalars().first()
 
         sp_dict = {}
-        for c in spec_params.__table__.columns:
-            sp_dict[c.name] = getattr(spec_params, c.key)
+        if spec_params is not None:
+            for c in spec_params.__table__.columns:
+                sp_dict[c.name] = getattr(spec_params, c.key)
 
         types_data[f_type.name] = {
             "name": f_type.name,
@@ -110,12 +114,13 @@ async def download_preview(file_id: str, session: AsyncSession = Depends(get_ses
         raise HTTPException(status_code=status.HTTP_404_NOT_FOUND,
                             detail="file not found")
     
-    picture_path = os.path.join(settings.MOUNTED_STORAGE_PATH, family_file.path.replace('.rfa', '.jpg'))
-    if not os.path.exists(picture_path):
+    picture_rel = family_file.path.replace('.rfa', '.jpg').replace('.RFA', '.jpg')
+    picture_path = resolve_under_storage(picture_rel)
+    if not picture_path.exists():
         raise HTTPException(status_code=status.HTTP_404_NOT_FOUND,
                             detail="file not found")
-    
-    return FileResponse(path=picture_path,
+
+    return FileResponse(path=str(picture_path),
                         media_type='application/octet-stream',
                         filename=family_file.title + '.jpg')
 
@@ -128,32 +133,48 @@ async def download_family(file_id: str, session: AsyncSession = Depends(get_sess
         raise HTTPException(status_code=status.HTTP_404_NOT_FOUND,
                             detail="file not found")
 
-    return FileResponse(path=os.path.join(settings.MOUNTED_STORAGE_PATH, family_file.path),
+    file_path = resolve_under_storage(family_file.path)
+    if not file_path.exists():
+        raise HTTPException(status_code=status.HTTP_404_NOT_FOUND,
+                            detail="file not found")
+
+    return FileResponse(path=str(file_path),
                         media_type='application/octet-stream',
                         filename=family_file.title + '.rfa')
 
-
 @router.post("/update", summary="update family info in db", description="for service", response_model=Response)
 async def update_family(request_info: FamilyFileRequest, session: AsyncSession = Depends(get_session)):
+    if not request_info.id:
+        raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail="id is required")
+
     file_query = await session.execute(select(FamilyFile).where(FamilyFile.id == request_info.id))
     family_file = file_query.scalars().first()
     if not family_file:
         raise HTTPException(status_code=status.HTTP_404_NOT_FOUND,
                             detail="file not found")
-    delattr(request_info, 'id')
 
-    if request_info.category:
-        category_query = await session.execute(select(Category).where(request_info.category == Category.name))
+    payload = request_info.model_dump(exclude_unset=True)
+    payload.pop('id', None)
+    category_name = payload.pop('category', None)
+
+    if category_name is not None:
+        category_query = await session.execute(
+            select(Category).where(Category.name == category_name)
+        )
         category = category_query.scalars().first()
+        if not category:
+            raise HTTPException(
+                status_code=status.HTTP_404_NOT_FOUND,
+                detail=f"category '{category_name}' not found",
+            )
         family_file.category_id = category.id
-        delattr(request_info, 'category')
 
-    # print(request_info.model_dump())
-    for field_name, value in request_info:
-        if value:
+    for field_name, value in payload.items():
+        if hasattr(family_file, field_name):
             setattr(family_file, field_name, value)
 
     await session.commit()
+    await session.refresh(family_file)
     return Response(message='file updated', data=family_file.as_dict()).as_dict()
 
 

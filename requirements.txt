@@ -1,7 +1,7 @@
-pyodbc
-aioodbc
 asyncpg
+psycopg[binary]
 sqlalchemy
+alembic
 fastapi[standard]
 pydantic
 pydantic_settings
@@ -9,5 +9,9 @@ apscheduler==3.10.4
 pytz
 celery
 redis
-
-
+flower
+gevent
+requests
+httpx
+typer
+psutil

@@ -1,11 +1,9 @@
-
 FROM python:3.14
 
 WORKDIR /code
 
 COPY ./requirements.txt /code/requirements.txt
 
-# Install unixODBC and other necessary dependencies
 RUN apt-get update && \
     apt-get install -y --no-install-recommends \
     unixodbc \
@@ -15,7 +13,9 @@ RUN apt-get update && \
 RUN pip install --no-cache-dir --upgrade -r /code/requirements.txt
 
 COPY ./app /code/app
+COPY ./service /code/service
+COPY ./worker /code/worker
 
 EXPOSE 5000
 
-CMD ["fastapi", "run", "app/main.py", "--port", "80", "--reload"]
+CMD ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "5000"]

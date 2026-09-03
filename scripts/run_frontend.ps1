@@ -1,3 +1,4 @@
-$env:Path += ";C:\Program Files\nodejs\"
-Set-Location "C:\Users\Eliseev.I\projects\revit_manager_app\frontend\vue-project"
+$ErrorActionPreference = "Stop"
+$frontend = Join-Path (Split-Path $PSScriptRoot -Parent) "web-service-frontend"
+Set-Location $frontend
 npm run dev

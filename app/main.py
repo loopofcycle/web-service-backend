@@ -12,19 +12,16 @@ from app.core.config import settings
 from app.api.routes.jobs import periodic
 from app.api.schemas import AdminCommand
 
-# logging.basicConfig(
-#     level=logging.INFO,
-#     format="{levelname}:{asctime}:{message}",
-#     style="{",
-#     datefmt="%Y-%m-%d %H:%M")
-
 scheduler = AsyncIOScheduler(timezone=utc)
 
 
 @scheduler.scheduled_job(trigger='interval', max_instances=1, minutes=60)
 async def periodic_job():
-    await periodic(AdminCommand(user='igor', password='eliseev'))
-    logging.info(f'{__name__}: cron_job: finished')
+    if not settings.ADMIN_USER or not settings.ADMIN_PASSWORD:
+        logging.warning('%s: cron_job skipped: admin credentials not configured', __name__)
+        return
+    await periodic(AdminCommand(user=settings.ADMIN_USER, password=settings.ADMIN_PASSWORD))
+    logging.info('%s: cron_job: finished', __name__)
 
 
 @asynccontextmanager
@@ -63,10 +60,10 @@ app = FastAPI(
 app.include_router(api_router)
 
 
+_cors_origins = settings.cors_origin_list
 app.add_middleware(
     CORSMiddleware,
-    # allow_origins=[settings.FRONTEND_HOST],
-    allow_origins=["*"],
+    allow_origins=_cors_origins,
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],

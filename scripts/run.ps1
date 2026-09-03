@@ -1,16 +1,11 @@
-$backScriptPath = "C:\Users\Eliseev.I\projects\revit_manager_app\scripts\run_backend.ps1"
-Start-Process powershell.exe -ArgumentList "-NoExit -File `"$backScriptPath`""
-$frontScriptPath = "C:\Users\Eliseev.I\projects\revit_manager_app\scripts\run_worker_1.ps1"
-Start-Process powershell.exe -ArgumentList "-NoExit -File `"$frontScriptPath`""
-$frontScriptPath = "C:\Users\Eliseev.I\projects\revit_manager_app\scripts\run_worker_2.ps1"
-Start-Process powershell.exe -ArgumentList "-NoExit -File `"$frontScriptPath`""
-# $frontScriptPath = "C:\Users\Eliseev.I\projects\revit_manager_app\scripts\run_worker_3.ps1"
-# Start-Process powershell.exe -ArgumentList "-NoExit -File `"$frontScriptPath`""
-$frontScriptPath = "C:\Users\Eliseev.I\projects\revit_manager_app\scripts\run_frontend.ps1"
-Start-Process powershell.exe -ArgumentList "-NoExit -File `"$frontScriptPath`""
+$ErrorActionPreference = "Stop"
+$scripts = Join-Path $PSScriptRoot ""
 
-Start-Sleep -Seconds 10
+Start-Process powershell.exe -ArgumentList "-NoExit -File `"$(Join-Path $scripts 'run_worker_1.ps1')`""
+Start-Process powershell.exe -ArgumentList "-NoExit -File `"$(Join-Path $scripts 'run_worker_2.ps1')`""
+Start-Process powershell.exe -ArgumentList "-NoExit -File `"$(Join-Path $scripts 'run_flower.ps1')`""
 
-$backScriptPath = "C:\Users\Eliseev.I\projects\revit_manager_app\scripts\run_flower.ps1"
-Start-Process powershell.exe -ArgumentList "-NoExit -File `"$backScriptPath`""
-        
+$frontend = Join-Path (Split-Path $PSScriptRoot -Parent) "web-service-frontend"
+if (Test-Path $frontend) {
+    Start-Process powershell.exe -ArgumentList "-NoExit -Command `"Set-Location '$frontend'; npm run dev`""
+}

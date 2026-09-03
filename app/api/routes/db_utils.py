@@ -1,5 +1,7 @@
 import json
 import os
+from datetime import datetime
+
 from fastapi import APIRouter, Depends
 from sqlalchemy.ext.asyncio import AsyncSession
 
@@ -8,13 +10,13 @@ from app.db.engine import get_session, engine
 from app.db.models import *
 from app.api.routes.categories import add_category
 from app.api.routes.family_files import add_family
-from app.api.schemas import Response, AdminCommand, CategoryRequest, FamilyFileRequest
+from app.api.schemas import Response, AdminCommand, CategoryRequest, FamilyFileRequest, FamilyFileStatus
 from service.file_utils import FileUtils
 
 router = APIRouter(prefix=f"{settings.API_V1_STR}/utils", tags=["utils"])
 
 
-@router.post("/init_db", summary="initiate db", description="for manual tests", response_model=Response)
+@router.post("/init_db", summary="initiate db (destructive)", description="Prefer: alembic upgrade head. This drops and recreates all tables.", response_model=Response)
 async def init_db(cmd: AdminCommand):
     async with engine.begin() as conn:
         await conn.run_sync(Base.metadata.drop_all)
@@ -26,10 +28,10 @@ async def init_db(cmd: AdminCommand):
 
 @router.post("/seed_db", summary="sees db", description="for manual tests", response_model=Response)
 async def seed_db(cmd: AdminCommand, session: AsyncSession = Depends(get_session)):
-    
-    # delete all backup files
+
+    # delete all backup files (*.0001.rvt / *.0002.rfa / ...)
     FileUtils.clean_revit_backups(settings.SERVER_STORAGE_PATH)
-    
+
     # seed categories
     with open(settings.CATEGORIES_JSON_PATH, 'r', encoding='utf-8') as f:
         categories_dict = json.load(f)
@@ -42,30 +44,43 @@ async def seed_db(cmd: AdminCommand, session: AsyncSession = Depends(get_session
         )
         await add_category(category_request, session)
 
-    # seed families
-    root_dir = os.getenv("SCAN_PATH", "/data/rvt_files")
+    # seed families — skip Revit backups like name.0001.rfa / name.0002.rvt
+    root_dir = os.getenv("SCAN_PATH", settings.MOUNTED_STORAGE_PATH)
+    added = 0
+    skipped_backups = 0
     for root, dirs, files in os.walk(root_dir):
-        
+
         relative_path = os.path.relpath(root, root_dir)
 
         for file in files:
-            if not file.lower().endswith('.rfa'):
+            lower = file.lower()
+            if not (lower.endswith('.rfa') or lower.endswith('.rvt')):
                 continue
-            
+
+            if FileUtils.is_revit_backup(file):
+                skipped_backups += 1
+                continue
+
+            # catalog currently stores family (.rfa) files only
+            if not lower.endswith('.rfa'):
+                continue
+
             full_path = os.path.join(root, file)
             stats = os.stat(full_path)
-            
+
             display_path = os.path.join(relative_path, file)
-            
+
             family_request = FamilyFileRequest(
-                title=file.replace('.rfa',''),
-                status='new',
+                title=file[:-4],
+                status=FamilyFileStatus.PENDING.value,
                 path=display_path,
-                edited_at=datetime.fromtimestamp(stats.st_mtime).strftime('%Y-%m-%d %H:%M:%S'),
-                size=stats.st_size
+                size=stats.st_size,
             )
 
             await add_family(family_request, session)
+            added += 1
 
-    return Response(message=f'succesfully added files', data=[]).as_dict()
-
+    return Response(
+        message=f'successfully added {added} files (skipped {skipped_backups} backups)',
+        data=[],
+    ).as_dict()

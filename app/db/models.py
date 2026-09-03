@@ -1,13 +1,10 @@
 import uuid
 from datetime import datetime
 from typing import Annotated
-from sqlalchemy import select
-from sqlalchemy import Column, String, Integer, DateTime, String, Integer, ForeignKey, Uuid
+from sqlalchemy import Column, String, Integer, ForeignKey, Uuid
 from sqlalchemy.ext.asyncio import AsyncAttrs
 from sqlalchemy.orm import backref, relationship, DeclarativeBase, mapped_column, declared_attr, Mapped
 from sqlalchemy.sql import func
-
-# from app.db.engine import get_session
 
 
 id_pk = Annotated[uuid.UUID, mapped_column(primary_key=True, unique=True)]
@@ -89,16 +86,3 @@ class FamilyType(Base):
     name = Column(String(256), unique=False, nullable=False)
     file_id = Column(Uuid, ForeignKey('family_files.id'), nullable=False)
     file = relationship('FamilyFile', backref=backref('types', lazy=True))
-
-
-class Task(Base):
-    file_title = Column(String(1024), unique=False, nullable=False)
-    file_id = Column(Uuid, ForeignKey('family_files.id'), nullable=False)
-    file = relationship('FamilyFile', backref=backref('tasks', lazy=True))
-    priority = Column(Integer, unique=False, nullable=True)
-    queue = Column(String(128), unique=False, nullable=True)
-    revit_app = Column(String(128), unique=False, nullable=True)
-    status = Column(String(128), unique=False, nullable=True)
-    process_pid = Column(Integer, unique=False, nullable=True)
-    celery_status = Column(String(128), unique=False, nullable=True)
-    celery_task_id = Column(Uuid, unique=False, nullable=True)

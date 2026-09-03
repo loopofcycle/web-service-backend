@@ -1,15 +1,24 @@
 # -*- coding: utf-8 -*-
 import os
 import errno
+import re
 import shutil
 from datetime import datetime
 from pathlib import Path
+
+# Revit autosave backups: name.0001.rvt / name.0002.rfa / name.1234.rfa
+_REVIT_BACKUP_RE = re.compile(r'\.\d{4}\.(rvt|rfa)$', re.IGNORECASE)
 
 
 class FileUtils:
 
     def __init__(self):
         pass
+
+    @classmethod
+    def is_revit_backup(cls, file_name: str) -> bool:
+        """True for Revit backup copies like *.0001.rvt / *.0002.rfa."""
+        return bool(_REVIT_BACKUP_RE.search(os.path.basename(file_name)))
 
     @classmethod
     def find_files(cls, path, extension='.rvt', as_dicts=False) -> list:
@@ -21,6 +30,9 @@ class FileUtils:
                 continue
 
             if extension not in file:
+                continue
+
+            if cls.is_revit_backup(file):
                 continue
 
             if as_dicts:
@@ -61,29 +73,26 @@ class FileUtils:
 
     @classmethod
     def clean_revit_backups(cls, directory_path):
-        
         path = Path(directory_path)
+        if not path.exists():
+            print(f'[{__name__}]: storage path does not exist: {path}')
+            return
+
         print(path)
-        
-        # Ищем файлы, которые заканчиваются на .####.rvt (4 цифры)
-        # rglob делает поиск рекурсивным (включая подпапки)
-        for file in path.rglob("*.00[0-9][0-9].rfa"):
+        for file in path.rglob('*'):
+            if not file.is_file():
+                continue
+            if not cls.is_revit_backup(file.name):
+                continue
             print(file)
             try:
-                file.unlink() # Удаление файла
-                # print(f"Удален: {file.name}") # Раскомментируйте для логов
+                file.unlink()
             except Exception:
-                pass # Игнорируем ошибки (например, файл занят Revit)
+                pass
+
 
 if __name__ == '__main__':
-    from pprint import pprint
-    _path = r'C:\Users\Eliseev.I\PycharmProjects\revit-specifications-export\buffer\excel_files'
-    # excel_files = FileUtils.find_files(_path, extension='.xlsx', as_dicts=True)
-    # corresponding_revit_files = [
-    #     {'file': note['file'].replace(
-    #         '.xlsx', '.rvt'), 'datetime': note['datetime']}
-    #     for note in excel_files
-    # ]
-
-    FileUtils.clean_revit_backups(r'C:\Users\eliseev_i\Yandex.Disk\_revit_library')
-
+    FileUtils.clean_revit_backups(os.environ.get(
+        'SERVER_STORAGE_PATH',
+        r'C:\Users\loopo\YandexDisk\_revit_library',
+    ))

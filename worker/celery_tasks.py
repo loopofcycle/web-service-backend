@@ -27,8 +27,9 @@ def run_task(family_id, mode):
 
 
 async def family_sync_data_task(family_id: str, mode: str):
-    update_url = 'http://localhost:5000/api/v1/families/update'
-    get_url = 'http://localhost:5000/api/v1/families/get'
+    api_base = settings.INTERNAL_API_BASE_URL.rstrip('/')
+    update_url = f'{api_base}{settings.API_V1_STR}/families/update'
+    get_url = f'{api_base}{settings.API_V1_STR}/families/get'
 
     # get file info
     get_response = requests.get(url=get_url, params={"file_id": family_id}, timeout=5)

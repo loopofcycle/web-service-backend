@@ -2,6 +2,8 @@ from enum import Enum
 from typing_extensions import Self
 from pydantic import BaseModel, model_validator
 
+from app.core.config import settings
+
 
 class CategoryRequest(BaseModel):
     name: str
@@ -29,43 +31,15 @@ class FamilyFileRequest(BaseModel):
     size: int | None = None
 
 
-class TaskStatus(Enum):
-    PLANNED = 'PLANNED'
-    IN_PROGRESS = 'IN_PROGRESS'
-    EXECUTED = 'EXECUTED'
-
-    PENDING = 'PENDING'
-    RECEIVED = 'RECEIVED'
-    STARTED = 'STARTED'
-    RETRY = 'RETRY'
-    FAILURE = 'FAILURE'
-    SUCCESS = 'SUCCESS'
-    REVOKED = 'REVOKED'
-
-
-class TaskRequest(BaseModel):
-    status: str
-    file_id: str | None = None
-    file_title: str | None = None
-    revit_app: str | None = None
-    priority: int | None = None
-    queue: str | None = None
-    process_pid: str | None = None
-    celery_status: str | None = None
-    celery_task_id: str | None = None
-
-
 class AdminCommand(BaseModel):
     user: str
     password: str
 
     @model_validator(mode='after')
     def check_passwords_match(self) -> Self:
-        superuser = {
-            'user': 'igor',
-            'password': 'eliseev'
-        }
-        if self.user != superuser['user'] or self.password != superuser['password']:
+        if not settings.ADMIN_USER or not settings.ADMIN_PASSWORD:
+            raise ValueError('admin credentials are not configured')
+        if self.user != settings.ADMIN_USER or self.password != settings.ADMIN_PASSWORD:
             raise ValueError('you cant touch it')
         return self
 
