@@ -1,12 +1,11 @@
-import os
 from fastapi import APIRouter, Depends
 from sqlalchemy.ext.asyncio import AsyncSession
 
 from app.core.config import settings
-from app.db.engine import get_session, engine
+from app.db.engine import get_session
 from app.db.models import *
-from app.api.routes.family_files import add_family, process_group_of_files
-from app.api.schemas import Response, AdminCommand, FamilyFileRequest, FamilyFileStatus
+from app.api.routes.family_files import process_group_of_files
+from app.api.schemas import Response, AdminCommand, FamilyFileStatus
 
 
 router = APIRouter(prefix=f"{settings.API_V1_STR}/jobs", tags=["jobs"])
