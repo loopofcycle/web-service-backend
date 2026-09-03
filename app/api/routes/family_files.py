@@ -55,7 +55,7 @@ async def get_families(session: AsyncSession = Depends(get_session)):
         data.append({
             'id': f.id,
             'title': f.title,
-            'name': f.title.replace('_', ' '),
+            'name': f.title,
             'category': category_by_id.get(f.category_id, 'common'),
             'file_name': f.title + '.rfa',
             'path': f.path,
