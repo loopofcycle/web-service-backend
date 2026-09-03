@@ -29,6 +29,8 @@ class Settings(BaseSettings):
 
     ADMIN_USER: str = Field(default="")
     ADMIN_PASSWORD: str = Field(default="")
+    # Shared secret for worker / Revit plugin / service write APIs
+    API_SERVICE_TOKEN: str = Field(default="")
 
     POSTGRES_USER: str = Field(default="admin")
     POSTGRES_PASSWORD: str = Field(default="")

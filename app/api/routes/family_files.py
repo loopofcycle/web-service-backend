@@ -5,7 +5,7 @@ from sqlalchemy.ext.asyncio import AsyncSession
 from sqlalchemy import delete
 
 from app.core.config import settings
-from app.core.security import resolve_under_storage
+from app.core.security import resolve_under_storage, require_service_auth
 from app.db.engine import get_session
 from app.db.models import *
 
@@ -18,7 +18,11 @@ router = APIRouter(prefix=f"{settings.API_V1_STR}/families", tags=["families"])
 
 
 @router.post("/add", summary="add family to db", description="service utils", response_model=Response)
-async def add_family(request_info: FamilyFileRequest, session: AsyncSession = Depends(get_session)):
+async def add_family(
+    request_info: FamilyFileRequest,
+    session: AsyncSession = Depends(get_session),
+    _auth: None = Depends(require_service_auth),
+):
     family_file = FamilyFile(
         id=uuid.uuid4(),
         version_id=uuid.uuid4(),
@@ -61,8 +65,13 @@ async def get_families(session: AsyncSession = Depends(get_session)):
     return data
 
 
-@router.get("/get", summary="get list of all families", description="service utils", response_model=Response)
-async def get_family(file_id: Optional[str] = None, path: Optional[str] = None, session: AsyncSession = Depends(get_session)):
+@router.get("/get", summary="get family details (service)", description="worker/plugin", response_model=Response)
+async def get_family(
+    file_id: Optional[str] = None,
+    path: Optional[str] = None,
+    session: AsyncSession = Depends(get_session),
+    _auth: None = Depends(require_service_auth),
+):
     if not file_id and not path:
         raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST,
                             detail="provide at least one argument")
@@ -143,7 +152,11 @@ async def download_family(file_id: str, session: AsyncSession = Depends(get_sess
                         filename=family_file.title + '.rfa')
 
 @router.post("/update", summary="update family info in db", description="for service", response_model=Response)
-async def update_family(request_info: FamilyFileRequest, session: AsyncSession = Depends(get_session)):
+async def update_family(
+    request_info: FamilyFileRequest,
+    session: AsyncSession = Depends(get_session),
+    _auth: None = Depends(require_service_auth),
+):
     if not request_info.id:
         raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail="id is required")
 
@@ -179,7 +192,12 @@ async def update_family(request_info: FamilyFileRequest, session: AsyncSession =
 
 
 @router.post("/batch_io", summary="update files from storage", description="for auto tests", response_model=Response)
-async def process_group_of_files(id_list: List[str], mode: str, session: AsyncSession = Depends(get_session)):
+async def process_group_of_files(
+    id_list: List[str],
+    mode: str,
+    session: AsyncSession = Depends(get_session),
+    _auth: None = Depends(require_service_auth),
+):
     for family_id in id_list:
         file_query = await session.execute(select(FamilyFile).where(FamilyFile.id == family_id))
         family_file = file_query.scalars().first()
@@ -202,7 +220,11 @@ async def process_group_of_files(id_list: List[str], mode: str, session: AsyncSe
 
 
 @router.post("/create_types", summary="revit plugin bound", description="for service", response_model=Response)
-async def create_types(types: Dict[str, str], session: AsyncSession = Depends(get_session)):
+async def create_types(
+    types: Dict[str, str],
+    session: AsyncSession = Depends(get_session),
+    _auth: None = Depends(require_service_auth),
+):
     for type_name, family_id in types.items():
         file_query = await session.execute(select(FamilyFile).where(FamilyFile.id == family_id))
         family_file = file_query.scalars().first()
@@ -230,7 +252,11 @@ async def create_types(types: Dict[str, str], session: AsyncSession = Depends(ge
 
 
 @router.post("/update_type_parameters", summary="revit plugin bound", description="for service", response_model=Response)
-async def update_type_parameters(data: Dict[str, str], session: AsyncSession = Depends(get_session)):
+async def update_type_parameters(
+    data: Dict[str, str],
+    session: AsyncSession = Depends(get_session),
+    _auth: None = Depends(require_service_auth),
+):
     # print(f'received')
     # print(data)
     file_id = data['file_id']

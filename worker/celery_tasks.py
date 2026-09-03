@@ -1,6 +1,5 @@
 import os
 import asyncio
-import httpx
 import requests
 from celery.app import Celery
 
@@ -20,6 +19,16 @@ celery_app = Celery(
 )
 
 
+def _api_headers() -> dict:
+    token = settings.API_SERVICE_TOKEN
+    if not token:
+        raise RuntimeError("API_SERVICE_TOKEN is not set; worker cannot call protected API routes")
+    return {
+        "Authorization": f"Bearer {token}",
+        "X-API-Key": token,
+    }
+
+
 @celery_app.task(name="process_family")
 def run_task(family_id, mode):
     print(f'received task for file {family_id}, {mode}')
@@ -30,28 +39,40 @@ async def family_sync_data_task(family_id: str, mode: str):
     api_base = settings.INTERNAL_API_BASE_URL.rstrip('/')
     update_url = f'{api_base}{settings.API_V1_STR}/families/update'
     get_url = f'{api_base}{settings.API_V1_STR}/families/get'
+    headers = _api_headers()
 
     # get file info
-    get_response = requests.get(url=get_url, params={"file_id": family_id}, timeout=5)
+    get_response = requests.get(
+        url=get_url,
+        params={"file_id": family_id},
+        headers=headers,
+        timeout=5,
+    )
     if get_response.status_code != 200:
         print(f'failed to receive data for id={family_id}, status={get_response.status_code}')
         return False
-    
+
     # find file in storage
     relative_path = get_response.json()['data']['path']
     file_path = os.path.join(settings.SERVER_STORAGE_PATH, relative_path)
     if not os.path.exists(file_path):
         print(f'family not found in storage')
-        update_response = requests.post(url=update_url, 
-                      json={"id": family_id, "status": FamilyFileStatus.FAILED.value},
-                      timeout=5)
+        update_response = requests.post(
+            url=update_url,
+            json={"id": family_id, "status": FamilyFileStatus.FAILED.value},
+            headers=headers,
+            timeout=5,
+        )
         print(update_response.json())
         return False
 
     # update file status
-    update_response = requests.post(url=update_url, 
-                                    json={"id": family_id, "status": FamilyFileStatus.IN_PROGRESS.value},
-                                    timeout=5)
+    update_response = requests.post(
+        url=update_url,
+        json={"id": family_id, "status": FamilyFileStatus.IN_PROGRESS.value},
+        headers=headers,
+        timeout=5,
+    )
     print(update_response.json())
 
     # generate xml
@@ -94,11 +115,13 @@ async def family_sync_data_task(family_id: str, mode: str):
         file_status = FamilyFileStatus.SYNCHRONIZED.value
     else:
         file_status = FamilyFileStatus.FAILED.value
-    final_response = requests.post(url=update_url, 
-                  json={"id": family_id, "status": file_status},
-                  timeout=5)
+    final_response = requests.post(
+        url=update_url,
+        json={"id": family_id, "status": file_status},
+        headers=headers,
+        timeout=5,
+    )
     print(final_response.json())
 
     revit_runner.log(f'celery task executed, report: {report}')
     return True
-
