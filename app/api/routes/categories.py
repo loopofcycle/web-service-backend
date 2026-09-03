@@ -1,11 +1,12 @@
+import uuid
+
 from fastapi import APIRouter, Depends
 from sqlalchemy.ext.asyncio import AsyncSession
 
 from app.core.config import settings
 from app.core.security import require_service_auth
 from app.db.engine import get_session
-from app.db.models import *
-
+from app.db.models import Category
 from app.api.schemas import Response, CategoryRequest
 
 router = APIRouter(prefix=f"{settings.API_V1_STR}/categories", tags=["categories"])
